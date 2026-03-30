@@ -4,6 +4,7 @@ import { useState, useCallback, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { APIProvider } from "@vis.gl/react-google-maps";
 import { SchoolMap } from "@/components/SchoolMap";
+import { MapErrorBoundary } from "@/components/MapErrorBoundary";
 import { SearchBar } from "@/components/SearchBar";
 import { SchoolCard } from "@/components/SchoolCard";
 import { SchoolDetail } from "@/components/SchoolDetail";
@@ -305,13 +306,15 @@ export default function Home() {
             ) : (
               /* Map view */
               <div className="h-full p-2">
-                <SchoolMap
-                  schools={schools}
-                  selectedSchool={selectedSchool}
-                  onSelectSchool={setSelectedSchool}
-                  userLocation={userLocation}
-                  accentColor={accentColor}
-                />
+                <MapErrorBoundary>
+                  <SchoolMap
+                    schools={schools}
+                    selectedSchool={selectedSchool}
+                    onSelectSchool={setSelectedSchool}
+                    userLocation={userLocation}
+                    accentColor={accentColor}
+                  />
+                </MapErrorBoundary>
               </div>
             )}
           </div>

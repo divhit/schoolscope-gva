@@ -30,8 +30,23 @@ export async function POST(request: NextRequest) {
 
       try {
         // Phase 1: Interpret query with Gemini
-        const interpretation = await interpretSearch(query);
-        send("interpreting", interpretation);
+        let interpretation;
+        try {
+          interpretation = await interpretSearch(query);
+          send("interpreting", interpretation);
+        } catch (aiErr) {
+          console.error("Gemini interpretation failed:", aiErr);
+          // Fallback: use the raw query for searching
+          interpretation = {
+            searchTerms: query.toLowerCase().split(/\s+/).filter((w: string) => w.length > 2),
+            schoolTypes: [] as string[],
+            priorities: [] as string[],
+            neighborhoods: [] as string[],
+            summary: query,
+            accentColor: "#6366f1",
+          };
+          send("interpreting", interpretation);
+        }
 
         // Phase 2: Find matching schools
         const allSchools = getAllSchools();
