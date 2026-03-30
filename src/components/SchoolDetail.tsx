@@ -11,7 +11,7 @@ interface SchoolDetailProps {
   onClose: () => void;
 }
 
-type DetailTab = "overview" | "enrolment" | "programs" | "facility";
+type DetailTab = "overview" | "enrolment" | "programs" | "facility" | "performance";
 
 function StatBar({ label, value, max, color }: { label: string; value: number; max: number; color: string }) {
   return (
@@ -82,6 +82,7 @@ export function SchoolDetail({ school, analysis, photoUri, onClose }: SchoolDeta
     { id: "enrolment", label: "Enrolment" },
     { id: "programs", label: "Programs" },
     { id: "facility", label: "Facility" },
+    ...(school.gradNumeracy10 || school.gradLiteracy10 ? [{ id: "performance" as DetailTab, label: "Performance" }] : []),
   ];
 
   return (
@@ -462,6 +463,81 @@ export function SchoolDetail({ school, analysis, photoUri, onClose }: SchoolDeta
                     </p>
                   </div>
                 )}
+              </>
+            )}
+
+            {/* ===== STUDENT PERFORMANCE ===== */}
+            {activeTab === "performance" && (
+              <>
+                {/* Key metrics */}
+                <div className="grid grid-cols-2 gap-3">
+                  {school.gradLiteracy10 != null && school.gradLiteracy10 > 0 && (
+                    <div className="glass-light rounded-xl p-4">
+                      <p className="text-[10px] uppercase tracking-wider text-text-muted mb-1">Literacy 10</p>
+                      <p className="text-2xl font-bold" style={{ color: school.gradLiteracy10 >= 70 ? "#34d399" : school.gradLiteracy10 >= 50 ? "#fbbf24" : "#f87171" }}>
+                        {school.gradLiteracy10}%
+                      </p>
+                      <p className="text-[10px] text-text-muted mt-0.5">proficient + extending</p>
+                    </div>
+                  )}
+                  {school.gradNumeracy10 != null && school.gradNumeracy10 > 0 && (
+                    <div className="glass-light rounded-xl p-4">
+                      <p className="text-[10px] uppercase tracking-wider text-text-muted mb-1">Numeracy 10</p>
+                      <p className="text-2xl font-bold" style={{ color: school.gradNumeracy10 >= 70 ? "#34d399" : school.gradNumeracy10 >= 50 ? "#fbbf24" : "#f87171" }}>
+                        {school.gradNumeracy10}%
+                      </p>
+                      <p className="text-[10px] text-text-muted mt-0.5">proficient + extending</p>
+                    </div>
+                  )}
+                  {school.gradLiteracy12 != null && school.gradLiteracy12 > 0 && (
+                    <div className="glass-light rounded-xl p-4">
+                      <p className="text-[10px] uppercase tracking-wider text-text-muted mb-1">Literacy 12</p>
+                      <p className="text-2xl font-bold" style={{ color: school.gradLiteracy12 >= 70 ? "#34d399" : school.gradLiteracy12 >= 50 ? "#fbbf24" : "#f87171" }}>
+                        {school.gradLiteracy12}%
+                      </p>
+                      <p className="text-[10px] text-text-muted mt-0.5">proficient + extending</p>
+                    </div>
+                  )}
+                  {school.gradNumeracy10 != null && school.gradLiteracy10 != null && school.gradNumeracy10 > 0 && school.gradLiteracy10 > 0 && (
+                    <div className="glass-light rounded-xl p-4">
+                      <p className="text-[10px] uppercase tracking-wider text-text-muted mb-1">Composite</p>
+                      <p className="text-2xl font-bold" style={{ color: accentColor }}>
+                        {Math.round(((school.gradNumeracy10 || 0) + (school.gradLiteracy10 || 0) + (school.gradLiteracy12 || 0)) / (school.gradLiteracy12 ? 3 : 2))}%
+                      </p>
+                      <p className="text-[10px] text-text-muted mt-0.5">average across assessments</p>
+                    </div>
+                  )}
+                </div>
+
+                {/* Performance bars */}
+                <div className="glass-light rounded-xl p-4">
+                  <h3 className="text-sm font-semibold text-white mb-1">BC Graduation Assessments</h3>
+                  <p className="text-[10px] text-text-muted mb-4">Percentage of students achieving proficient or extending</p>
+                  <div className="space-y-4">
+                    {school.gradLiteracy10 != null && school.gradLiteracy10 > 0 && (
+                      <StatBar label="Literacy 10" value={school.gradLiteracy10} max={100} color="#3b82f6" />
+                    )}
+                    {school.gradNumeracy10 != null && school.gradNumeracy10 > 0 && (
+                      <StatBar label="Numeracy 10" value={school.gradNumeracy10} max={100} color="#34d399" />
+                    )}
+                    {school.gradLiteracy12 != null && school.gradLiteracy12 > 0 && (
+                      <StatBar label="Literacy 12" value={school.gradLiteracy12} max={100} color="#a78bfa" />
+                    )}
+                  </div>
+                </div>
+
+                {/* Context */}
+                <div className="glass-light rounded-xl p-4">
+                  <h3 className="text-sm font-semibold text-white mb-2">About Graduation Assessments</h3>
+                  <p className="text-xs text-text-secondary leading-relaxed">
+                    BC Graduation Assessments measure student proficiency in Numeracy (Grade 10) and Literacy (Grades 10 &amp; 12).
+                    Students are rated as Emerging, Developing, Proficient, or Extending. The percentages shown represent students
+                    achieving Proficient or Extending — meeting or exceeding provincial expectations.
+                  </p>
+                  <p className="text-xs text-text-secondary leading-relaxed mt-2">
+                    Data source: BC Ministry of Education, Graduation Assessment Results 2017/18 to 2024/25.
+                  </p>
+                </div>
               </>
             )}
 

@@ -87,7 +87,10 @@
         "grade": "7",
         "count": 31
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535009",
@@ -182,7 +185,10 @@
         "grade": "7",
         "count": 59
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535010",
@@ -252,7 +258,10 @@
         "grade": "12",
         "count": 18
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 72,
+    "gradLiteracy12": 63
   },
   {
     "id": "s35-3535015",
@@ -342,7 +351,10 @@
         "grade": "7",
         "count": 49
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535016",
@@ -424,7 +436,10 @@
         "grade": "5",
         "count": 70
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535017",
@@ -510,7 +525,10 @@
         "grade": "7",
         "count": 23
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535019",
@@ -589,7 +607,10 @@
         "grade": "12",
         "count": 260
       }
-    ]
+    ],
+    "gradNumeracy10": 34,
+    "gradLiteracy10": 66,
+    "gradLiteracy12": 64
   },
   {
     "id": "s35-3535020",
@@ -659,7 +680,10 @@
         "grade": "12",
         "count": 219
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 55,
+    "gradLiteracy12": 58
   },
   {
     "id": "s35-3535022",
@@ -733,7 +757,10 @@
         "grade": "5",
         "count": 26
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535023",
@@ -823,7 +850,10 @@
         "grade": "7",
         "count": 26
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535024",
@@ -913,7 +943,10 @@
         "grade": "7",
         "count": 32
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535026",
@@ -1003,7 +1036,10 @@
         "grade": "7",
         "count": 32
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535029",
@@ -1105,7 +1141,10 @@
         "grade": "12",
         "count": 88
       }
-    ]
+    ],
+    "gradNumeracy10": 52,
+    "gradLiteracy10": 89,
+    "gradLiteracy12": 94
   },
   {
     "id": "s35-3535032",
@@ -1187,7 +1226,10 @@
         "grade": "5",
         "count": 97
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535033",
@@ -1269,7 +1311,10 @@
         "grade": "5",
         "count": 49
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535034",
@@ -1347,7 +1392,10 @@
         "grade": "12",
         "count": 165
       }
-    ]
+    ],
+    "gradNumeracy10": 31,
+    "gradLiteracy10": 57,
+    "gradLiteracy12": 62
   },
   {
     "id": "s35-3535036",
@@ -1430,7 +1478,10 @@
         "grade": "12",
         "count": 217
       }
-    ]
+    ],
+    "gradNumeracy10": 38,
+    "gradLiteracy10": 74,
+    "gradLiteracy12": 91
   },
   {
     "id": "s35-3535037",
@@ -1512,7 +1563,10 @@
         "grade": "5",
         "count": 56
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535038",
@@ -1602,7 +1656,10 @@
         "grade": "7",
         "count": 34
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535039",
@@ -1684,7 +1741,10 @@
         "grade": "5",
         "count": 36
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535040",
@@ -1779,7 +1839,10 @@
         "grade": "7",
         "count": 83
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535041",
@@ -1853,7 +1916,10 @@
         "grade": "12",
         "count": 647
       }
-    ]
+    ],
+    "gradNumeracy10": 52,
+    "gradLiteracy10": 83,
+    "gradLiteracy12": 83
   },
   {
     "id": "s35-3535042",
@@ -1935,7 +2001,10 @@
         "grade": "5",
         "count": 82
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535043",
@@ -2025,7 +2094,10 @@
         "grade": "7",
         "count": 27
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535044",
@@ -2120,7 +2192,10 @@
         "grade": "7",
         "count": 44
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535045",
@@ -2202,7 +2277,10 @@
         "grade": "5",
         "count": 56
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535046",
@@ -2284,7 +2362,10 @@
         "grade": "5",
         "count": 90
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535047",
@@ -2379,7 +2460,10 @@
         "grade": "7",
         "count": 111
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535048",
@@ -2469,7 +2553,10 @@
         "grade": "7",
         "count": 49
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535050",
@@ -2552,7 +2639,10 @@
         "grade": "12",
         "count": 434
       }
-    ]
+    ],
+    "gradNumeracy10": 73,
+    "gradLiteracy10": 75,
+    "gradLiteracy12": 93
   },
   {
     "id": "s35-3535051",
@@ -2634,7 +2724,10 @@
         "grade": "5",
         "count": 61
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535052",
@@ -2716,7 +2809,10 @@
         "grade": "5",
         "count": 85
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535053",
@@ -2806,7 +2902,10 @@
         "grade": "7",
         "count": 65
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535054",
@@ -2896,7 +2995,10 @@
         "grade": "7",
         "count": 38
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535055",
@@ -2978,7 +3080,10 @@
         "grade": "5",
         "count": 99
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535056",
@@ -3064,7 +3169,10 @@
         "grade": "12",
         "count": 109
       }
-    ]
+    ],
+    "gradNumeracy10": 57,
+    "gradLiteracy10": 94,
+    "gradLiteracy12": 94
   },
   {
     "id": "s35-3535057",
@@ -3134,7 +3242,10 @@
         "grade": "8",
         "count": 238
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535058",
@@ -3213,7 +3324,10 @@
         "grade": "8",
         "count": 171
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535061",
@@ -3295,7 +3409,10 @@
         "grade": "5",
         "count": 106
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535062",
@@ -3377,7 +3494,10 @@
         "grade": "5",
         "count": 119
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535063",
@@ -3447,7 +3567,10 @@
         "grade": "8",
         "count": 367
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535064",
@@ -3491,7 +3614,10 @@
         "count": 42
       }
     ],
-    "enrollmentByGrade": []
+    "enrollmentByGrade": [],
+    "gradNumeracy10": 87,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 91
   },
   {
     "id": "s35-3535065",
@@ -3561,7 +3687,10 @@
         "grade": "8",
         "count": 354
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3535066",
@@ -3639,7 +3768,10 @@
         "grade": "5",
         "count": 88
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3599050",
@@ -3696,7 +3828,10 @@
         "grade": "12",
         "count": 99
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3599092",
@@ -3757,7 +3892,10 @@
         "grade": "11",
         "count": 37
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3599168",
@@ -3814,7 +3952,10 @@
         "grade": "12",
         "count": 238
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3599173",
@@ -3871,7 +4012,10 @@
         "grade": "12",
         "count": 112
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3599201",
@@ -3919,7 +4063,10 @@
         "count": 18
       }
     ],
-    "enrollmentByGrade": []
+    "enrollmentByGrade": [],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3599202",
@@ -3972,7 +4119,10 @@
         "grade": "12",
         "count": 17
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s35-3599313",
@@ -4012,7 +4162,10 @@
         "count": 24
       }
     ],
-    "enrollmentByGrade": []
+    "enrollmentByGrade": [],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636000",
@@ -4077,7 +4230,10 @@
         "grade": "12",
         "count": 279
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636001",
@@ -4167,7 +4323,10 @@
         "grade": "7",
         "count": 49
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636002",
@@ -4241,7 +4400,10 @@
         "grade": "6",
         "count": 10
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636004",
@@ -4331,7 +4493,10 @@
         "grade": "7",
         "count": 36
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636009",
@@ -4421,7 +4586,10 @@
         "grade": "7",
         "count": 100
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636012",
@@ -4511,7 +4679,10 @@
         "grade": "7",
         "count": 22
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636018",
@@ -4584,7 +4755,10 @@
         "grade": "6",
         "count": 13
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636021",
@@ -4674,7 +4848,10 @@
         "grade": "7",
         "count": 39
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636022",
@@ -4752,7 +4929,10 @@
         "grade": "12",
         "count": 359
       }
-    ]
+    ],
+    "gradNumeracy10": 30,
+    "gradLiteracy10": 64,
+    "gradLiteracy12": 64
   },
   {
     "id": "s36-3636028",
@@ -4830,7 +5010,10 @@
         "grade": "12",
         "count": 336
       }
-    ]
+    ],
+    "gradNumeracy10": 55,
+    "gradLiteracy10": 80,
+    "gradLiteracy12": 87
   },
   {
     "id": "s36-3636029",
@@ -4920,7 +5103,10 @@
         "grade": "7",
         "count": 63
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636031",
@@ -5015,7 +5201,10 @@
         "grade": "7",
         "count": 49
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636033",
@@ -5105,7 +5294,10 @@
         "grade": "7",
         "count": 21
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636034",
@@ -5195,7 +5387,10 @@
         "grade": "7",
         "count": 38
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636035",
@@ -5285,7 +5480,10 @@
         "grade": "7",
         "count": 75
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636036",
@@ -5375,7 +5573,10 @@
         "grade": "7",
         "count": 54
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636037",
@@ -5465,7 +5666,10 @@
         "grade": "7",
         "count": 56
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636038",
@@ -5555,7 +5759,10 @@
         "grade": "7",
         "count": 90
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636039",
@@ -5645,7 +5852,10 @@
         "grade": "7",
         "count": 53
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636040",
@@ -5740,7 +5950,10 @@
         "grade": "7",
         "count": 102
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636041",
@@ -5818,7 +6031,10 @@
         "grade": "12",
         "count": 378
       }
-    ]
+    ],
+    "gradNumeracy10": 54,
+    "gradLiteracy10": 77,
+    "gradLiteracy12": 70
   },
   {
     "id": "s36-3636043",
@@ -5908,7 +6124,10 @@
         "grade": "7",
         "count": 63
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636044",
@@ -5998,7 +6217,10 @@
         "grade": "7",
         "count": 51
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636045",
@@ -6076,7 +6298,10 @@
         "grade": "12",
         "count": 314
       }
-    ]
+    ],
+    "gradNumeracy10": 39,
+    "gradLiteracy10": 74,
+    "gradLiteracy12": 84
   },
   {
     "id": "s36-3636047",
@@ -6159,7 +6384,10 @@
         "grade": "12",
         "count": 310
       }
-    ]
+    ],
+    "gradNumeracy10": 36,
+    "gradLiteracy10": 69,
+    "gradLiteracy12": 78
   },
   {
     "id": "s36-3636049",
@@ -6237,7 +6465,10 @@
         "grade": "12",
         "count": 370
       }
-    ]
+    ],
+    "gradNumeracy10": 66,
+    "gradLiteracy10": 90,
+    "gradLiteracy12": 96
   },
   {
     "id": "s36-3636050",
@@ -6327,7 +6558,10 @@
         "grade": "7",
         "count": 30
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636051",
@@ -6417,7 +6651,10 @@
         "grade": "7",
         "count": 48
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636053",
@@ -6507,7 +6744,10 @@
         "grade": "7",
         "count": 60
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636054",
@@ -6597,7 +6837,10 @@
         "grade": "7",
         "count": 55
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636055",
@@ -6687,7 +6930,10 @@
         "grade": "7",
         "count": 63
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636056",
@@ -6777,7 +7023,10 @@
         "grade": "7",
         "count": 61
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636057",
@@ -6867,7 +7116,10 @@
         "grade": "7",
         "count": 53
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636058",
@@ -6957,7 +7209,10 @@
         "grade": "7",
         "count": 50
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636059",
@@ -7052,7 +7307,10 @@
         "grade": "7",
         "count": 51
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636060",
@@ -7142,7 +7400,10 @@
         "grade": "7",
         "count": 52
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636061",
@@ -7237,7 +7498,10 @@
         "grade": "7",
         "count": 75
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636062",
@@ -7327,7 +7591,10 @@
         "grade": "7",
         "count": 62
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636063",
@@ -7417,7 +7684,10 @@
         "grade": "7",
         "count": 25
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636064",
@@ -7507,7 +7777,10 @@
         "grade": "7",
         "count": 78
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636067",
@@ -7597,7 +7870,10 @@
         "grade": "7",
         "count": 70
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636069",
@@ -7687,7 +7963,10 @@
         "grade": "7",
         "count": 82
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636070",
@@ -7782,7 +8061,10 @@
         "grade": "7",
         "count": 61
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636071",
@@ -7877,7 +8159,10 @@
         "grade": "7",
         "count": 44
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636072",
@@ -7967,7 +8252,10 @@
         "grade": "7",
         "count": 62
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636073",
@@ -8057,7 +8345,10 @@
         "grade": "7",
         "count": 36
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636077",
@@ -8147,7 +8438,10 @@
         "grade": "7",
         "count": 25
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636079",
@@ -8225,7 +8519,10 @@
         "grade": "12",
         "count": 263
       }
-    ]
+    ],
+    "gradNumeracy10": 29,
+    "gradLiteracy10": 65,
+    "gradLiteracy12": 62
   },
   {
     "id": "s36-3636080",
@@ -8315,7 +8612,10 @@
         "grade": "7",
         "count": 37
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636081",
@@ -8405,7 +8705,10 @@
         "grade": "7",
         "count": 58
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636082",
@@ -8495,7 +8798,10 @@
         "grade": "7",
         "count": 88
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636084",
@@ -8585,7 +8891,10 @@
         "grade": "7",
         "count": 19
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636087",
@@ -8680,7 +8989,10 @@
         "grade": "7",
         "count": 68
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636089",
@@ -8775,7 +9087,10 @@
         "grade": "7",
         "count": 55
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636090",
@@ -8865,7 +9180,10 @@
         "grade": "7",
         "count": 88
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636105",
@@ -8948,7 +9266,10 @@
         "grade": "12",
         "count": 320
       }
-    ]
+    ],
+    "gradNumeracy10": 61,
+    "gradLiteracy10": 89,
+    "gradLiteracy12": 89
   },
   {
     "id": "s36-3636106",
@@ -9026,7 +9347,10 @@
         "grade": "12",
         "count": 288
       }
-    ]
+    ],
+    "gradNumeracy10": 25,
+    "gradLiteracy10": 60,
+    "gradLiteracy12": 68
   },
   {
     "id": "s36-3636107",
@@ -9116,7 +9440,10 @@
         "grade": "7",
         "count": 46
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636109",
@@ -9206,7 +9533,10 @@
         "grade": "7",
         "count": 53
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636111",
@@ -9296,7 +9626,10 @@
         "grade": "7",
         "count": 50
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636112",
@@ -9386,7 +9719,10 @@
         "grade": "7",
         "count": 47
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636114",
@@ -9464,7 +9800,10 @@
         "grade": "12",
         "count": 278
       }
-    ]
+    ],
+    "gradNumeracy10": 37,
+    "gradLiteracy10": 71,
+    "gradLiteracy12": 75
   },
   {
     "id": "s36-3636116",
@@ -9554,7 +9893,10 @@
         "grade": "7",
         "count": 56
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636117",
@@ -9645,7 +9987,10 @@
         "grade": "7",
         "count": 53
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636118",
@@ -9735,7 +10080,10 @@
         "grade": "7",
         "count": 41
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636122",
@@ -9825,7 +10173,10 @@
         "grade": "7",
         "count": 54
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636128",
@@ -9915,7 +10266,10 @@
         "grade": "7",
         "count": 67
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636129",
@@ -10005,7 +10359,10 @@
         "grade": "7",
         "count": 63
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636130",
@@ -10095,7 +10452,10 @@
         "grade": "7",
         "count": 57
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636131",
@@ -10185,7 +10545,10 @@
         "grade": "7",
         "count": 73
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636132",
@@ -10275,7 +10638,10 @@
         "grade": "7",
         "count": 34
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636134",
@@ -10365,7 +10731,10 @@
         "grade": "7",
         "count": 56
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636136",
@@ -10455,7 +10824,10 @@
         "grade": "7",
         "count": 63
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636137",
@@ -10545,7 +10917,10 @@
         "grade": "7",
         "count": 61
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636138",
@@ -10635,7 +11010,10 @@
         "grade": "7",
         "count": 66
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636139",
@@ -10725,7 +11103,10 @@
         "grade": "7",
         "count": 42
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636140",
@@ -10815,7 +11196,10 @@
         "grade": "7",
         "count": 73
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636141",
@@ -10893,7 +11277,10 @@
         "grade": "12",
         "count": 356
       }
-    ]
+    ],
+    "gradNumeracy10": 50,
+    "gradLiteracy10": 89,
+    "gradLiteracy12": 91
   },
   {
     "id": "s36-3636142",
@@ -10983,7 +11370,10 @@
         "grade": "7",
         "count": 67
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636143",
@@ -11073,7 +11463,10 @@
         "grade": "7",
         "count": 62
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636144",
@@ -11163,7 +11556,10 @@
         "grade": "7",
         "count": 27
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636145",
@@ -11253,7 +11649,10 @@
         "grade": "7",
         "count": 67
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636146",
@@ -11343,7 +11742,10 @@
         "grade": "7",
         "count": 56
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636147",
@@ -11433,7 +11835,10 @@
         "grade": "7",
         "count": 66
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636148",
@@ -11523,7 +11928,10 @@
         "grade": "7",
         "count": 54
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636149",
@@ -11618,7 +12026,10 @@
         "grade": "7",
         "count": 51
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636150",
@@ -11696,7 +12107,10 @@
         "grade": "12",
         "count": 335
       }
-    ]
+    ],
+    "gradNumeracy10": 33,
+    "gradLiteracy10": 64,
+    "gradLiteracy12": 62
   },
   {
     "id": "s36-3636151",
@@ -11786,7 +12200,10 @@
         "grade": "7",
         "count": 106
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636152",
@@ -11876,7 +12293,10 @@
         "grade": "7",
         "count": 118
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636153",
@@ -11966,7 +12386,10 @@
         "grade": "7",
         "count": 86
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636155",
@@ -12056,7 +12479,10 @@
         "grade": "7",
         "count": 43
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636156",
@@ -12134,7 +12560,10 @@
         "grade": "12",
         "count": 300
       }
-    ]
+    ],
+    "gradNumeracy10": 69,
+    "gradLiteracy10": 84,
+    "gradLiteracy12": 93
   },
   {
     "id": "s36-3636157",
@@ -12224,7 +12653,10 @@
         "grade": "7",
         "count": 112
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636158",
@@ -12314,7 +12746,10 @@
         "grade": "7",
         "count": 60
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636159",
@@ -12404,7 +12839,10 @@
         "grade": "7",
         "count": 63
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636160",
@@ -12494,7 +12932,10 @@
         "grade": "7",
         "count": 81
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636161",
@@ -12584,7 +13025,10 @@
         "grade": "7",
         "count": 72
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636162",
@@ -12674,7 +13118,10 @@
         "grade": "7",
         "count": 55
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636164",
@@ -12752,7 +13199,10 @@
         "grade": "12",
         "count": 393
       }
-    ]
+    ],
+    "gradNumeracy10": 53,
+    "gradLiteracy10": 84,
+    "gradLiteracy12": 87
   },
   {
     "id": "s36-3636165",
@@ -12842,7 +13292,10 @@
         "grade": "7",
         "count": 79
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636167",
@@ -12925,7 +13378,10 @@
         "grade": "12",
         "count": 392
       }
-    ]
+    ],
+    "gradNumeracy10": 42,
+    "gradLiteracy10": 86,
+    "gradLiteracy12": 87
   },
   {
     "id": "s36-3636170",
@@ -13015,7 +13471,10 @@
         "grade": "7",
         "count": 48
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636172",
@@ -13105,7 +13564,10 @@
         "grade": "7",
         "count": 62
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636173",
@@ -13195,7 +13657,10 @@
         "grade": "7",
         "count": 39
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636174",
@@ -13285,7 +13750,10 @@
         "grade": "7",
         "count": 66
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636175",
@@ -13363,7 +13831,10 @@
         "grade": "12",
         "count": 294
       }
-    ]
+    ],
+    "gradNumeracy10": 47,
+    "gradLiteracy10": 71,
+    "gradLiteracy12": 69
   },
   {
     "id": "s36-3636176",
@@ -13453,7 +13924,10 @@
         "grade": "7",
         "count": 65
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636177",
@@ -13527,7 +14001,10 @@
         "grade": "12",
         "count": 384
       }
-    ]
+    ],
+    "gradNumeracy10": 63,
+    "gradLiteracy10": 89,
+    "gradLiteracy12": 89
   },
   {
     "id": "s36-3636178",
@@ -13617,7 +14094,10 @@
         "grade": "7",
         "count": 73
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636180",
@@ -13703,7 +14183,10 @@
         "grade": "7",
         "count": 57
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636183",
@@ -13793,7 +14276,10 @@
         "grade": "7",
         "count": 46
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636184",
@@ -13879,7 +14365,10 @@
         "grade": "7",
         "count": 72
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636186",
@@ -13969,7 +14458,10 @@
         "grade": "7",
         "count": 23
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636188",
@@ -14059,7 +14551,10 @@
         "grade": "7",
         "count": 80
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636189",
@@ -14149,7 +14644,10 @@
         "grade": "7",
         "count": 72
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636201",
@@ -14239,7 +14737,10 @@
         "grade": "7",
         "count": 111
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636203",
@@ -14329,7 +14830,10 @@
         "grade": "7",
         "count": 90
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636206",
@@ -14415,7 +14919,10 @@
         "grade": "7",
         "count": 101
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636211",
@@ -14505,7 +15012,10 @@
         "grade": "7",
         "count": 107
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636212",
@@ -14600,7 +15110,10 @@
         "grade": "7",
         "count": 84
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636215",
@@ -14683,7 +15196,10 @@
         "grade": "12",
         "count": 305
       }
-    ]
+    ],
+    "gradNumeracy10": 49,
+    "gradLiteracy10": 85,
+    "gradLiteracy12": 88
   },
   {
     "id": "s36-3636218",
@@ -14760,7 +15276,10 @@
         "grade": "7",
         "count": 35
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636232",
@@ -14843,7 +15362,10 @@
         "grade": "12",
         "count": 350
       }
-    ]
+    ],
+    "gradNumeracy10": 43,
+    "gradLiteracy10": 80,
+    "gradLiteracy12": 81
   },
   {
     "id": "s36-3636242",
@@ -14913,7 +15435,10 @@
         "grade": "12",
         "count": 15
       }
-    ]
+    ],
+    "gradNumeracy10": 91,
+    "gradLiteracy10": 100,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636246",
@@ -14991,7 +15516,10 @@
         "grade": "12",
         "count": 325
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 61,
+    "gradLiteracy12": 62
   },
   {
     "id": "s36-3636248",
@@ -15074,7 +15602,10 @@
         "grade": "12",
         "count": 352
       }
-    ]
+    ],
+    "gradNumeracy10": 36,
+    "gradLiteracy10": 79,
+    "gradLiteracy12": 83
   },
   {
     "id": "s36-3636525",
@@ -15110,7 +15641,10 @@
         "count": 13
       }
     ],
-    "enrollmentByGrade": []
+    "enrollmentByGrade": [],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3636574",
@@ -15163,7 +15697,10 @@
         "grade": "12",
         "count": 17
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 31,
+    "gradLiteracy12": 45
   },
   {
     "id": "s36-3636591",
@@ -15203,7 +15740,10 @@
         "count": 32
       }
     ],
-    "enrollmentByGrade": []
+    "enrollmentByGrade": [],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 30
   },
   {
     "id": "s36-3636593",
@@ -15260,7 +15800,10 @@
         "grade": "12",
         "count": 38
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 42,
+    "gradLiteracy12": 50
   },
   {
     "id": "s36-3699008",
@@ -15330,7 +15873,10 @@
         "grade": "12",
         "count": 98
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3699142",
@@ -15404,7 +15950,10 @@
         "grade": "12",
         "count": 2274
       }
-    ]
+    ],
+    "gradNumeracy10": 46,
+    "gradLiteracy10": 75,
+    "gradLiteracy12": 77
   },
   {
     "id": "s36-3699317",
@@ -15461,7 +16010,10 @@
         "grade": "12",
         "count": 55
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s36-3699319",
@@ -15526,7 +16078,10 @@
         "grade": "12",
         "count": 176
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737000",
@@ -15583,7 +16138,10 @@
         "grade": "12",
         "count": 179
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737001",
@@ -15678,7 +16236,10 @@
         "grade": "7",
         "count": 72
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737003",
@@ -15756,7 +16317,10 @@
         "grade": "12",
         "count": 278
       }
-    ]
+    ],
+    "gradNumeracy10": 39,
+    "gradLiteracy10": 72,
+    "gradLiteracy12": 69
   },
   {
     "id": "s37-3737007",
@@ -15851,7 +16415,10 @@
         "grade": "7",
         "count": 59
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737008",
@@ -15937,7 +16504,10 @@
         "grade": "7",
         "count": 33
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737009",
@@ -16027,7 +16597,10 @@
         "grade": "7",
         "count": 29
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737012",
@@ -16105,7 +16678,10 @@
         "grade": "12",
         "count": 294
       }
-    ]
+    ],
+    "gradNumeracy10": 30,
+    "gradLiteracy10": 61,
+    "gradLiteracy12": 68
   },
   {
     "id": "s37-3737013",
@@ -16200,7 +16776,10 @@
         "grade": "7",
         "count": 76
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737014",
@@ -16290,7 +16869,10 @@
         "grade": "7",
         "count": 32
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737015",
@@ -16385,7 +16967,10 @@
         "grade": "7",
         "count": 44
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737017",
@@ -16480,7 +17065,10 @@
         "grade": "7",
         "count": 47
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737018",
@@ -16575,7 +17163,10 @@
         "grade": "7",
         "count": 41
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737019",
@@ -16665,7 +17256,10 @@
         "grade": "7",
         "count": 40
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737021",
@@ -16743,7 +17337,10 @@
         "grade": "12",
         "count": 146
       }
-    ]
+    ],
+    "gradNumeracy10": 38,
+    "gradLiteracy10": 71,
+    "gradLiteracy12": 67
   },
   {
     "id": "s37-3737022",
@@ -16838,7 +17435,10 @@
         "grade": "7",
         "count": 59
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737023",
@@ -16928,7 +17528,10 @@
         "grade": "7",
         "count": 41
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737024",
@@ -17018,7 +17621,10 @@
         "grade": "7",
         "count": 74
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737025",
@@ -17108,7 +17714,10 @@
         "grade": "7",
         "count": 51
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737026",
@@ -17203,7 +17812,10 @@
         "grade": "7",
         "count": 61
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737027",
@@ -17293,7 +17905,10 @@
         "grade": "7",
         "count": 31
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737029",
@@ -17383,7 +17998,10 @@
         "grade": "7",
         "count": 48
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737030",
@@ -17473,7 +18091,10 @@
         "grade": "7",
         "count": 58
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737032",
@@ -17563,7 +18184,10 @@
         "grade": "7",
         "count": 49
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737033",
@@ -17649,7 +18273,10 @@
         "grade": "7",
         "count": 18
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737034",
@@ -17732,7 +18359,10 @@
         "grade": "12",
         "count": 191
       }
-    ]
+    ],
+    "gradNumeracy10": 45,
+    "gradLiteracy10": 84,
+    "gradLiteracy12": 85
   },
   {
     "id": "s37-3737035",
@@ -17822,7 +18452,10 @@
         "grade": "7",
         "count": 48
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737037",
@@ -17905,7 +18538,10 @@
         "grade": "12",
         "count": 293
       }
-    ]
+    ],
+    "gradNumeracy10": 49,
+    "gradLiteracy10": 69,
+    "gradLiteracy12": 81
   },
   {
     "id": "s37-3737038",
@@ -17975,7 +18611,10 @@
         "grade": "12",
         "count": 129
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 60,
+    "gradLiteracy12": 65
   },
   {
     "id": "s37-3737039",
@@ -18065,7 +18704,10 @@
         "grade": "7",
         "count": 63
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737040",
@@ -18143,7 +18785,10 @@
         "grade": "12",
         "count": 350
       }
-    ]
+    ],
+    "gradNumeracy10": 59,
+    "gradLiteracy10": 80,
+    "gradLiteracy12": 88
   },
   {
     "id": "s37-3737041",
@@ -18233,7 +18878,10 @@
         "grade": "7",
         "count": 56
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3737043",
@@ -18323,7 +18971,10 @@
         "grade": "7",
         "count": 24
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3799141",
@@ -18393,7 +19044,10 @@
         "grade": "7",
         "count": 10
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s37-3799170",
@@ -18455,7 +19109,10 @@
         "grade": "12",
         "count": 307
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838000",
@@ -18512,7 +19169,10 @@
         "grade": "12",
         "count": 136
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838001",
@@ -18607,7 +19267,10 @@
         "grade": "7",
         "count": 48
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838005",
@@ -18697,7 +19360,10 @@
         "grade": "7",
         "count": 50
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838006",
@@ -18787,7 +19453,10 @@
         "grade": "7",
         "count": 40
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838008",
@@ -18877,7 +19546,10 @@
         "grade": "7",
         "count": 39
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838009",
@@ -18967,7 +19639,10 @@
         "grade": "7",
         "count": 23
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838013",
@@ -19057,7 +19732,10 @@
         "grade": "7",
         "count": 50
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838014",
@@ -19147,7 +19825,10 @@
         "grade": "7",
         "count": 44
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838015",
@@ -19237,7 +19918,10 @@
         "grade": "7",
         "count": 94
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838016",
@@ -19336,7 +20020,10 @@
         "grade": "7",
         "count": 72
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838017",
@@ -19426,7 +20113,10 @@
         "grade": "7",
         "count": 19
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838019",
@@ -19516,7 +20206,10 @@
         "grade": "7",
         "count": 28
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838020",
@@ -19611,7 +20304,10 @@
         "grade": "7",
         "count": 40
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838021",
@@ -19701,7 +20397,10 @@
         "grade": "7",
         "count": 50
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838023",
@@ -19791,7 +20490,10 @@
         "grade": "7",
         "count": 42
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838024",
@@ -19869,7 +20571,10 @@
         "grade": "12",
         "count": 236
       }
-    ]
+    ],
+    "gradNumeracy10": 72,
+    "gradLiteracy10": 84,
+    "gradLiteracy12": 85
   },
   {
     "id": "s38-3838025",
@@ -19964,7 +20669,10 @@
         "grade": "7",
         "count": 35
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838026",
@@ -20054,7 +20762,10 @@
         "grade": "7",
         "count": 47
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838027",
@@ -20144,7 +20855,10 @@
         "grade": "7",
         "count": 89
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838029",
@@ -20234,7 +20948,10 @@
         "grade": "7",
         "count": 23
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838030",
@@ -20324,7 +21041,10 @@
         "grade": "7",
         "count": 43
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838031",
@@ -20402,7 +21122,10 @@
         "grade": "12",
         "count": 179
       }
-    ]
+    ],
+    "gradNumeracy10": 50,
+    "gradLiteracy10": 87,
+    "gradLiteracy12": 84
   },
   {
     "id": "s38-3838033",
@@ -20485,7 +21208,10 @@
         "grade": "12",
         "count": 214
       }
-    ]
+    ],
+    "gradNumeracy10": 54,
+    "gradLiteracy10": 89,
+    "gradLiteracy12": 92
   },
   {
     "id": "s38-3838035",
@@ -20575,7 +21301,10 @@
         "grade": "7",
         "count": 88
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838037",
@@ -20665,7 +21394,10 @@
         "grade": "7",
         "count": 57
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838040",
@@ -20755,7 +21487,10 @@
         "grade": "7",
         "count": 52
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838041",
@@ -20845,7 +21580,10 @@
         "grade": "7",
         "count": 31
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838042",
@@ -20923,7 +21661,10 @@
         "grade": "12",
         "count": 213
       }
-    ]
+    ],
+    "gradNumeracy10": 80,
+    "gradLiteracy10": 88,
+    "gradLiteracy12": 90
   },
   {
     "id": "s38-3838043",
@@ -21018,7 +21759,10 @@
         "grade": "7",
         "count": 36
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838044",
@@ -21096,7 +21840,10 @@
         "grade": "12",
         "count": 194
       }
-    ]
+    ],
+    "gradNumeracy10": 58,
+    "gradLiteracy10": 69,
+    "gradLiteracy12": 68
   },
   {
     "id": "s38-3838045",
@@ -21174,7 +21921,10 @@
         "grade": "12",
         "count": 250
       }
-    ]
+    ],
+    "gradNumeracy10": 72,
+    "gradLiteracy10": 88,
+    "gradLiteracy12": 58
   },
   {
     "id": "s38-3838046",
@@ -21264,7 +22014,10 @@
         "grade": "7",
         "count": 47
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838047",
@@ -21350,7 +22103,10 @@
         "grade": "7",
         "count": 35
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838048",
@@ -21440,7 +22196,10 @@
         "grade": "7",
         "count": 28
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838049",
@@ -21530,7 +22289,10 @@
         "grade": "7",
         "count": 62
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838052",
@@ -21625,7 +22387,10 @@
         "grade": "7",
         "count": 79
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838053",
@@ -21720,7 +22485,10 @@
         "grade": "7",
         "count": 63
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838054",
@@ -21810,7 +22578,10 @@
         "grade": "7",
         "count": 54
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838055",
@@ -21900,7 +22671,10 @@
         "grade": "7",
         "count": 49
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838056",
@@ -21990,7 +22764,10 @@
         "grade": "7",
         "count": 22
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838057",
@@ -22080,7 +22857,10 @@
         "grade": "7",
         "count": 76
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838058",
@@ -22154,7 +22934,10 @@
         "grade": "12",
         "count": 116
       }
-    ]
+    ],
+    "gradNumeracy10": 37,
+    "gradLiteracy10": 71,
+    "gradLiteracy12": 72
   },
   {
     "id": "s38-3838059",
@@ -22249,7 +23032,10 @@
         "grade": "7",
         "count": 63
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838060",
@@ -22339,7 +23125,10 @@
         "grade": "7",
         "count": 27
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838062",
@@ -22422,7 +23211,10 @@
         "grade": "12",
         "count": 234
       }
-    ]
+    ],
+    "gradNumeracy10": 69,
+    "gradLiteracy10": 90,
+    "gradLiteracy12": 91
   },
   {
     "id": "s38-3838063",
@@ -22512,7 +23304,10 @@
         "grade": "7",
         "count": 65
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s38-3838064",
@@ -22590,7 +23385,10 @@
         "grade": "12",
         "count": 183
       }
-    ]
+    ],
+    "gradNumeracy10": 54,
+    "gradLiteracy10": 73,
+    "gradLiteracy12": 91
   },
   {
     "id": "s38-3838065",
@@ -22668,7 +23466,10 @@
         "grade": "12",
         "count": 267
       }
-    ]
+    ],
+    "gradNumeracy10": 80,
+    "gradLiteracy10": 86,
+    "gradLiteracy12": 95
   },
   {
     "id": "s38-3899175",
@@ -22734,7 +23535,10 @@
         "grade": "12",
         "count": 1800
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939000",
@@ -22791,7 +23595,10 @@
         "grade": "12",
         "count": 532
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 65
   },
   {
     "id": "s39-3939001",
@@ -22869,7 +23676,10 @@
         "grade": "12",
         "count": 137
       }
-    ]
+    ],
+    "gradNumeracy10": 50,
+    "gradLiteracy10": 75,
+    "gradLiteracy12": 83
   },
   {
     "id": "s39-3939003",
@@ -22947,7 +23757,10 @@
         "grade": "12",
         "count": 266
       }
-    ]
+    ],
+    "gradNumeracy10": 53,
+    "gradLiteracy10": 88,
+    "gradLiteracy12": 94
   },
   {
     "id": "s39-3939004",
@@ -23025,7 +23838,10 @@
         "grade": "12",
         "count": 162
       }
-    ]
+    ],
+    "gradNumeracy10": 33,
+    "gradLiteracy10": 67,
+    "gradLiteracy12": 56
   },
   {
     "id": "s39-3939006",
@@ -23108,7 +23924,10 @@
         "grade": "12",
         "count": 337
       }
-    ]
+    ],
+    "gradNumeracy10": 63,
+    "gradLiteracy10": 86,
+    "gradLiteracy12": 91
   },
   {
     "id": "s39-3939007",
@@ -23186,7 +24005,10 @@
         "grade": "12",
         "count": 217
       }
-    ]
+    ],
+    "gradNumeracy10": 39,
+    "gradLiteracy10": 72,
+    "gradLiteracy12": 60
   },
   {
     "id": "s39-3939008",
@@ -23264,7 +24086,10 @@
         "grade": "12",
         "count": 303
       }
-    ]
+    ],
+    "gradNumeracy10": 71,
+    "gradLiteracy10": 90,
+    "gradLiteracy12": 95
   },
   {
     "id": "s39-3939010",
@@ -23342,7 +24167,10 @@
         "grade": "12",
         "count": 273
       }
-    ]
+    ],
+    "gradNumeracy10": 54,
+    "gradLiteracy10": 89,
+    "gradLiteracy12": 91
   },
   {
     "id": "s39-3939011",
@@ -23425,7 +24253,10 @@
         "grade": "12",
         "count": 364
       }
-    ]
+    ],
+    "gradNumeracy10": 66,
+    "gradLiteracy10": 89,
+    "gradLiteracy12": 90
   },
   {
     "id": "s39-3939012",
@@ -23503,7 +24334,10 @@
         "grade": "12",
         "count": 207
       }
-    ]
+    ],
+    "gradNumeracy10": 61,
+    "gradLiteracy10": 90,
+    "gradLiteracy12": 96
   },
   {
     "id": "s39-3939014",
@@ -23581,7 +24415,10 @@
         "grade": "12",
         "count": 215
       }
-    ]
+    ],
+    "gradNumeracy10": 46,
+    "gradLiteracy10": 73,
+    "gradLiteracy12": 75
   },
   {
     "id": "s39-3939015",
@@ -23664,7 +24501,10 @@
         "grade": "12",
         "count": 428
       }
-    ]
+    ],
+    "gradNumeracy10": 56,
+    "gradLiteracy10": 87,
+    "gradLiteracy12": 94
   },
   {
     "id": "s39-3939016",
@@ -23742,7 +24582,10 @@
         "grade": "12",
         "count": 340
       }
-    ]
+    ],
+    "gradNumeracy10": 46,
+    "gradLiteracy10": 75,
+    "gradLiteracy12": 87
   },
   {
     "id": "s39-3939017",
@@ -23820,7 +24663,10 @@
         "grade": "12",
         "count": 262
       }
-    ]
+    ],
+    "gradNumeracy10": 56,
+    "gradLiteracy10": 80,
+    "gradLiteracy12": 86
   },
   {
     "id": "s39-3939018",
@@ -23898,7 +24744,10 @@
         "grade": "12",
         "count": 261
       }
-    ]
+    ],
+    "gradNumeracy10": 58,
+    "gradLiteracy10": 85,
+    "gradLiteracy12": 83
   },
   {
     "id": "s39-3939019",
@@ -23976,7 +24825,10 @@
         "grade": "12",
         "count": 172
       }
-    ]
+    ],
+    "gradNumeracy10": 84,
+    "gradLiteracy10": 95,
+    "gradLiteracy12": 96
   },
   {
     "id": "s39-3939020",
@@ -24054,7 +24906,10 @@
         "grade": "12",
         "count": 212
       }
-    ]
+    ],
+    "gradNumeracy10": 43,
+    "gradLiteracy10": 75,
+    "gradLiteracy12": 82
   },
   {
     "id": "s39-3939022",
@@ -24132,7 +24987,10 @@
         "grade": "12",
         "count": 360
       }
-    ]
+    ],
+    "gradNumeracy10": 52,
+    "gradLiteracy10": 90,
+    "gradLiteracy12": 93
   },
   {
     "id": "s39-3939024",
@@ -24210,7 +25068,10 @@
         "grade": "12",
         "count": 181
       }
-    ]
+    ],
+    "gradNumeracy10": 83,
+    "gradLiteracy10": 93,
+    "gradLiteracy12": 95
   },
   {
     "id": "s39-3939028",
@@ -24305,7 +25166,10 @@
         "grade": "7",
         "count": 47
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939031",
@@ -24395,7 +25259,10 @@
         "grade": "7",
         "count": 78
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939032",
@@ -24485,7 +25352,10 @@
         "grade": "7",
         "count": 20
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939033",
@@ -24567,7 +25437,10 @@
         "grade": "7",
         "count": 12
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939035",
@@ -24657,7 +25530,10 @@
         "grade": "7",
         "count": 52
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939037",
@@ -24747,7 +25623,10 @@
         "grade": "7",
         "count": 42
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939038",
@@ -24842,7 +25721,10 @@
         "grade": "7",
         "count": 75
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939039",
@@ -24937,7 +25819,10 @@
         "grade": "7",
         "count": 74
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939040",
@@ -25027,7 +25912,10 @@
         "grade": "7",
         "count": 20
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939041",
@@ -25117,7 +26005,10 @@
         "grade": "7",
         "count": 41
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939042",
@@ -25207,7 +26098,10 @@
         "grade": "7",
         "count": 39
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939043",
@@ -25298,7 +26192,10 @@
         "grade": "7",
         "count": 46
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939044",
@@ -25388,7 +26285,10 @@
         "grade": "7",
         "count": 41
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939045",
@@ -25478,7 +26378,10 @@
         "grade": "7",
         "count": 37
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939046",
@@ -25568,7 +26471,10 @@
         "grade": "7",
         "count": 45
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939047",
@@ -25659,7 +26565,10 @@
         "grade": "7",
         "count": 47
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939048",
@@ -25749,7 +26658,10 @@
         "grade": "7",
         "count": 42
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939049",
@@ -25839,7 +26751,10 @@
         "grade": "7",
         "count": 35
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939050",
@@ -25929,7 +26844,10 @@
         "grade": "7",
         "count": 66
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939051",
@@ -26019,7 +26937,10 @@
         "grade": "7",
         "count": 33
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939052",
@@ -26114,7 +27035,10 @@
         "grade": "7",
         "count": 44
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939053",
@@ -26209,7 +27133,10 @@
         "grade": "7",
         "count": 38
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939054",
@@ -26308,7 +27235,10 @@
         "grade": "7",
         "count": 105
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939056",
@@ -26398,7 +27328,10 @@
         "grade": "7",
         "count": 58
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939057",
@@ -26488,7 +27421,10 @@
         "grade": "7",
         "count": 34
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939058",
@@ -26578,7 +27514,10 @@
         "grade": "7",
         "count": 58
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939059",
@@ -26668,7 +27607,10 @@
         "grade": "7",
         "count": 63
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939060",
@@ -26758,7 +27700,10 @@
         "grade": "7",
         "count": 27
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939061",
@@ -26853,7 +27798,10 @@
         "grade": "7",
         "count": 72
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939062",
@@ -26943,7 +27891,10 @@
         "grade": "7",
         "count": 79
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939063",
@@ -27033,7 +27984,10 @@
         "grade": "7",
         "count": 70
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939064",
@@ -27132,7 +28086,10 @@
         "grade": "7",
         "count": 103
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939065",
@@ -27222,7 +28179,10 @@
         "grade": "7",
         "count": 28
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939066",
@@ -27312,7 +28272,10 @@
         "grade": "7",
         "count": 54
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939067",
@@ -27402,7 +28365,10 @@
         "grade": "7",
         "count": 39
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939069",
@@ -27492,7 +28458,10 @@
         "grade": "7",
         "count": 29
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939070",
@@ -27582,7 +28551,10 @@
         "grade": "7",
         "count": 74
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939071",
@@ -27672,7 +28644,10 @@
         "grade": "7",
         "count": 38
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939072",
@@ -27762,7 +28737,10 @@
         "grade": "7",
         "count": 57
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939073",
@@ -27852,7 +28830,10 @@
         "grade": "7",
         "count": 45
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939074",
@@ -27942,7 +28923,10 @@
         "grade": "7",
         "count": 72
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939075",
@@ -28037,7 +29021,10 @@
         "grade": "7",
         "count": 37
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939076",
@@ -28127,7 +29114,10 @@
         "grade": "7",
         "count": 15
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939077",
@@ -28217,7 +29207,10 @@
         "grade": "7",
         "count": 76
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939079",
@@ -28307,7 +29300,10 @@
         "grade": "7",
         "count": 61
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939080",
@@ -28397,7 +29393,10 @@
         "grade": "7",
         "count": 57
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939082",
@@ -28487,7 +29486,10 @@
         "grade": "7",
         "count": 28
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939084",
@@ -28586,7 +29588,10 @@
         "grade": "7",
         "count": 76
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939085",
@@ -28676,7 +29681,10 @@
         "grade": "7",
         "count": 51
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939086",
@@ -28766,7 +29774,10 @@
         "grade": "7",
         "count": 45
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939087",
@@ -28856,7 +29867,10 @@
         "grade": "7",
         "count": 30
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939088",
@@ -28946,7 +29960,10 @@
         "grade": "7",
         "count": 53
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939089",
@@ -29036,7 +30053,10 @@
         "grade": "7",
         "count": 32
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939090",
@@ -29126,7 +30146,10 @@
         "grade": "7",
         "count": 52
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939093",
@@ -29216,7 +30239,10 @@
         "grade": "7",
         "count": 30
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939094",
@@ -29306,7 +30332,10 @@
         "grade": "7",
         "count": 50
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939095",
@@ -29396,7 +30425,10 @@
         "grade": "7",
         "count": 25
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939097",
@@ -29486,7 +30518,10 @@
         "grade": "7",
         "count": 40
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939099",
@@ -29576,7 +30611,10 @@
         "grade": "7",
         "count": 45
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939100",
@@ -29666,7 +30704,10 @@
         "grade": "7",
         "count": 62
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939101",
@@ -29756,7 +30797,10 @@
         "grade": "7",
         "count": 58
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939102",
@@ -29821,7 +30865,10 @@
         "grade": "3",
         "count": 18
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939104",
@@ -29911,7 +30958,10 @@
         "grade": "7",
         "count": 70
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939105",
@@ -30001,7 +31051,10 @@
         "grade": "7",
         "count": 59
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939106",
@@ -30091,7 +31144,10 @@
         "grade": "7",
         "count": 66
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939107",
@@ -30173,7 +31229,10 @@
         "grade": "5",
         "count": 19
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939108",
@@ -30242,7 +31301,10 @@
         "grade": "3",
         "count": 20
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939109",
@@ -30332,7 +31394,10 @@
         "grade": "7",
         "count": 42
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939110",
@@ -30378,7 +31443,10 @@
         "count": 67
       }
     ],
-    "enrollmentByGrade": []
+    "enrollmentByGrade": [],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939112",
@@ -30451,7 +31519,10 @@
         "grade": "4",
         "count": 23
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939113",
@@ -30516,7 +31587,10 @@
         "grade": "2",
         "count": 29
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939114",
@@ -30589,7 +31663,10 @@
         "grade": "4",
         "count": 16
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939115",
@@ -30679,7 +31756,10 @@
         "grade": "7",
         "count": 25
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939119",
@@ -30769,7 +31849,10 @@
         "grade": "7",
         "count": 27
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939120",
@@ -30844,7 +31927,10 @@
         "grade": "3",
         "count": 40
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939123",
@@ -30934,7 +32020,10 @@
         "grade": "7",
         "count": 44
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939124",
@@ -31003,7 +32092,10 @@
         "grade": "3",
         "count": 16
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939127",
@@ -31093,7 +32185,10 @@
         "grade": "7",
         "count": 28
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939128",
@@ -31183,7 +32278,10 @@
         "grade": "7",
         "count": 48
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939130",
@@ -31273,7 +32371,10 @@
         "grade": "7",
         "count": 33
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939132",
@@ -31364,7 +32465,10 @@
         "grade": "7",
         "count": 37
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939136",
@@ -31454,7 +32558,10 @@
         "grade": "7",
         "count": 43
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939137",
@@ -31523,7 +32630,10 @@
         "grade": "3",
         "count": 29
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939139",
@@ -31592,7 +32702,10 @@
         "grade": "3",
         "count": 25
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939140",
@@ -31682,7 +32795,10 @@
         "grade": "7",
         "count": 48
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939142",
@@ -31772,7 +32888,10 @@
         "grade": "7",
         "count": 50
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3939143",
@@ -31862,7 +32981,10 @@
         "grade": "7",
         "count": 100
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3998004",
@@ -31927,7 +33049,10 @@
         "grade": "12",
         "count": 1473
       }
-    ]
+    ],
+    "gradNumeracy10": 67,
+    "gradLiteracy10": 69,
+    "gradLiteracy12": 100
   },
   {
     "id": "s39-3999214",
@@ -32005,7 +33130,10 @@
         "grade": "7",
         "count": 13
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s39-3999224",
@@ -32046,7 +33174,10 @@
         "grade": "12",
         "count": 197
       }
-    ]
+    ],
+    "gradNumeracy10": 13,
+    "gradLiteracy10": 40,
+    "gradLiteracy12": 31
   },
   {
     "id": "s40-4040000",
@@ -32103,7 +33234,10 @@
         "grade": "12",
         "count": 607
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s40-4040001",
@@ -32185,7 +33319,10 @@
         "grade": "5",
         "count": 99
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s40-4040002",
@@ -32272,7 +33409,10 @@
         "grade": "5",
         "count": 93
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s40-4040003",
@@ -32354,7 +33494,10 @@
         "grade": "5",
         "count": 79
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s40-4040004",
@@ -32441,7 +33584,10 @@
         "grade": "5",
         "count": 69
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s40-4040008",
@@ -32512,7 +33658,10 @@
         "grade": "12",
         "count": 612
       }
-    ]
+    ],
+    "gradNumeracy10": 55,
+    "gradLiteracy10": 81,
+    "gradLiteracy12": 84
   },
   {
     "id": "s40-4040009",
@@ -32590,7 +33739,10 @@
         "grade": "5",
         "count": 23
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s40-4040010",
@@ -32672,7 +33824,10 @@
         "grade": "5",
         "count": 34
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s40-4040012",
@@ -32745,7 +33900,10 @@
         "grade": "4",
         "count": 99
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s40-4040013",
@@ -32824,7 +33982,10 @@
         "grade": "8",
         "count": 212
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s40-4040014",
@@ -32894,7 +34055,10 @@
         "grade": "8",
         "count": 103
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s40-4040015",
@@ -32981,7 +34145,10 @@
         "grade": "5",
         "count": 103
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s40-4040016",
@@ -33051,7 +34218,10 @@
         "grade": "8",
         "count": 236
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s40-4099110",
@@ -33103,7 +34273,10 @@
         "count": 13
       }
     ],
-    "enrollmentByGrade": []
+    "enrollmentByGrade": [],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s40-4099124",
@@ -33160,7 +34333,10 @@
         "grade": "12",
         "count": 23
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 55,
+    "gradLiteracy12": 59
   },
   {
     "id": "s40-4099126",
@@ -33217,7 +34393,10 @@
         "grade": "12",
         "count": 26
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s40-4099136",
@@ -33303,7 +34482,10 @@
         "grade": "6",
         "count": 13
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s40-4099185",
@@ -33364,7 +34546,10 @@
         "grade": "12",
         "count": 313
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141000",
@@ -33421,7 +34606,10 @@
         "grade": "12",
         "count": 211
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141001",
@@ -33499,7 +34687,10 @@
         "grade": "12",
         "count": 319
       }
-    ]
+    ],
+    "gradNumeracy10": 48,
+    "gradLiteracy10": 73,
+    "gradLiteracy12": 87
   },
   {
     "id": "s41-4141002",
@@ -33577,7 +34768,10 @@
         "grade": "12",
         "count": 455
       }
-    ]
+    ],
+    "gradNumeracy10": 69,
+    "gradLiteracy10": 86,
+    "gradLiteracy12": 88
   },
   {
     "id": "s41-4141005",
@@ -33660,7 +34854,10 @@
         "grade": "12",
         "count": 270
       }
-    ]
+    ],
+    "gradNumeracy10": 64,
+    "gradLiteracy10": 83,
+    "gradLiteracy12": 82
   },
   {
     "id": "s41-4141007",
@@ -33743,7 +34940,10 @@
         "grade": "12",
         "count": 205
       }
-    ]
+    ],
+    "gradNumeracy10": 46,
+    "gradLiteracy10": 81,
+    "gradLiteracy12": 80
   },
   {
     "id": "s41-4141008",
@@ -33833,7 +35033,10 @@
         "grade": "7",
         "count": 49
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141011",
@@ -33916,7 +35119,10 @@
         "grade": "12",
         "count": 360
       }
-    ]
+    ],
+    "gradNumeracy10": 53,
+    "gradLiteracy10": 88,
+    "gradLiteracy12": 87
   },
   {
     "id": "s41-4141015",
@@ -34011,7 +35217,10 @@
         "grade": "7",
         "count": 68
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141016",
@@ -34106,7 +35315,10 @@
         "grade": "7",
         "count": 48
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141017",
@@ -34201,7 +35413,10 @@
         "grade": "7",
         "count": 51
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141018",
@@ -34291,7 +35506,10 @@
         "grade": "7",
         "count": 82
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141019",
@@ -34381,7 +35599,10 @@
         "grade": "7",
         "count": 32
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141020",
@@ -34471,7 +35692,10 @@
         "grade": "7",
         "count": 61
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141021",
@@ -34566,7 +35790,10 @@
         "grade": "7",
         "count": 47
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141022",
@@ -34661,7 +35888,10 @@
         "grade": "7",
         "count": 78
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141023",
@@ -34751,7 +35981,10 @@
         "grade": "7",
         "count": 94
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141024",
@@ -34841,7 +36074,10 @@
         "grade": "7",
         "count": 49
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141025",
@@ -34931,7 +36167,10 @@
         "grade": "7",
         "count": 28
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141026",
@@ -35021,7 +36260,10 @@
         "grade": "7",
         "count": 32
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141029",
@@ -35111,7 +36353,10 @@
         "grade": "7",
         "count": 56
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141030",
@@ -35201,7 +36446,10 @@
         "grade": "7",
         "count": 27
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141031",
@@ -35279,7 +36527,10 @@
         "grade": "7",
         "count": 14
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141032",
@@ -35374,7 +36625,10 @@
         "grade": "7",
         "count": 33
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141033",
@@ -35464,7 +36718,10 @@
         "grade": "7",
         "count": 67
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141034",
@@ -35554,7 +36811,10 @@
         "grade": "7",
         "count": 38
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141035",
@@ -35644,7 +36904,10 @@
         "grade": "7",
         "count": 45
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141036",
@@ -35726,7 +36989,10 @@
         "grade": "7",
         "count": 15
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141037",
@@ -35825,7 +37091,10 @@
         "grade": "7",
         "count": 127
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141038",
@@ -35915,7 +37184,10 @@
         "grade": "7",
         "count": 85
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141039",
@@ -36005,7 +37277,10 @@
         "grade": "7",
         "count": 54
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141040",
@@ -36095,7 +37370,10 @@
         "grade": "7",
         "count": 45
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141041",
@@ -36185,7 +37463,10 @@
         "grade": "7",
         "count": 30
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141044",
@@ -36275,7 +37556,10 @@
         "grade": "7",
         "count": 18
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141046",
@@ -36370,7 +37654,10 @@
         "grade": "7",
         "count": 62
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141047",
@@ -36460,7 +37747,10 @@
         "grade": "7",
         "count": 58
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141048",
@@ -36555,7 +37845,10 @@
         "grade": "7",
         "count": 71
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141049",
@@ -36645,7 +37938,10 @@
         "grade": "7",
         "count": 32
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141050",
@@ -36735,7 +38031,10 @@
         "grade": "7",
         "count": 47
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141052",
@@ -36825,7 +38124,10 @@
         "grade": "7",
         "count": 44
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141053",
@@ -36920,7 +38222,10 @@
         "grade": "7",
         "count": 37
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141054",
@@ -37010,7 +38315,10 @@
         "grade": "7",
         "count": 32
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141056",
@@ -37100,7 +38408,10 @@
         "grade": "7",
         "count": 25
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141057",
@@ -37190,7 +38501,10 @@
         "grade": "7",
         "count": 55
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141060",
@@ -37280,7 +38594,10 @@
         "grade": "7",
         "count": 40
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141061",
@@ -37370,7 +38687,10 @@
         "grade": "7",
         "count": 27
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141062",
@@ -37453,7 +38773,10 @@
         "grade": "12",
         "count": 383
       }
-    ]
+    ],
+    "gradNumeracy10": 41,
+    "gradLiteracy10": 80,
+    "gradLiteracy12": 87
   },
   {
     "id": "s41-4141063",
@@ -37531,7 +38854,10 @@
         "grade": "12",
         "count": 364
       }
-    ]
+    ],
+    "gradNumeracy10": 59,
+    "gradLiteracy10": 87,
+    "gradLiteracy12": 88
   },
   {
     "id": "s41-4141065",
@@ -37621,7 +38947,10 @@
         "grade": "7",
         "count": 79
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141066",
@@ -37678,7 +39007,10 @@
         "grade": "12",
         "count": 22
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4141068",
@@ -37756,7 +39088,10 @@
         "grade": "12",
         "count": 244
       }
-    ]
+    ],
+    "gradNumeracy10": 29,
+    "gradLiteracy10": 63,
+    "gradLiteracy12": 59
   },
   {
     "id": "s41-4141069",
@@ -37846,7 +39181,10 @@
         "grade": "7",
         "count": 50
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4195036",
@@ -37895,7 +39233,10 @@
         "grade": "9",
         "count": 13
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4195066",
@@ -37931,7 +39272,10 @@
         "count": 44
       }
     ],
-    "enrollmentByGrade": []
+    "enrollmentByGrade": [],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4199145",
@@ -37996,7 +39340,10 @@
         "grade": "12",
         "count": 547
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 93,
+    "gradLiteracy12": 77
   },
   {
     "id": "s41-4199300",
@@ -38048,7 +39395,10 @@
         "count": 14
       }
     ],
-    "enrollmentByGrade": []
+    "enrollmentByGrade": [],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4199301",
@@ -38105,7 +39455,10 @@
         "grade": "12",
         "count": 33
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s41-4199302",
@@ -38157,7 +39510,10 @@
         "count": 14
       }
     ],
-    "enrollmentByGrade": []
+    "enrollmentByGrade": [],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242000",
@@ -38209,7 +39565,10 @@
         "count": 423
       }
     ],
-    "enrollmentByGrade": []
+    "enrollmentByGrade": [],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242001",
@@ -38292,7 +39651,10 @@
         "grade": "12",
         "count": 200
       }
-    ]
+    ],
+    "gradNumeracy10": 48,
+    "gradLiteracy10": 71,
+    "gradLiteracy12": 72
   },
   {
     "id": "s42-4242002",
@@ -38370,7 +39732,10 @@
         "grade": "12",
         "count": 222
       }
-    ]
+    ],
+    "gradNumeracy10": 42,
+    "gradLiteracy10": 72,
+    "gradLiteracy12": 58
   },
   {
     "id": "s42-4242003",
@@ -38453,7 +39818,10 @@
         "grade": "12",
         "count": 185
       }
-    ]
+    ],
+    "gradNumeracy10": 40,
+    "gradLiteracy10": 70,
+    "gradLiteracy12": 87
   },
   {
     "id": "s42-4242004",
@@ -38531,7 +39899,10 @@
         "grade": "12",
         "count": 158
       }
-    ]
+    ],
+    "gradNumeracy10": 36,
+    "gradLiteracy10": 67,
+    "gradLiteracy12": 66
   },
   {
     "id": "s42-4242005",
@@ -38621,7 +39992,10 @@
         "grade": "7",
         "count": 62
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242008",
@@ -38716,7 +40090,10 @@
         "grade": "7",
         "count": 52
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242009",
@@ -38806,7 +40183,10 @@
         "grade": "7",
         "count": 60
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242010",
@@ -38896,7 +40276,10 @@
         "grade": "7",
         "count": 54
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242011",
@@ -38991,7 +40374,10 @@
         "grade": "7",
         "count": 91
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242014",
@@ -39086,7 +40472,10 @@
         "grade": "7",
         "count": 54
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242017",
@@ -39181,7 +40570,10 @@
         "grade": "7",
         "count": 64
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242020",
@@ -39271,7 +40663,10 @@
         "grade": "7",
         "count": 23
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242026",
@@ -39340,7 +40735,10 @@
         "grade": "12",
         "count": 83
       }
-    ]
+    ],
+    "gradNumeracy10": 25,
+    "gradLiteracy10": 55,
+    "gradLiteracy12": 33
   },
   {
     "id": "s42-4242031",
@@ -39430,7 +40828,10 @@
         "grade": "7",
         "count": 45
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242032",
@@ -39525,7 +40926,10 @@
         "grade": "7",
         "count": 72
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242033",
@@ -39615,7 +41019,10 @@
         "grade": "7",
         "count": 49
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242035",
@@ -39705,7 +41112,10 @@
         "grade": "7",
         "count": 66
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242036",
@@ -39795,7 +41205,10 @@
         "grade": "7",
         "count": 65
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242037",
@@ -39885,7 +41298,10 @@
         "grade": "7",
         "count": 85
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242038",
@@ -39963,7 +41379,10 @@
         "grade": "12",
         "count": 219
       }
-    ]
+    ],
+    "gradNumeracy10": 38,
+    "gradLiteracy10": 77,
+    "gradLiteracy12": 80
   },
   {
     "id": "s42-4242039",
@@ -40053,7 +41472,10 @@
         "grade": "7",
         "count": 45
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242040",
@@ -40143,7 +41565,10 @@
         "grade": "7",
         "count": 28
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242041",
@@ -40233,7 +41658,10 @@
         "grade": "7",
         "count": 47
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242042",
@@ -40323,7 +41751,10 @@
         "grade": "7",
         "count": 72
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242043",
@@ -40413,7 +41844,10 @@
         "grade": "7",
         "count": 46
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242045",
@@ -40491,7 +41925,10 @@
         "grade": "12",
         "count": 188
       }
-    ]
+    ],
+    "gradNumeracy10": 51,
+    "gradLiteracy10": 70,
+    "gradLiteracy12": 61
   },
   {
     "id": "s42-4242046",
@@ -40573,7 +42010,10 @@
         "grade": "7",
         "count": 14
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242047",
@@ -40659,7 +42099,10 @@
         "grade": "9",
         "count": 13
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242048",
@@ -40749,7 +42192,10 @@
         "grade": "7",
         "count": 80
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4242052",
@@ -40839,7 +42285,10 @@
         "grade": "7",
         "count": 86
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s42-4299153",
@@ -40896,7 +42345,10 @@
         "grade": "11",
         "count": 27
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 38
   },
   {
     "id": "s42-4299154",
@@ -40957,7 +42409,10 @@
         "grade": "12",
         "count": 142
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343000",
@@ -41009,7 +42464,10 @@
         "count": 1870
       }
     ],
-    "enrollmentByGrade": []
+    "enrollmentByGrade": [],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343002",
@@ -41087,7 +42545,10 @@
         "grade": "5",
         "count": 22
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343004",
@@ -41169,7 +42630,10 @@
         "grade": "5",
         "count": 38
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343005",
@@ -41251,7 +42715,10 @@
         "grade": "5",
         "count": 44
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343006",
@@ -41333,7 +42800,10 @@
         "grade": "5",
         "count": 19
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343009",
@@ -41415,7 +42885,10 @@
         "grade": "5",
         "count": 45
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343010",
@@ -41497,7 +42970,10 @@
         "grade": "5",
         "count": 32
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343011",
@@ -41579,7 +43055,10 @@
         "grade": "5",
         "count": 47
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343012",
@@ -41661,7 +43140,10 @@
         "grade": "5",
         "count": 62
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343013",
@@ -41748,7 +43230,10 @@
         "grade": "5",
         "count": 58
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343017",
@@ -41830,7 +43315,10 @@
         "grade": "5",
         "count": 64
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343018",
@@ -41917,7 +43405,10 @@
         "grade": "5",
         "count": 104
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343019",
@@ -42004,7 +43495,10 @@
         "grade": "5",
         "count": 58
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343020",
@@ -42086,7 +43580,10 @@
         "grade": "5",
         "count": 70
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343021",
@@ -42168,7 +43665,10 @@
         "grade": "5",
         "count": 61
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343022",
@@ -42250,7 +43750,10 @@
         "grade": "5",
         "count": 31
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343023",
@@ -42328,7 +43831,10 @@
         "grade": "5",
         "count": 35
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343024",
@@ -42398,7 +43904,10 @@
         "grade": "8",
         "count": 200
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343027",
@@ -42485,7 +43994,10 @@
         "grade": "5",
         "count": 83
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343028",
@@ -42554,7 +44066,10 @@
         "grade": "5",
         "count": 41
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343029",
@@ -42636,7 +44151,10 @@
         "grade": "5",
         "count": 63
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343030",
@@ -42706,7 +44224,10 @@
         "grade": "12",
         "count": 19
       }
-    ]
+    ],
+    "gradNumeracy10": 67,
+    "gradLiteracy10": 78,
+    "gradLiteracy12": 100
   },
   {
     "id": "s43-4343031",
@@ -42793,7 +44314,10 @@
         "grade": "5",
         "count": 51
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343033",
@@ -42875,7 +44399,10 @@
         "grade": "5",
         "count": 97
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343034",
@@ -42957,7 +44484,10 @@
         "grade": "5",
         "count": 68
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343036",
@@ -43044,7 +44574,10 @@
         "grade": "5",
         "count": 48
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343037",
@@ -43126,7 +44659,10 @@
         "grade": "5",
         "count": 44
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343038",
@@ -43208,7 +44744,10 @@
         "grade": "5",
         "count": 53
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343043",
@@ -43290,7 +44829,10 @@
         "grade": "5",
         "count": 58
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343044",
@@ -43372,7 +44914,10 @@
         "grade": "5",
         "count": 27
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343045",
@@ -43454,7 +44999,10 @@
         "grade": "5",
         "count": 39
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343046",
@@ -43536,7 +45084,10 @@
         "grade": "5",
         "count": 45
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343047",
@@ -43623,7 +45174,10 @@
         "grade": "5",
         "count": 79
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343048",
@@ -43710,7 +45264,10 @@
         "grade": "5",
         "count": 65
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343049",
@@ -43792,7 +45349,10 @@
         "grade": "5",
         "count": 41
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343050",
@@ -43874,7 +45434,10 @@
         "grade": "5",
         "count": 52
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343051",
@@ -43952,7 +45515,10 @@
         "grade": "5",
         "count": 33
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343053",
@@ -44039,7 +45605,10 @@
         "grade": "5",
         "count": 50
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343054",
@@ -44121,7 +45690,10 @@
         "grade": "5",
         "count": 35
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343055",
@@ -44208,7 +45780,10 @@
         "grade": "5",
         "count": 54
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343056",
@@ -44290,7 +45865,10 @@
         "grade": "5",
         "count": 46
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343057",
@@ -44372,7 +45950,10 @@
         "grade": "5",
         "count": 36
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343058",
@@ -44454,7 +46035,10 @@
         "grade": "5",
         "count": 32
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343059",
@@ -44536,7 +46120,10 @@
         "grade": "5",
         "count": 92
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343060",
@@ -44593,7 +46180,10 @@
         "grade": "12",
         "count": 80
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 38
   },
   {
     "id": "s43-4343069",
@@ -44675,7 +46265,10 @@
         "grade": "5",
         "count": 90
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343070",
@@ -44762,7 +46355,10 @@
         "grade": "5",
         "count": 69
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343071",
@@ -44844,7 +46440,10 @@
         "grade": "5",
         "count": 95
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343072",
@@ -44926,7 +46525,10 @@
         "grade": "5",
         "count": 42
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343073",
@@ -45008,7 +46610,10 @@
         "grade": "5",
         "count": 49
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343074",
@@ -45090,7 +46695,10 @@
         "grade": "5",
         "count": 69
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343076",
@@ -45164,7 +46772,10 @@
         "grade": "12",
         "count": 413
       }
-    ]
+    ],
+    "gradNumeracy10": 39,
+    "gradLiteracy10": 60,
+    "gradLiteracy12": 71
   },
   {
     "id": "s43-4343078",
@@ -45234,7 +46845,10 @@
         "grade": "8",
         "count": 87
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343080",
@@ -45313,7 +46927,10 @@
         "grade": "12",
         "count": 452
       }
-    ]
+    ],
+    "gradNumeracy10": 74,
+    "gradLiteracy10": 92,
+    "gradLiteracy12": 95
   },
   {
     "id": "s43-4343081",
@@ -45388,7 +47005,10 @@
         "grade": "8",
         "count": 130
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343082",
@@ -45463,7 +47083,10 @@
         "grade": "8",
         "count": 164
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343084",
@@ -45542,7 +47165,10 @@
         "grade": "8",
         "count": 163
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343086",
@@ -45621,7 +47247,10 @@
         "grade": "8",
         "count": 130
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343088",
@@ -45691,7 +47320,10 @@
         "grade": "12",
         "count": 336
       }
-    ]
+    ],
+    "gradNumeracy10": 45,
+    "gradLiteracy10": 83,
+    "gradLiteracy12": 89
   },
   {
     "id": "s43-4343090",
@@ -45761,7 +47393,10 @@
         "grade": "8",
         "count": 284
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343091",
@@ -45836,7 +47471,10 @@
         "grade": "8",
         "count": 213
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343093",
@@ -45911,7 +47549,10 @@
         "grade": "8",
         "count": 185
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343102",
@@ -45990,7 +47631,10 @@
         "grade": "8",
         "count": 135
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343108",
@@ -46065,7 +47709,10 @@
         "grade": "8",
         "count": 233
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343110",
@@ -46135,7 +47782,10 @@
         "grade": "8",
         "count": 188
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343113",
@@ -46205,7 +47855,10 @@
         "grade": "8",
         "count": 216
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343114",
@@ -46275,7 +47928,10 @@
         "grade": "8",
         "count": 250
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4343125",
@@ -46349,7 +48005,10 @@
         "grade": "12",
         "count": 337
       }
-    ]
+    ],
+    "gradNumeracy10": 61,
+    "gradLiteracy10": 79,
+    "gradLiteracy12": 87
   },
   {
     "id": "s43-4343127",
@@ -46423,7 +48082,10 @@
         "grade": "12",
         "count": 378
       }
-    ]
+    ],
+    "gradNumeracy10": 48,
+    "gradLiteracy10": 87,
+    "gradLiteracy12": 88
   },
   {
     "id": "s43-4343130",
@@ -46497,7 +48159,10 @@
         "grade": "12",
         "count": 432
       }
-    ]
+    ],
+    "gradNumeracy10": 59,
+    "gradLiteracy10": 80,
+    "gradLiteracy12": 83
   },
   {
     "id": "s43-4343132",
@@ -46576,7 +48241,10 @@
         "grade": "12",
         "count": 342
       }
-    ]
+    ],
+    "gradNumeracy10": 47,
+    "gradLiteracy10": 80,
+    "gradLiteracy12": 87
   },
   {
     "id": "s43-4343136",
@@ -46650,7 +48318,10 @@
         "grade": "12",
         "count": 415
       }
-    ]
+    ],
+    "gradNumeracy10": 42,
+    "gradLiteracy10": 75,
+    "gradLiteracy12": 64
   },
   {
     "id": "s43-4399143",
@@ -46715,7 +48386,10 @@
         "grade": "12",
         "count": 269
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 69
   },
   {
     "id": "s43-4399179",
@@ -46780,7 +48454,10 @@
         "grade": "12",
         "count": 32
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4399211",
@@ -46862,7 +48539,10 @@
         "grade": "7",
         "count": 12
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s43-4399220",
@@ -46927,7 +48607,10 @@
         "grade": "12",
         "count": 42
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 65,
+    "gradLiteracy12": 71
   },
   {
     "id": "s43-4399226",
@@ -46984,7 +48667,10 @@
         "grade": "10",
         "count": 12
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444001",
@@ -47074,7 +48760,10 @@
         "grade": "7",
         "count": 46
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444003",
@@ -47164,7 +48853,10 @@
         "grade": "7",
         "count": 92
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444005",
@@ -47254,7 +48946,10 @@
         "grade": "7",
         "count": 58
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444008",
@@ -47344,7 +49039,10 @@
         "grade": "7",
         "count": 49
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444009",
@@ -47434,7 +49132,10 @@
         "grade": "7",
         "count": 40
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444011",
@@ -47524,7 +49225,10 @@
         "grade": "7",
         "count": 50
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444012",
@@ -47602,7 +49306,10 @@
         "grade": "12",
         "count": 240
       }
-    ]
+    ],
+    "gradNumeracy10": 40,
+    "gradLiteracy10": 72,
+    "gradLiteracy12": 75
   },
   {
     "id": "s44-4444013",
@@ -47692,7 +49399,10 @@
         "grade": "7",
         "count": 12
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444014",
@@ -47782,7 +49492,10 @@
         "grade": "7",
         "count": 49
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444016",
@@ -47872,7 +49585,10 @@
         "grade": "7",
         "count": 35
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444017",
@@ -47962,7 +49678,10 @@
         "grade": "7",
         "count": 41
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444019",
@@ -48052,7 +49771,10 @@
         "grade": "7",
         "count": 40
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444021",
@@ -48142,7 +49864,10 @@
         "grade": "7",
         "count": 69
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444022",
@@ -48225,7 +49950,10 @@
         "grade": "12",
         "count": 311
       }
-    ]
+    ],
+    "gradNumeracy10": 64,
+    "gradLiteracy10": 92,
+    "gradLiteracy12": 92
   },
   {
     "id": "s44-4444023",
@@ -48315,7 +50043,10 @@
         "grade": "7",
         "count": 35
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444024",
@@ -48414,7 +50145,10 @@
         "grade": "7",
         "count": 73
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444025",
@@ -48497,7 +50231,10 @@
         "grade": "12",
         "count": 333
       }
-    ]
+    ],
+    "gradNumeracy10": 53,
+    "gradLiteracy10": 93,
+    "gradLiteracy12": 95
   },
   {
     "id": "s44-4444026",
@@ -48572,7 +50309,10 @@
         "grade": "12",
         "count": 213
       }
-    ]
+    ],
+    "gradNumeracy10": 50,
+    "gradLiteracy10": 78,
+    "gradLiteracy12": 84
   },
   {
     "id": "s44-4444027",
@@ -48667,7 +50407,10 @@
         "grade": "7",
         "count": 69
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444029",
@@ -48762,7 +50505,10 @@
         "grade": "7",
         "count": 61
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444031",
@@ -48852,7 +50598,10 @@
         "grade": "7",
         "count": 39
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444032",
@@ -48947,7 +50696,10 @@
         "grade": "7",
         "count": 58
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444034",
@@ -49042,7 +50794,10 @@
         "grade": "7",
         "count": 77
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444036",
@@ -49120,7 +50875,10 @@
         "grade": "12",
         "count": 321
       }
-    ]
+    ],
+    "gradNumeracy10": 38,
+    "gradLiteracy10": 73,
+    "gradLiteracy12": 76
   },
   {
     "id": "s44-4444037",
@@ -49210,7 +50968,10 @@
         "grade": "7",
         "count": 58
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444041",
@@ -49296,7 +51057,10 @@
         "grade": "7",
         "count": 41
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444043",
@@ -49391,7 +51155,10 @@
         "grade": "7",
         "count": 51
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444046",
@@ -49481,7 +51248,10 @@
         "grade": "7",
         "count": 22
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444047",
@@ -49551,7 +51321,10 @@
         "grade": "12",
         "count": 137
       }
-    ]
+    ],
+    "gradNumeracy10": 58,
+    "gradLiteracy10": 92,
+    "gradLiteracy12": 98
   },
   {
     "id": "s44-4444048",
@@ -49646,7 +51419,10 @@
         "grade": "7",
         "count": 59
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4444049",
@@ -49736,7 +51512,10 @@
         "grade": "7",
         "count": 38
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4499176",
@@ -49806,7 +51585,10 @@
         "grade": "12",
         "count": 301
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s44-4499191",
@@ -49855,7 +51637,10 @@
         "grade": "11",
         "count": 62
       }
-    ]
+    ],
+    "gradNumeracy10": 58,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 57
   },
   {
     "id": "s45-4545010",
@@ -49938,7 +51723,10 @@
         "grade": "12",
         "count": 247
       }
-    ]
+    ],
+    "gradNumeracy10": 80,
+    "gradLiteracy10": 94,
+    "gradLiteracy12": 97
   },
   {
     "id": "s45-4545015",
@@ -50016,7 +51804,10 @@
         "grade": "12",
         "count": 266
       }
-    ]
+    ],
+    "gradNumeracy10": 74,
+    "gradLiteracy10": 89,
+    "gradLiteracy12": 90
   },
   {
     "id": "s45-4545019",
@@ -50102,7 +51893,10 @@
         "grade": "7",
         "count": 37
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s45-4545020",
@@ -50192,7 +51986,10 @@
         "grade": "7",
         "count": 59
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s45-4545025",
@@ -50283,7 +52080,10 @@
         "grade": "7",
         "count": 40
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s45-4545030",
@@ -50373,7 +52173,10 @@
         "grade": "7",
         "count": 60
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s45-4545035",
@@ -50442,7 +52245,10 @@
         "grade": "3",
         "count": 14
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s45-4545040",
@@ -50504,7 +52310,10 @@
         "grade": "4",
         "count": 12
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s45-4545045",
@@ -50594,7 +52403,10 @@
         "grade": "7",
         "count": 38
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s45-4545055",
@@ -50684,7 +52496,10 @@
         "grade": "7",
         "count": 36
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s45-4545060",
@@ -50774,7 +52589,10 @@
         "grade": "7",
         "count": 54
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s45-4545062",
@@ -50822,7 +52640,10 @@
         "count": 27
       }
     ],
-    "enrollmentByGrade": []
+    "enrollmentByGrade": [],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s45-4545065",
@@ -50917,7 +52738,10 @@
         "grade": "7",
         "count": 67
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s45-4545070",
@@ -51007,7 +52831,10 @@
         "grade": "7",
         "count": 63
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s45-4545075",
@@ -51097,7 +52924,10 @@
         "grade": "7",
         "count": 57
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s45-4545080",
@@ -51187,7 +53017,10 @@
         "grade": "7",
         "count": 60
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   },
   {
     "id": "s45-4545081",
@@ -51257,7 +53090,10 @@
         "grade": "12",
         "count": 160
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 91
   },
   {
     "id": "s45-4599309",
@@ -51314,6 +53150,9 @@
         "grade": "12",
         "count": 16
       }
-    ]
+    ],
+    "gradNumeracy10": 0,
+    "gradLiteracy10": 0,
+    "gradLiteracy12": 0
   }
 ]

@@ -34,6 +34,9 @@ interface RawSchoolRecord {
   tags: string[];
   historicalEnrollment: { year: string; count: number }[];
   enrollmentByGrade: { grade: string; count: number }[];
+  gradNumeracy10: number;
+  gradLiteracy10: number;
+  gradLiteracy12: number;
 }
 
 // Map raw JSON to School type
@@ -62,6 +65,9 @@ const GVA_SCHOOLS: School[] = (rawData as RawSchoolRecord[]).map((r) => ({
   tags: r.tags,
   historicalEnrollment: r.historicalEnrollment,
   enrollmentByGrade: r.enrollmentByGrade,
+  gradNumeracy10: r.gradNumeracy10 || undefined,
+  gradLiteracy10: r.gradLiteracy10 || undefined,
+  gradLiteracy12: r.gradLiteracy12 || undefined,
 }));
 
 export function getAllSchools(): School[] {

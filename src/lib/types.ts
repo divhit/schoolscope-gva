@@ -15,7 +15,7 @@ export interface School {
   availableSeats?: number;
   gradeRange: string; // e.g. "K-7", "8-12", "K-12"
 
-  // Academics
+  // Academics (FSA - Grades 4 & 7)
   fsaReading?: number;
   fsaWriting?: number;
   fsaNumeracy?: number;
@@ -23,6 +23,11 @@ export interface School {
   fsaOverall?: number;
   rating?: number;
   classSize?: number;
+
+  // Graduation Assessments (Grades 10 & 12) - % proficient+extending
+  gradNumeracy10?: number;
+  gradLiteracy10?: number;
+  gradLiteracy12?: number;
 
   // Facility
   fciScore?: number; // 0.0 (new) to 1.0 (needs replacement)

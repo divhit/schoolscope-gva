@@ -309,6 +309,59 @@ async function main() {
   }
   console.log(`FSA data for ${fsaMap.size} districts`);
 
+  // 6. Fetch Graduation Assessments (Literacy 10, Numeracy 10, Literacy 12)
+  const gradRaw = await fetchCSV(
+    "https://catalogue.data.gov.bc.ca/dataset/1f27036d-51eb-4730-bc20-b1869da41cf6/resource/d7e0a26f-caa9-4641-93fa-a6cf780b56db/download/graduation_assessment_2017-18_to_2024-25_proficiency_result.csv",
+    "Graduation Assessments"
+  );
+
+  interface GradAssessment {
+    literacy10: number; // % proficient+extending
+    numeracy10: number;
+    literacy12: number;
+    score: number; // raw score for percentile calc
+  }
+
+  const gradMap = new Map<string, GradAssessment>();
+  // Collect all scores for percentile calculation
+  const allScores: { sn: string; assessment: string; score: number }[] = [];
+
+  for (const r of gradRaw) {
+    if (r.DATA_LEVEL?.toLowerCase() !== "school level") continue;
+    if (r.SUB_POPULATION !== "All Students") continue;
+    const dn = parseInt(r.DISTRICT_NUMBER);
+    if (!CORE_GVA.includes(dn)) continue;
+
+    const sn = r.SCHOOL_NUMBER;
+    const writers = parseInt(r.NUMBER_WRITERS) || 0;
+    const proficient = parseInt(r.NUMBER_PROFICIENT) || 0;
+    const extending = parseInt(r.NUMBER_EXTENDING) || 0;
+    const score = parseInt(r.SCORE) || 0;
+
+    if (writers === 0) continue;
+    const pctProficient = ((proficient + extending) / writers) * 100;
+
+    if (!gradMap.has(sn)) {
+      gradMap.set(sn, { literacy10: 0, numeracy10: 0, literacy12: 0, score: 0 });
+    }
+    const entry = gradMap.get(sn)!;
+    const assessment = r.GRADUATION_ASSESSMENT;
+
+    // Use most recent data
+    if (assessment?.includes("Numeracy") && assessment?.includes("10")) {
+      entry.numeracy10 = Math.max(entry.numeracy10, pctProficient);
+      allScores.push({ sn, assessment: "num10", score });
+    } else if (assessment?.includes("Literacy") && assessment?.includes("10")) {
+      entry.literacy10 = Math.max(entry.literacy10, pctProficient);
+      allScores.push({ sn, assessment: "lit10", score });
+    } else if (assessment?.includes("Literacy") && assessment?.includes("12")) {
+      entry.literacy12 = Math.max(entry.literacy12, pctProficient);
+      allScores.push({ sn, assessment: "lit12", score });
+    }
+    entry.score = score;
+  }
+  console.log(`Graduation assessment data for ${gradMap.size} schools`);
+
   // === BUILD SCHOOL RECORDS ===
   console.log("\n=== Building school records ===");
 
@@ -333,6 +386,9 @@ async function main() {
     tags: string[];
     historicalEnrollment: { year: string; count: number }[];
     enrollmentByGrade: { grade: string; count: number }[];
+    gradNumeracy10: number;
+    gradLiteracy10: number;
+    gradLiteracy12: number;
   }
 
   const schools: SchoolRecord[] = [];
@@ -348,6 +404,7 @@ async function main() {
     const enrollment = enrollMap.get(sn) ?? enrollMap.get(snPadded);
     const classSize = classSizeMap.get(sn) ?? classSizeMap.get(snPadded);
     const fsa = fsaMap.get(sn) ?? fsaMap.get(snPadded) ?? fsaMap.get(`d${raw.districtNumber}`);
+    const grad = gradMap.get(sn) ?? gradMap.get(snPadded);
 
     // Determine category
     let category = "Elementary";
@@ -441,6 +498,9 @@ async function main() {
       tags,
       historicalEnrollment: histEnroll,
       enrollmentByGrade: gradeEnroll,
+      gradNumeracy10: Math.round(grad?.numeracy10 || 0),
+      gradLiteracy10: Math.round(grad?.literacy10 || 0),
+      gradLiteracy12: Math.round(grad?.literacy12 || 0),
     });
   }
 
@@ -467,6 +527,8 @@ async function main() {
   console.log(`With class size:       ${withClassSize}/${schools.length}`);
   console.log(`With historical data:  ${withHistorical}/${schools.length}`);
   console.log(`With grade breakdown:  ${withGradeBreakdown}/${schools.length}`);
+  const withGrad = schools.filter((s) => s.gradNumeracy10 > 0 || s.gradLiteracy10 > 0).length;
+  console.log(`With grad assessments: ${withGrad}/${schools.length}`);
 }
 
 main().catch(console.error);
