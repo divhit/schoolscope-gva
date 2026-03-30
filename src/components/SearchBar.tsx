@@ -10,14 +10,14 @@ interface SearchBarProps {
 }
 
 const SUGGESTIONS = [
-  "Best elementary schools near Kitsilano",
-  "French immersion schools in Vancouver",
-  "Top-rated private schools on the North Shore",
-  "IB program secondary schools near transit",
-  "Small class sizes in West Vancouver",
-  "High-performing public schools in Kerrisdale",
-  "Arts-focused schools for creative kids",
-  "Schools with strong academics near UBC",
+  "Elementary schools in Kitsilano",
+  "French Immersion schools in Vancouver",
+  "IB program schools in Vancouver",
+  "Schools with available seats in Burnaby",
+  "High-performing elementary schools in Kerrisdale",
+  "Secondary schools in North Vancouver",
+  "Schools near Commercial Drive",
+  "Public schools in Richmond with small class sizes",
 ];
 
 export function SearchBar({ onSearch, isSearching, accentColor }: SearchBarProps) {

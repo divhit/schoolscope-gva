@@ -405,6 +405,20 @@ async function main() {
     } catch { console.log("Could not parse neighborhood data"); }
   }
 
+  // 9. Load supplementary program data (IB, AP, Mini Schools, etc.)
+  interface ProgSupplement { match: string; programs: { name: string; description: string }[] }
+  const supplementaryPrograms: ProgSupplement[] = [];
+  const progPath = "scripts/programs-supplement.json";
+  if (existsSync(progPath)) {
+    const progData = JSON.parse(readFileSync(progPath, "utf-8"));
+    for (const category of Object.values(progData) as { schools?: ProgSupplement[] }[]) {
+      if (category.schools) {
+        supplementaryPrograms.push(...category.schools);
+      }
+    }
+    console.log(`Supplementary programs: ${supplementaryPrograms.length} entries`);
+  }
+
   // === BUILD SCHOOL RECORDS ===
   console.log("\n=== Building school records ===");
 
@@ -500,10 +514,26 @@ async function main() {
     if (raw.hasLateFrenchImmersion) programs.push({ name: "Late French Immersion", description: "French immersion starting in Grade 6" });
     if (raw.hasFrancophone) programs.push({ name: "Programme Francophone", description: "French-first language program (CSF)" });
 
+    // Merge supplementary programs (IB, AP, Mini Schools, etc.)
+    for (const supp of supplementaryPrograms) {
+      if (raw.name.toLowerCase().includes(supp.match.toLowerCase())) {
+        for (const prog of supp.programs) {
+          if (!programs.some((p) => p.name === prog.name)) {
+            programs.push(prog);
+          }
+        }
+      }
+    }
+
     // Tags
     const tags: string[] = [];
     if (raw.publicOrIndependent === "INDEPENDENT") tags.push("independent");
     if (raw.hasEarlyFrenchImmersion || raw.hasLateFrenchImmersion) tags.push("french-immersion");
+    if (programs.some((p) => p.name.includes("IB"))) tags.push("IB");
+    if (programs.some((p) => p.name.includes("Advanced Placement"))) tags.push("AP");
+    if (programs.some((p) => p.name.includes("Mini School"))) tags.push("mini-school");
+    if (programs.some((p) => p.name.includes("Montessori"))) tags.push("montessori");
+    if (programs.some((p) => p.name.includes("Indigenous"))) tags.push("indigenous-focus");
     tags.push(raw.city.toLowerCase().replace(/\s+/g, "-"));
 
     // Historical enrollment

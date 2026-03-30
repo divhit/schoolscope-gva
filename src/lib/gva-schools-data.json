@@ -7021,9 +7021,14 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "IB Diploma Programme",
+        "description": "International Baccalaureate diploma"
       }
     ],
     "tags": [
+      "IB",
       "surrey"
     ],
     "historicalEnrollment": [
@@ -15217,9 +15222,14 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Indigenous Focus",
+        "description": "Indigenous perspectives integrated into curriculum"
       }
     ],
     "tags": [
+      "indigenous-focus",
       "surrey"
     ],
     "historicalEnrollment": [
@@ -22990,9 +23000,14 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB diploma for Grades 11-12"
       }
     ],
     "tags": [
+      "IB",
       "richmond"
     ],
     "historicalEnrollment": [
@@ -23861,9 +23876,14 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB diploma for Grades 11-12"
       }
     ],
     "tags": [
+      "IB",
       "richmond"
     ],
     "historicalEnrollment": [
@@ -25542,9 +25562,14 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB diploma for Grades 11-12"
       }
     ],
     "tags": [
+      "IB",
       "richmond"
     ],
     "historicalEnrollment": [
@@ -25865,9 +25890,19 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses available"
+      },
+      {
+        "name": "Magee Mini School",
+        "description": "Enriched academic program"
       }
     ],
     "tags": [
+      "AP",
+      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -25954,9 +25989,19 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "IB Middle Years Programme",
+        "description": "IB MYP framework for Grades 8-10"
+      },
+      {
+        "name": "Venture Mini School",
+        "description": "Enriched academic program with selective admission"
       }
     ],
     "tags": [
+      "IB",
+      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -26047,10 +26092,20 @@
       {
         "name": "Early French Immersion",
         "description": "Full French immersion starting in Kindergarten"
+      },
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses available"
+      },
+      {
+        "name": "SOLE Mini School",
+        "description": "Social justice and outdoor leadership enrichment"
       }
     ],
     "tags": [
       "french-immersion",
+      "AP",
+      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -26137,9 +26192,19 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses available"
+      },
+      {
+        "name": "Digital Immersion Mini School",
+        "description": "Technology-enhanced learning with experiential education"
       }
     ],
     "tags": [
+      "AP",
+      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -26226,9 +26291,18 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses available"
+      },
+      {
+        "name": "TREK Outdoor Education",
+        "description": "Outdoor and experiential education program with field studies"
       }
     ],
     "tags": [
+      "AP",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -26315,9 +26389,14 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Templeton Mini School",
+        "description": "Enriched academic program"
       }
     ],
     "tags": [
+      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -26498,9 +26577,19 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses available"
+      },
+      {
+        "name": "Mini School",
+        "description": "Enriched academic program with selective admission"
       }
     ],
     "tags": [
+      "AP",
+      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -26587,9 +26676,14 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Gladstone Mini School",
+        "description": "Enriched academic program with arts integration"
       }
     ],
     "tags": [
+      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -26680,10 +26774,25 @@
       {
         "name": "Early French Immersion",
         "description": "Full French immersion starting in Kindergarten"
+      },
+      {
+        "name": "IB Diploma Programme",
+        "description": "Full International Baccalaureate diploma program for Grades 11-12"
+      },
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses in multiple subjects"
+      },
+      {
+        "name": "Churchill IDEAL Mini School",
+        "description": "Enriched academic program"
       }
     ],
     "tags": [
       "french-immersion",
+      "IB",
+      "AP",
+      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -26770,9 +26879,19 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "IB Middle Years Programme",
+        "description": "IB MYP for Grades 8-10"
+      },
+      {
+        "name": "Killarney CS Mini School",
+        "description": "Community service focused enriched program"
       }
     ],
     "tags": [
+      "IB",
+      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -26859,9 +26978,14 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Tupper Mini School",
+        "description": "Enriched academic program"
       }
     ],
     "tags": [
+      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -26948,9 +27072,14 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Odyssey Mini School",
+        "description": "Enriched academic program with arts focus"
       }
     ],
     "tags": [
+      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -27037,9 +27166,19 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses available"
+      },
+      {
+        "name": "Mini School",
+        "description": "Enriched academic program"
       }
     ],
     "tags": [
+      "AP",
+      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -27215,9 +27354,14 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Hamber Mini School",
+        "description": "Enriched academic program"
       }
     ],
     "tags": [
+      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -27304,9 +27448,19 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses available"
+      },
+      {
+        "name": "UHill Mini School",
+        "description": "Enriched academic program"
       }
     ],
     "tags": [
+      "AP",
+      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -27701,9 +27855,14 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Indigenous Focus",
+        "description": "Integrates Indigenous perspectives and content into curriculum and school culture"
       }
     ],
     "tags": [
+      "indigenous-focus",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -28309,9 +28468,14 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Montessori Program",
+        "description": "Public Montessori education within VSB"
       }
     ],
     "tags": [
+      "montessori",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -31682,9 +31846,14 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Indigenous Focus",
+        "description": "Indigenous perspectives integrated into curriculum"
       }
     ],
     "tags": [
+      "indigenous-focus",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -35901,9 +36070,14 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "IB Primary Years Programme",
+        "description": "IB PYP inquiry-based learning framework for K-7"
       }
     ],
     "tags": [
+      "IB",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -36673,10 +36847,15 @@
       {
         "name": "Early French Immersion",
         "description": "Full French immersion starting in Kindergarten"
+      },
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB diploma program"
       }
     ],
     "tags": [
       "french-immersion",
+      "IB",
       "new-westminster"
     ],
     "historicalEnrollment": [
@@ -37892,9 +38071,14 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses available"
       }
     ],
     "tags": [
+      "AP",
       "burnaby"
     ],
     "historicalEnrollment": [
@@ -38274,10 +38458,15 @@
       {
         "name": "Early French Immersion",
         "description": "Full French immersion starting in Kindergarten"
+      },
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses available"
       }
     ],
     "tags": [
       "french-immersion",
+      "AP",
       "burnaby"
     ],
     "historicalEnrollment": [
@@ -51620,9 +51809,14 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB diploma for Grades 11-12"
       }
     ],
     "tags": [
+      "IB",
       "port-moody"
     ],
     "historicalEnrollment": [
@@ -52373,9 +52567,14 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB diploma for Grades 11-12"
       }
     ],
     "tags": [
+      "IB",
       "coquitlam"
     ],
     "historicalEnrollment": [
@@ -54802,10 +55001,15 @@
       {
         "name": "Early French Immersion",
         "description": "Full French immersion starting in Kindergarten"
+      },
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses in multiple subjects"
       }
     ],
     "tags": [
       "french-immersion",
+      "AP",
       "north-vancouver"
     ],
     "historicalEnrollment": [
@@ -55503,9 +55707,14 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "IB Diploma Programme",
+        "description": "Full International Baccalaureate diploma for Grades 11-12"
       }
     ],
     "tags": [
+      "IB",
       "north-vancouver"
     ],
     "historicalEnrollment": [
@@ -56430,10 +56639,20 @@
       {
         "name": "Early French Immersion",
         "description": "Full French immersion starting in Kindergarten"
+      },
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB diploma for Grades 11-12"
+      },
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses in multiple subjects"
       }
     ],
     "tags": [
       "french-immersion",
+      "IB",
+      "AP",
       "west-vancouver"
     ],
     "historicalEnrollment": [
@@ -56520,9 +56739,14 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB diploma for Grades 11-12"
       }
     ],
     "tags": [
+      "IB",
       "west-vancouver"
     ],
     "historicalEnrollment": [
@@ -57934,9 +58158,14 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "IB Middle Years Programme",
+        "description": "IB MYP for Grades 8-10"
       }
     ],
     "tags": [
+      "IB",
       "west-vancouver"
     ],
     "historicalEnrollment": [

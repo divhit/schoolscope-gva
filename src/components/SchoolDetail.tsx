@@ -159,7 +159,7 @@ export function SchoolDetail({ school, analysis, photoUri, onClose }: SchoolDeta
                     </div>
                     <div className="flex-1">
                       <p className="text-sm text-white font-medium">Match Score</p>
-                      <p className="text-xs text-text-secondary mt-0.5 line-clamp-2">{analysis.summary}</p>
+                      <p className="text-xs text-text-secondary mt-0.5 leading-relaxed">{analysis.summary}</p>
                     </div>
                   </div>
                 )}
