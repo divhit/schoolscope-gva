@@ -19,6 +19,7 @@ export interface School {
   fsaReading?: number;
   fsaWriting?: number;
   fsaNumeracy?: number;
+  fsaLiteracy?: number;
   fsaOverall?: number;
   rating?: number;
   classSize?: number;

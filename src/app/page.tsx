@@ -276,12 +276,12 @@ export default function Home() {
 
                   <div className="flex flex-wrap justify-center gap-2 mb-10">
                     {[
-                      "60+ Schools",
-                      "BC FSA Data",
+                      "600+ Schools",
+                      "BC Gov Data",
                       "AI Analysis",
                       "Google Maps",
-                      "Transit Scores",
-                      "10 Districts",
+                      "Real Enrollment",
+                      "11 Districts",
                     ].map((tag) => (
                       <span
                         key={tag}
