@@ -12,7 +12,7 @@
  * Run: npx tsx scripts/fetch-school-data.ts
  */
 
-import { writeFileSync } from "fs";
+import { writeFileSync, readFileSync, existsSync } from "fs";
 
 // GVA district numbers
 const GVA_DISTRICTS = [33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45];
@@ -362,6 +362,49 @@ async function main() {
   }
   console.log(`Graduation assessment data for ${gradMap.size} schools`);
 
+  // 7. Load VSB Facility Data (FCI, seismic, capacity - from PDF extraction)
+  interface FacilityRecord {
+    name: string;
+    capacity: number;
+    enrollment: number;
+    fci: number;
+    fciRate: string;
+    seismicRisk: string;
+    smpStatus: string;
+  }
+  let facilityMap = new Map<string, FacilityRecord>();
+  const facilityPath = "scripts/vsb-facility-data.json";
+  if (existsSync(facilityPath)) {
+    const facilityData: FacilityRecord[] = JSON.parse(readFileSync(facilityPath, "utf-8"));
+    for (const f of facilityData) {
+      // Normalize name for fuzzy matching
+      const key = f.name.toLowerCase()
+        .replace(/elementary|secondary|community|annex|school/gi, "")
+        .replace(/\s+/g, " ").trim();
+      facilityMap.set(key, f);
+      // Also store by full name
+      facilityMap.set(f.name.toLowerCase().trim(), f);
+    }
+    console.log(`Facility data loaded: ${facilityData.length} schools`);
+  }
+
+  // 8. Load Vancouver neighborhood data (from Open Data)
+  let neighborhoodMap = new Map<string, string>();
+  const neighborhoodPath = "scripts/vancouver-catchments.json";
+  if (existsSync(neighborhoodPath)) {
+    try {
+      const nData = JSON.parse(readFileSync(neighborhoodPath, "utf-8"));
+      const features = nData.features ?? nData;
+      for (const f of features) {
+        const props = f.properties ?? f;
+        const name = (props.school_name ?? "").toLowerCase().trim();
+        const area = props.geo_local_area ?? "";
+        if (name && area) neighborhoodMap.set(name, area);
+      }
+      console.log(`Neighborhood data: ${neighborhoodMap.size} schools`);
+    } catch { console.log("Could not parse neighborhood data"); }
+  }
+
   // === BUILD SCHOOL RECORDS ===
   console.log("\n=== Building school records ===");
 
@@ -389,6 +432,14 @@ async function main() {
     gradNumeracy10: number;
     gradLiteracy10: number;
     gradLiteracy12: number;
+    capacity: number;
+    utilizationRate: number;
+    availableSeats: number;
+    fci: number;
+    fciRate: string;
+    seismicRisk: string;
+    smpStatus: string;
+    neighborhood: string;
   }
 
   const schools: SchoolRecord[] = [];
@@ -405,6 +456,15 @@ async function main() {
     const classSize = classSizeMap.get(sn) ?? classSizeMap.get(snPadded);
     const fsa = fsaMap.get(sn) ?? fsaMap.get(snPadded) ?? fsaMap.get(`d${raw.districtNumber}`);
     const grad = gradMap.get(sn) ?? gradMap.get(snPadded);
+
+    // Facility data lookup (fuzzy match by name)
+    const nameKey = raw.name.toLowerCase()
+      .replace(/elementary|secondary|community|annex|school/gi, "")
+      .replace(/\s+/g, " ").trim();
+    const facility = facilityMap.get(nameKey) ?? facilityMap.get(raw.name.toLowerCase().trim());
+
+    // Neighborhood lookup
+    const neighborhood = neighborhoodMap.get(raw.name.toLowerCase().trim()) ?? "";
 
     // Determine category
     let category = "Elementary";
@@ -501,6 +561,14 @@ async function main() {
       gradNumeracy10: Math.round(grad?.numeracy10 || 0),
       gradLiteracy10: Math.round(grad?.literacy10 || 0),
       gradLiteracy12: Math.round(grad?.literacy12 || 0),
+      capacity: facility?.capacity || 0,
+      utilizationRate: facility?.capacity ? Math.round((totalEnroll / facility.capacity) * 100) : 0,
+      availableSeats: facility?.capacity ? Math.max(0, facility.capacity - totalEnroll) : 0,
+      fci: facility?.fci ?? 0,
+      fciRate: facility?.fciRate ?? "",
+      seismicRisk: facility?.seismicRisk ?? "",
+      smpStatus: facility?.smpStatus ?? "",
+      neighborhood,
     });
   }
 
@@ -529,6 +597,12 @@ async function main() {
   console.log(`With grade breakdown:  ${withGradeBreakdown}/${schools.length}`);
   const withGrad = schools.filter((s) => s.gradNumeracy10 > 0 || s.gradLiteracy10 > 0).length;
   console.log(`With grad assessments: ${withGrad}/${schools.length}`);
+  const withFCI = schools.filter((s) => s.fci > 0).length;
+  console.log(`With FCI score:        ${withFCI}/${schools.length}`);
+  const withCapacity = schools.filter((s) => s.capacity > 0).length;
+  console.log(`With real capacity:    ${withCapacity}/${schools.length}`);
+  const withNeighborhood = schools.filter((s) => s.neighborhood).length;
+  console.log(`With neighborhood:     ${withNeighborhood}/${schools.length}`);
 }
 
 main().catch(console.error);

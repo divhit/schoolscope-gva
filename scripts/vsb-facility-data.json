@@ -1,0 +1,947 @@
+[
+  {
+    "name": "Bayview Community Elementary",
+    "capacity": 330,
+    "enrollment": 298,
+    "fci": 0.38,
+    "fciRate": "Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Construction"
+  },
+  {
+    "name": "Lord Beaconsfield Elementary",
+    "capacity": 284,
+    "enrollment": 243,
+    "fci": 0.39,
+    "fciRate": "Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "wak̓ʷaňas te syaq̓ʷəm Elementary",
+    "capacity": 443,
+    "enrollment": 330,
+    "fci": 0.57,
+    "fciRate": "Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Construction"
+  },
+  {
+    "name": "Britannia Elementary",
+    "capacity": 221,
+    "enrollment": 244,
+    "fci": 0.37,
+    "fciRate": "Poor",
+    "seismicRisk": "Completed",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "General Brock Elementary",
+    "capacity": 352,
+    "enrollment": 251,
+    "fci": 0.53,
+    "fciRate": "Poor",
+    "seismicRisk": "H2",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Graham Bruce Community Elementary",
+    "capacity": 307,
+    "enrollment": 283,
+    "fci": 0.69,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Construction"
+  },
+  {
+    "name": "Carnarvon Elementary",
+    "capacity": 352,
+    "enrollment": 307,
+    "fci": 0.71,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H3",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Emily Carr Elementary",
+    "capacity": 262,
+    "enrollment": 334,
+    "fci": 0.67,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Edith Cavell Elementary",
+    "capacity": 262,
+    "enrollment": 323,
+    "fci": 0.63,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Construction"
+  },
+  {
+    "name": "Champlain Heights Elementary",
+    "capacity": 447,
+    "enrollment": 306,
+    "fci": 0.52,
+    "fciRate": "Poor",
+    "seismicRisk": "H3",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Champlain Heights Annex",
+    "capacity": 98,
+    "enrollment": 93,
+    "fci": 0.75,
+    "fciRate": "Very Poor",
+    "seismicRisk": "M",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Collingwood Neighbourhood",
+    "capacity": 176,
+    "enrollment": 142,
+    "fci": 0.20,
+    "fciRate": "Fair",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Captain James Cook Elementary",
+    "capacity": 443,
+    "enrollment": 465,
+    "fci": 0.58,
+    "fciRate": "Poor",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Crosstown Elementary",
+    "capacity": 461,
+    "enrollment": 477,
+    "fci": 0.00,
+    "fciRate": "Excellent",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "G.T. Cunningham Elementary",
+    "capacity": 597,
+    "enrollment": 426,
+    "fci": 0.50,
+    "fciRate": "Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Charles Dickens Elementary",
+    "capacity": 443,
+    "enrollment": 443,
+    "fci": 0.15,
+    "fciRate": "Fair",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Charles Dickens Annex",
+    "capacity": 116,
+    "enrollment": 64,
+    "fci": 0.70,
+    "fciRate": "Poor",
+    "seismicRisk": "M",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Sir James Douglas Elementary",
+    "capacity": 506,
+    "enrollment": 522,
+    "fci": 0.03,
+    "fciRate": "Excellent",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Sir James Douglas Annex",
+    "capacity": 176,
+    "enrollment": 163,
+    "fci": 0.63,
+    "fciRate": "Very Poor",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Elsie Roy Elementary",
+    "capacity": 375,
+    "enrollment": 420,
+    "fci": 0.20,
+    "fciRate": "Fair",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "False Creek Elementary",
+    "capacity": 262,
+    "enrollment": 309,
+    "fci": 0.54,
+    "fciRate": "Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Supported"
+  },
+  {
+    "name": "Sir Sanford Fleming Elementary",
+    "capacity": 398,
+    "enrollment": 426,
+    "fci": 0.60,
+    "fciRate": "Excellent",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Sir John Franklin Elementary",
+    "capacity": 266,
+    "enrollment": 227,
+    "fci": 0.46,
+    "fciRate": "Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Simon Fraser Elementary",
+    "capacity": 176,
+    "enrollment": 338,
+    "fci": 0.50,
+    "fciRate": "Poor",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "General Gordon Elementary",
+    "capacity": 398,
+    "enrollment": 395,
+    "fci": 0.05,
+    "fciRate": "Excellent",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Grandview Elementary",
+    "capacity": 199,
+    "enrollment": 131,
+    "fci": 0.62,
+    "fciRate": "Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Sir Wilfred Grenfell Elementary",
+    "capacity": 488,
+    "enrollment": 323,
+    "fci": 0.51,
+    "fciRate": "Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Supported"
+  },
+  {
+    "name": "Hastings Community Elementary",
+    "capacity": 637,
+    "enrollment": 549,
+    "fci": 0.54,
+    "fciRate": "Poor",
+    "seismicRisk": "L",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "John Henderson Elementary",
+    "capacity": 551,
+    "enrollment": 495,
+    "fci": 0.69,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H3",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Henry Hudson Elementary",
+    "capacity": 352,
+    "enrollment": 331,
+    "fci": 0.53,
+    "fciRate": "Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Design"
+  },
+  {
+    "name": "Dr. Annie B Jamieson Elementary",
+    "capacity": 465,
+    "enrollment": 519,
+    "fci": 0.55,
+    "fciRate": "Poor",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Kerrisdale Elementary",
+    "capacity": 506,
+    "enrollment": 443,
+    "fci": 0.67,
+    "fciRate": "Very Poor",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Kerrisdale Annex",
+    "capacity": 98,
+    "enrollment": 84,
+    "fci": 0.62,
+    "fciRate": "Very Poor",
+    "seismicRisk": "M",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Sir Charles Kingsford-Smith Elementary",
+    "capacity": 375,
+    "enrollment": 305,
+    "fci": 0.61,
+    "fciRate": "Very Poor",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Lord Kitchener Elementary",
+    "capacity": 461,
+    "enrollment": 399,
+    "fci": 0.05,
+    "fciRate": "Good",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Sir Wilfrid Laurier Elementary",
+    "capacity": 402,
+    "enrollment": 420,
+    "fci": 0.68,
+    "fciRate": "Very Poor",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "L'Ecole Bilingue",
+    "capacity": 438,
+    "enrollment": 409,
+    "fci": 0.35,
+    "fciRate": "Excellent",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "David Livingstone Elementary",
+    "capacity": 330,
+    "enrollment": 280,
+    "fci": 0.44,
+    "fciRate": "Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Construction"
+  },
+  {
+    "name": "David Lloyd George Elementary",
+    "capacity": 398,
+    "enrollment": 426,
+    "fci": 0.48,
+    "fciRate": "Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Construction"
+  },
+  {
+    "name": "Dr. A. R. Lord Elementary",
+    "capacity": 330,
+    "enrollment": 193,
+    "fci": 0.83,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H3",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Dr. H N MacCorkindale Elementary",
+    "capacity": 443,
+    "enrollment": 294,
+    "fci": 0.83,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H2",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Sir Alexander Mackenzie Elementary",
+    "capacity": 574,
+    "enrollment": 411,
+    "fci": 0.57,
+    "fciRate": "Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Maple Grove Elementary",
+    "capacity": 483,
+    "enrollment": 571,
+    "fci": 0.47,
+    "fciRate": "Excellent",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Chief Maquinna Elementary",
+    "capacity": 221,
+    "enrollment": 221,
+    "fci": 0.76,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H3",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Sir Richard McBride Elementary",
+    "capacity": 398,
+    "enrollment": 341,
+    "fci": 0.73,
+    "fciRate": "Very Poor",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Sir Richard McBride Annex",
+    "capacity": 118,
+    "enrollment": 81,
+    "fci": 0.52,
+    "fciRate": "Poor",
+    "seismicRisk": "H3",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Dr. R E McKechnie Elementary",
+    "capacity": 244,
+    "enrollment": 290,
+    "fci": 0.61,
+    "fciRate": "Very Poor",
+    "seismicRisk": "M",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Walter Moberly Elementary",
+    "capacity": 656,
+    "enrollment": 482,
+    "fci": 0.38,
+    "fciRate": "Poor",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Mount Pleasant Elementary",
+    "capacity": 284,
+    "enrollment": 242,
+    "fci": 0.76,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H3",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Lord Nelson Elementary",
+    "capacity": 416,
+    "enrollment": 468,
+    "fci": 0.67,
+    "fciRate": "Excellent",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Florence Nightingale Elementary",
+    "capacity": 352,
+    "enrollment": 288,
+    "fci": 0.53,
+    "fciRate": "Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Nootka Community Elementary",
+    "capacity": 506,
+    "enrollment": 380,
+    "fci": 0.68,
+    "fciRate": "Poor",
+    "seismicRisk": "H3",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Norma Rose Point Elementary",
+    "capacity": 778,
+    "enrollment": 762,
+    "fci": 0.04,
+    "fciRate": "Excellent",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "John Norquay Elementary",
+    "capacity": 750,
+    "enrollment": 641,
+    "fci": 0.59,
+    "fciRate": "Poor",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "David Oppenheimer Elementary",
+    "capacity": 375,
+    "enrollment": 416,
+    "fci": 0.59,
+    "fciRate": "Poor",
+    "seismicRisk": "M",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Sir William Osler Elementary",
+    "capacity": 284,
+    "enrollment": 273,
+    "fci": 0.49,
+    "fciRate": "Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Queen Alexandra Elementary",
+    "capacity": 262,
+    "enrollment": 142,
+    "fci": 0.67,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Queen Elizabeth Elementary",
+    "capacity": 398,
+    "enrollment": 288,
+    "fci": 0.47,
+    "fciRate": "Poor",
+    "seismicRisk": "H3",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Queen Mary Elementary",
+    "capacity": 393,
+    "enrollment": 276,
+    "fci": 0.08,
+    "fciRate": "Excellent",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Ecole Jules Quesnel",
+    "capacity": 398,
+    "enrollment": 338,
+    "fci": 0.09,
+    "fciRate": "Good",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Quilchena Elementary",
+    "capacity": 239,
+    "enrollment": 297,
+    "fci": 0.58,
+    "fciRate": "Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Queen Victoria Annex",
+    "capacity": 178,
+    "enrollment": 114,
+    "fci": null,
+    "fciRate": null,
+    "seismicRisk": null,
+    "smpStatus": null
+  },
+  {
+    "name": "Renfrew Elementary",
+    "capacity": 619,
+    "enrollment": 462,
+    "fci": 0.48,
+    "fciRate": "Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Lord Roberts Elementary",
+    "capacity": 556,
+    "enrollment": 648,
+    "fci": 0.45,
+    "fciRate": "Poor",
+    "seismicRisk": "M",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Lord Roberts Annex",
+    "capacity": 118,
+    "enrollment": 147,
+    "fci": 0.62,
+    "fciRate": "Very Poor",
+    "seismicRisk": "M",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Laura Secord Elementary",
+    "capacity": 619,
+    "enrollment": 644,
+    "fci": 0.28,
+    "fciRate": "Fair",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Lord Selkirk Elementary",
+    "capacity": 637,
+    "enrollment": 669,
+    "fci": 0.48,
+    "fciRate": "Poor",
+    "seismicRisk": "H3",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Lord Selkirk Annex",
+    "capacity": 118,
+    "enrollment": 102,
+    "fci": 0.68,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H3",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "J. W. Sexsmith Community Elementary",
+    "capacity": 398,
+    "enrollment": 431,
+    "fci": 0.03,
+    "fciRate": "Excellent",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Admiral Seymour Elementary",
+    "capacity": 380,
+    "enrollment": 144,
+    "fci": 0.59,
+    "fciRate": "Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Shaughnessy Elementary",
+    "capacity": 420,
+    "enrollment": 441,
+    "fci": 0.42,
+    "fciRate": "Poor",
+    "seismicRisk": "L",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Southlands Elementary",
+    "capacity": 307,
+    "enrollment": 205,
+    "fci": 0.49,
+    "fciRate": "Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Lord Strathcona Elementary",
+    "capacity": 461,
+    "enrollment": 446,
+    "fci": 0.33,
+    "fciRate": "Poor",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Tecumseh Elementary",
+    "capacity": 465,
+    "enrollment": 406,
+    "fci": 0.73,
+    "fciRate": "Very Poor",
+    "seismicRisk": "M",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Tecumseh Annex",
+    "capacity": 98,
+    "enrollment": 67,
+    "fci": 0.46,
+    "fciRate": "Poor",
+    "seismicRisk": "M",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Lord Tennyson Elementary",
+    "capacity": 438,
+    "enrollment": 397,
+    "fci": 0.68,
+    "fciRate": "Excellent",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Thunderbird Elementary",
+    "capacity": 330,
+    "enrollment": 187,
+    "fci": 0.34,
+    "fciRate": "Poor",
+    "seismicRisk": "H3",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Tillicum Annex",
+    "capacity": 136,
+    "enrollment": 99,
+    "fci": 0.76,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Trafalgar Elementary",
+    "capacity": 461,
+    "enrollment": 459,
+    "fci": 0.28,
+    "fciRate": "Fair",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Pierre Elliott Trudeau Elementary",
+    "capacity": 352,
+    "enrollment": 235,
+    "fci": 0.38,
+    "fciRate": "Poor",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Tyee Elementary",
+    "capacity": 131,
+    "enrollment": 190,
+    "fci": 0.54,
+    "fciRate": "Poor",
+    "seismicRisk": "M",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "University Hill Elementary",
+    "capacity": 370,
+    "enrollment": 369,
+    "fci": 0.65,
+    "fciRate": "Very Poor",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Sir William Van Horne Elementary",
+    "capacity": 438,
+    "enrollment": 439,
+    "fci": 0.64,
+    "fciRate": "Very Poor",
+    "seismicRisk": "L",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Waverley Elementary",
+    "capacity": 461,
+    "enrollment": 375,
+    "fci": 0.66,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Dr. George M Weir Elementary",
+    "capacity": 420,
+    "enrollment": 379,
+    "fci": 0.63,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Construction"
+  },
+  {
+    "name": "General Wolfe Elementary",
+    "capacity": 352,
+    "enrollment": 379,
+    "fci": 0.69,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Construction"
+  },
+  {
+    "name": "xpey̓ Elementary",
+    "capacity": 239,
+    "enrollment": 84,
+    "fci": 0.73,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Britannia Secondary",
+    "capacity": 1025,
+    "enrollment": 589,
+    "fci": 0.45,
+    "fciRate": "Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Lord Byng Secondary",
+    "capacity": 1200,
+    "enrollment": 1459,
+    "fci": 0.48,
+    "fciRate": "Poor",
+    "seismicRisk": "H3",
+    "smpStatus": "Construction"
+  },
+  {
+    "name": "Sir Winston Churchill Secondary",
+    "capacity": 1850,
+    "enrollment": 1918,
+    "fci": 0.71,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "David Thompson Secondary",
+    "capacity": 1550,
+    "enrollment": 1378,
+    "fci": 0.67,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Supported"
+  },
+  {
+    "name": "Gladstone Secondary",
+    "capacity": 1600,
+    "enrollment": 980,
+    "fci": 0.77,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Eric Hamber Secondary",
+    "capacity": 1700,
+    "enrollment": 1455,
+    "fci": 0.61,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Construction"
+  },
+  {
+    "name": "John Oliver Secondary",
+    "capacity": 1700,
+    "enrollment": 936,
+    "fci": 0.75,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Killarney Secondary",
+    "capacity": 2200,
+    "enrollment": 1560,
+    "fci": 0.54,
+    "fciRate": "Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Supported"
+  },
+  {
+    "name": "King George Secondary",
+    "capacity": 375,
+    "enrollment": 644,
+    "fci": 0.68,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Kitsilano Secondary",
+    "capacity": 1500,
+    "enrollment": 1493,
+    "fci": 0.04,
+    "fciRate": "Poor",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Magee Secondary",
+    "capacity": 1200,
+    "enrollment": 1002,
+    "fci": 0.33,
+    "fciRate": "Poor",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Point Grey Secondary",
+    "capacity": 1050,
+    "enrollment": 811,
+    "fci": 0.65,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Prince of Wales Secondary",
+    "capacity": 1100,
+    "enrollment": 771,
+    "fci": 0.61,
+    "fciRate": "Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Templeton Secondary",
+    "capacity": 1400,
+    "enrollment": 1032,
+    "fci": 0.56,
+    "fciRate": "Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  },
+  {
+    "name": "Sir Charles Tupper Secondary",
+    "capacity": 1500,
+    "enrollment": 1090,
+    "fci": 0.62,
+    "fciRate": "Very Poor",
+    "seismicRisk": "M",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "University Hill Secondary",
+    "capacity": 1000,
+    "enrollment": 791,
+    "fci": 0.06,
+    "fciRate": "Good",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Vancouver Technical School",
+    "capacity": 1700,
+    "enrollment": 1586,
+    "fci": 0.57,
+    "fciRate": "Poor",
+    "seismicRisk": "Completed",
+    "smpStatus": "Completed"
+  },
+  {
+    "name": "Windermere Secondary",
+    "capacity": 1500,
+    "enrollment": 1084,
+    "fci": 0.77,
+    "fciRate": "Very Poor",
+    "seismicRisk": "H1",
+    "smpStatus": "Unsupported"
+  }
+]

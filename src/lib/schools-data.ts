@@ -37,38 +37,56 @@ interface RawSchoolRecord {
   gradNumeracy10: number;
   gradLiteracy10: number;
   gradLiteracy12: number;
+  capacity: number;
+  utilizationRate: number;
+  availableSeats: number;
+  fci: number;
+  fciRate: string;
+  seismicRisk: string;
+  smpStatus: string;
+  neighborhood: string;
 }
 
 // Map raw JSON to School type
-const GVA_SCHOOLS: School[] = (rawData as RawSchoolRecord[]).map((r) => ({
-  id: r.id,
-  name: r.name,
-  address: r.address,
-  location: r.location,
-  category: r.category as SchoolCategory,
-  district: r.district,
-  districtNumber: r.districtNumber,
-  schoolType: r.schoolType as "Public" | "Independent",
-  enrollment: r.enrollment,
-  capacity: Math.round(r.enrollment / 0.9), // Estimated from typical 90% utilization
-  utilizationRate: 90,
-  availableSeats: Math.round(r.enrollment * 0.1),
-  gradeRange: r.gradeRange,
-  fsaNumeracy: r.fsaNumeracy || undefined,
-  fsaLiteracy: r.fsaLiteracy || undefined,
-  fsaOverall: r.fsaNumeracy && r.fsaLiteracy ? Math.round((r.fsaNumeracy + r.fsaLiteracy) / 2) : undefined,
-  classSize: r.classSize || undefined,
-  principal: r.principal || undefined,
-  email: r.email || undefined,
-  phone: r.phone || undefined,
-  programs: r.programs,
-  tags: r.tags,
-  historicalEnrollment: r.historicalEnrollment,
-  enrollmentByGrade: r.enrollmentByGrade,
-  gradNumeracy10: r.gradNumeracy10 || undefined,
-  gradLiteracy10: r.gradLiteracy10 || undefined,
-  gradLiteracy12: r.gradLiteracy12 || undefined,
-}));
+const GVA_SCHOOLS: School[] = (rawData as RawSchoolRecord[]).map((r) => {
+  // Use real capacity if available, otherwise don't fake it
+  const realCapacity = r.capacity > 0 ? r.capacity : undefined;
+  const realUtilization = realCapacity ? Math.round((r.enrollment / realCapacity) * 100) : undefined;
+  const realAvailable = realCapacity ? Math.max(0, realCapacity - r.enrollment) : undefined;
+
+  return {
+    id: r.id,
+    name: r.name,
+    address: r.address,
+    location: r.location,
+    category: r.category as SchoolCategory,
+    district: r.district,
+    districtNumber: r.districtNumber,
+    schoolType: r.schoolType as "Public" | "Independent",
+    enrollment: r.enrollment,
+    capacity: realCapacity,
+    utilizationRate: realUtilization,
+    availableSeats: realAvailable,
+    gradeRange: r.gradeRange,
+    fsaNumeracy: r.fsaNumeracy || undefined,
+    fsaLiteracy: r.fsaLiteracy || undefined,
+    fsaOverall: r.fsaNumeracy && r.fsaLiteracy ? Math.round((r.fsaNumeracy + r.fsaLiteracy) / 2) : undefined,
+    classSize: r.classSize || undefined,
+    fciScore: r.fci > 0 ? r.fci : undefined,
+    buildingCondition: r.fciRate ? (r.fciRate as "Good" | "Fair" | "Poor" | "Critical") : undefined,
+    seismicRisk: r.seismicRisk ? (r.seismicRisk as "High" | "Medium" | "Low" | "Upgrades Complete") : undefined,
+    principal: r.principal || undefined,
+    email: r.email || undefined,
+    phone: r.phone || undefined,
+    programs: r.programs,
+    tags: [...(r.tags ?? []), ...(r.neighborhood ? [r.neighborhood.toLowerCase().replace(/\s+/g, "-")] : [])],
+    historicalEnrollment: r.historicalEnrollment,
+    enrollmentByGrade: r.enrollmentByGrade,
+    gradNumeracy10: r.gradNumeracy10 || undefined,
+    gradLiteracy10: r.gradLiteracy10 || undefined,
+    gradLiteracy12: r.gradLiteracy12 || undefined,
+  };
+});
 
 export function getAllSchools(): School[] {
   return GVA_SCHOOLS;

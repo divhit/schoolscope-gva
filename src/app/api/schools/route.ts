@@ -64,8 +64,84 @@ export async function POST(request: NextRequest) {
         const lowerTypes = interpretation.schoolTypes.map((t) => t.toLowerCase());
         const lowerHoods = interpretation.neighborhoods.map((n) => n.toLowerCase());
 
+        // Vancouver neighborhood → approximate lat/lng centers for geographic matching
+        const NEIGHBORHOOD_CENTERS: Record<string, { lat: number; lng: number; radiusKm: number }> = {
+          kitsilano: { lat: 49.2685, lng: -123.1680, radiusKm: 2 },
+          "kits": { lat: 49.2685, lng: -123.1680, radiusKm: 2 },
+          kerrisdale: { lat: 49.2330, lng: -123.1570, radiusKm: 1.5 },
+          dunbar: { lat: 49.2500, lng: -123.1880, radiusKm: 2 },
+          "point grey": { lat: 49.2650, lng: -123.2050, radiusKm: 2 },
+          "west point grey": { lat: 49.2650, lng: -123.2050, radiusKm: 2 },
+          fairview: { lat: 49.2630, lng: -123.1300, radiusKm: 1.5 },
+          "mount pleasant": { lat: 49.2620, lng: -123.1000, radiusKm: 1.5 },
+          "commercial drive": { lat: 49.2700, lng: -123.0700, radiusKm: 1.5 },
+          "east van": { lat: 49.2610, lng: -123.0650, radiusKm: 3 },
+          "east vancouver": { lat: 49.2610, lng: -123.0650, radiusKm: 3 },
+          strathcona: { lat: 49.2780, lng: -123.0880, radiusKm: 1 },
+          hastings: { lat: 49.2810, lng: -123.0540, radiusKm: 2 },
+          "downtown": { lat: 49.2827, lng: -123.1207, radiusKm: 2 },
+          "west end": { lat: 49.2850, lng: -123.1350, radiusKm: 1.5 },
+          shaughnessy: { lat: 49.2440, lng: -123.1510, radiusKm: 1.5 },
+          oakridge: { lat: 49.2260, lng: -123.1160, radiusKm: 2 },
+          marpole: { lat: 49.2110, lng: -123.1290, radiusKm: 2 },
+          sunset: { lat: 49.2230, lng: -123.0960, radiusKm: 2 },
+          "south cambie": { lat: 49.2410, lng: -123.1150, radiusKm: 1.5 },
+          riley: { lat: 49.2350, lng: -123.0730, radiusKm: 2 },
+          killarney: { lat: 49.2200, lng: -123.0430, radiusKm: 2 },
+          "south vancouver": { lat: 49.2150, lng: -123.1000, radiusKm: 3 },
+          ubc: { lat: 49.2606, lng: -123.2460, radiusKm: 2 },
+          "west vancouver": { lat: 49.3400, lng: -123.1700, radiusKm: 5 },
+          "north vancouver": { lat: 49.3200, lng: -123.0700, radiusKm: 5 },
+          "north shore": { lat: 49.3300, lng: -123.1200, radiusKm: 8 },
+          burnaby: { lat: 49.2488, lng: -123.0016, radiusKm: 6 },
+          richmond: { lat: 49.1666, lng: -123.1336, radiusKm: 6 },
+          surrey: { lat: 49.1044, lng: -122.8251, radiusKm: 10 },
+          "south surrey": { lat: 49.0500, lng: -122.8000, radiusKm: 5 },
+          "white rock": { lat: 49.0252, lng: -122.8028, radiusKm: 3 },
+          coquitlam: { lat: 49.2838, lng: -122.7932, radiusKm: 5 },
+          "port moody": { lat: 49.2849, lng: -122.8573, radiusKm: 3 },
+          "port coquitlam": { lat: 49.2627, lng: -122.7810, radiusKm: 3 },
+          "new westminster": { lat: 49.2069, lng: -122.9110, radiusKm: 3 },
+          delta: { lat: 49.0847, lng: -123.0587, radiusKm: 5 },
+          tsawwassen: { lat: 49.0028, lng: -123.0822, radiusKm: 3 },
+          langley: { lat: 49.1044, lng: -122.6600, radiusKm: 6 },
+          "maple ridge": { lat: 49.2193, lng: -122.5984, radiusKm: 5 },
+        };
+
+        function distKm(lat1: number, lng1: number, lat2: number, lng2: number): number {
+          const R = 6371;
+          const dLat = ((lat2 - lat1) * Math.PI) / 180;
+          const dLng = ((lng2 - lng1) * Math.PI) / 180;
+          const a = Math.sin(dLat / 2) ** 2 + Math.cos((lat1 * Math.PI) / 180) * Math.cos((lat2 * Math.PI) / 180) * Math.sin(dLng / 2) ** 2;
+          return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+        }
+
         const scored = matches.map((school) => {
           let score = 0;
+          let neighborhoodMatch = false;
+
+          // Geographic neighborhood matching (HIGHEST PRIORITY)
+          for (const hood of lowerHoods) {
+            const center = NEIGHBORHOOD_CENTERS[hood];
+            if (center) {
+              const dist = distKm(school.location.latitude, school.location.longitude, center.lat, center.lng);
+              if (dist <= center.radiusKm) {
+                score += 50; // Strong match — school is IN the neighborhood
+                neighborhoodMatch = true;
+              } else if (dist <= center.radiusKm * 2) {
+                score += 25; // Nearby
+                neighborhoodMatch = true;
+              } else if (dist <= center.radiusKm * 3) {
+                score += 5; // Somewhat close
+              }
+              // Schools far from requested neighborhood get NO neighborhood bonus
+            } else {
+              // Fallback: text matching for unknown neighborhoods
+              if (school.district.toLowerCase().includes(hood)) { score += 30; neighborhoodMatch = true; }
+              if (school.address.toLowerCase().includes(hood)) { score += 25; neighborhoodMatch = true; }
+              if (school.tags?.some((t) => t.toLowerCase().includes(hood))) { score += 20; neighborhoodMatch = true; }
+            }
+          }
 
           // Name/tag matching
           for (const term of lowerTerms) {
@@ -77,28 +153,26 @@ export async function POST(request: NextRequest) {
           // Type matching
           if (lowerTypes.includes(school.category.toLowerCase())) score += 15;
 
-          // Neighborhood matching
-          for (const hood of lowerHoods) {
-            if (school.district.toLowerCase().includes(hood)) score += 10;
-            if (school.address.toLowerCase().includes(hood)) score += 8;
-            if (school.tags?.some((t) => t.toLowerCase().includes(hood))) score += 5;
-          }
-
           // Priority matching
           const lowerPriorities = interpretation.priorities.map((p) => p.toLowerCase());
           for (const priority of lowerPriorities) {
-            if (priority.includes("academic") && (school.fsaOverall ?? 0) > 80) score += 10;
-            if (priority.includes("small") && (school.classSize ?? 30) < 22) score += 8;
-            if (priority.includes("french") && school.category === "French Immersion") score += 15;
-            if (priority.includes("ib") && school.tags?.some((t) => t.includes("IB"))) score += 15;
+            if (priority.includes("academic") && (school.fsaOverall ?? 0) > 80) score += 8;
+            if (priority.includes("small") && (school.classSize ?? 30) < 22) score += 6;
+            if (priority.includes("french") && (school.programs?.some((p) => p.name.toLowerCase().includes("french")))) score += 20;
+            if (priority.includes("immersion") && (school.programs?.some((p) => p.name.toLowerCase().includes("immersion")))) score += 20;
+            if (priority.includes("ib") && school.programs?.some((p) => p.name.toLowerCase().includes("ib"))) score += 15;
             if (priority.includes("private") && school.category === "Independent") score += 12;
-            if (priority.includes("arts") && school.tags?.some((t) => t.includes("arts"))) score += 12;
-            if (priority.includes("rating") && (school.rating ?? 0) > 8) score += 10;
+            if (priority.includes("independent") && school.category === "Independent") score += 12;
+            if (priority.includes("arts") && school.tags?.some((t) => t.includes("arts"))) score += 10;
           }
 
-          // Base quality score
-          score += (school.fsaOverall ?? 50) / 10;
-          score += (school.rating ?? 5);
+          // Base quality score (smaller weight so geography dominates)
+          score += (school.fsaOverall ?? 40) / 20;
+
+          // If neighborhoods were specified and this school doesn't match, penalize
+          if (lowerHoods.length > 0 && !neighborhoodMatch) {
+            score -= 20;
+          }
 
           return { school, score };
         });
