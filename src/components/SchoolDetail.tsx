@@ -296,23 +296,23 @@ export function SchoolDetail({ school, analysis, photoUri, onClose }: SchoolDeta
                   <div className="glass-light rounded-xl p-4">
                     <h3 className="text-sm font-semibold text-white mb-1">Historical Enrolment</h3>
                     <p className="text-[10px] text-text-muted mb-3">Headcount trend over time</p>
-                    <div className="flex items-end gap-2 h-28">
+                    <div className="flex items-end gap-2" style={{ height: 112 }}>
                       {school.historicalEnrollment.map((h, i) => {
                         const maxCount = Math.max(...school.historicalEnrollment!.map((x) => x.count));
                         const minCount = Math.min(...school.historicalEnrollment!.map((x) => x.count));
                         const range = maxCount - minCount || 1;
-                        const height = 20 + ((h.count - minCount) / range) * 80;
+                        const barHeight = Math.round(24 + ((h.count - minCount) / range) * 64);
                         return (
-                          <div key={h.year} className="flex-1 flex flex-col items-center gap-1">
-                            <span className="text-[9px] text-text-secondary">{h.count}</span>
+                          <div key={h.year} className="flex-1 flex flex-col items-center justify-end" style={{ height: "100%" }}>
+                            <span className="text-[9px] text-text-secondary mb-1">{h.count}</span>
                             <motion.div
                               initial={{ height: 0 }}
-                              animate={{ height: `${height}%` }}
+                              animate={{ height: barHeight }}
                               transition={{ duration: 0.6, delay: i * 0.1 }}
                               className="w-full rounded-t"
                               style={{ background: i === school.historicalEnrollment!.length - 1 ? accentColor : `${accentColor}55` }}
                             />
-                            <span className="text-[8px] text-text-muted">{h.year.split("/")[0].slice(2)}/{h.year.split("/")[1]?.slice(2)}</span>
+                            <span className="text-[8px] text-text-muted mt-1">{h.year.split("/")[0].slice(2)}/{h.year.split("/")[1]?.slice(2)}</span>
                           </div>
                         );
                       })}
