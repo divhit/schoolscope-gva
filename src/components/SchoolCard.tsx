@@ -35,6 +35,13 @@ export function SchoolCard({
   const catColor = categoryColors[school.category] ?? "#6366f1";
   const score = analysis?.overallScore ?? school.fsaOverall ?? 0;
 
+  const fciLabel = school.fciScore != null
+    ? school.fciScore <= 0.3 ? "Good" : school.fciScore <= 0.5 ? "Fair" : school.fciScore <= 0.6 ? "Poor" : "Critical"
+    : null;
+  const fciColor = school.fciScore != null
+    ? school.fciScore <= 0.3 ? "#34d399" : school.fciScore <= 0.5 ? "#fbbf24" : school.fciScore <= 0.6 ? "#f97316" : "#f87171"
+    : null;
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 16 }}
@@ -63,7 +70,6 @@ export function SchoolCard({
             }}
           />
         )}
-        {/* Gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-[var(--surface)] via-transparent to-transparent" />
 
         {/* Score badge */}
@@ -83,10 +89,7 @@ export function SchoolCard({
         {/* Category pill */}
         <div
           className="absolute top-3 left-3 px-2.5 py-1 rounded-lg text-[10px] font-semibold uppercase tracking-wider"
-          style={{
-            background: `${catColor}22`,
-            color: catColor,
-          }}
+          style={{ background: `${catColor}22`, color: catColor }}
         >
           {school.category}
         </div>
@@ -98,7 +101,7 @@ export function SchoolCard({
           {school.name}
         </h3>
         <p className="text-xs text-text-secondary mt-1 truncate">
-          {school.district} · {school.address.split(",")[0]}
+          {school.district} · {school.gradeRange} · {school.schoolType}
         </p>
 
         {/* Stats row */}
@@ -111,23 +114,29 @@ export function SchoolCard({
               <span className="text-[11px] text-text-secondary">{school.enrollment}</span>
             </div>
           )}
-          {school.classSize && (
+          {school.utilizationRate != null && (
             <div className="flex items-center gap-1">
-              <svg className="w-3 h-3 text-text-muted" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-              </svg>
-              <span className="text-[11px] text-text-secondary">~{school.classSize}/class</span>
+              <span className="text-[11px] text-text-secondary">{school.utilizationRate}% full</span>
             </div>
           )}
-          {school.rating && (
+          {fciLabel && (
             <div className="flex items-center gap-1">
-              <svg className="w-3 h-3 text-warning" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-              </svg>
-              <span className="text-[11px] text-text-secondary">{school.rating.toFixed(1)}</span>
+              <div className="w-1.5 h-1.5 rounded-full" style={{ background: fciColor! }} />
+              <span className="text-[11px]" style={{ color: fciColor! }}>FCI {school.fciScore!.toFixed(2)}</span>
             </div>
           )}
         </div>
+
+        {/* Programs */}
+        {school.programs && school.programs.length > 0 && (
+          <div className="flex flex-wrap gap-1 mt-2">
+            {school.programs.slice(0, 2).map((p, i) => (
+              <span key={i} className="text-[10px] px-2 py-0.5 rounded-full bg-accent/10 text-accent">
+                {p.name}
+              </span>
+            ))}
+          </div>
+        )}
 
         {/* AI Analysis preview */}
         {analysis && (
@@ -135,16 +144,6 @@ export function SchoolCard({
             <p className="text-[11px] text-text-secondary line-clamp-2 leading-relaxed">
               {analysis.summary}
             </p>
-            <div className="flex flex-wrap gap-1 mt-2">
-              {analysis.bestFor.slice(0, 2).map((tag, i) => (
-                <span
-                  key={i}
-                  className="text-[10px] px-2 py-0.5 rounded-full bg-white/5 text-text-secondary"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
           </div>
         )}
 

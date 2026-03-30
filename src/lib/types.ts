@@ -5,22 +5,58 @@ export interface School {
   location: { latitude: number; longitude: number };
   category: SchoolCategory;
   district: string;
+  districtNumber: number;
+  schoolType: "Public" | "Independent" | "Francophone";
+
+  // Enrollment & Capacity
   enrollment?: number;
   capacity?: number;
+  utilizationRate?: number; // percentage
+  availableSeats?: number;
+  gradeRange: string; // e.g. "K-7", "8-12", "K-12"
+
+  // Academics
   fsaReading?: number;
   fsaWriting?: number;
   fsaNumeracy?: number;
   fsaOverall?: number;
   rating?: number;
   classSize?: number;
+
+  // Facility
+  fciScore?: number; // 0.0 (new) to 1.0 (needs replacement)
+  buildingCondition?: "Good" | "Fair" | "Poor" | "Critical";
+  seismicRisk?: "High" | "Medium" | "Low" | "Upgrades Complete";
+
+  // Programs
+  programs?: SchoolProgram[];
+
+  // Contact
+  principal?: string;
+  email?: string;
+  phone?: string;
+  websiteUri?: string;
+
+  // Media
   photoUri?: string;
   photoName?: string;
-  websiteUri?: string;
-  phone?: string;
+
+  // Nearby
   nearbyAmenities?: NearbyAmenities;
   transitScore?: number;
-  catchmentGeoJSON?: unknown;
+
+  // Tags
   tags?: string[];
+
+  // Historical enrollment (for charts)
+  historicalEnrollment?: { year: string; count: number }[];
+  enrollmentByGrade?: { grade: string; count: number }[];
+}
+
+export interface SchoolProgram {
+  name: string;
+  description: string;
+  url?: string;
 }
 
 export type SchoolCategory =
@@ -43,7 +79,7 @@ export interface NearbyAmenities {
 
 export interface AmenityItem {
   name: string;
-  distance: number; // meters
+  distance: number;
   location: { latitude: number; longitude: number };
 }
 
@@ -73,19 +109,6 @@ export interface SearchInterpretation {
   neighborhoods: string[];
   summary: string;
   accentColor: string;
-}
-
-export interface ComparisonResult {
-  schools: School[];
-  analysis: {
-    winner: string;
-    categories: {
-      name: string;
-      leader: string;
-      explanation: string;
-    }[];
-    recommendation: string;
-  };
 }
 
 export type AppState =
