@@ -506,6 +506,7 @@ export default function Home() {
                         photoUri={analyses[school.id]?.photoUri}
                         index={i}
                         isSelected={selectedSchool?.id === school.id}
+                        isAnalyzing={appState === "analyzing"}
                         onClick={() => setSelectedSchool(school)}
                       />
                     ))}
@@ -536,6 +537,7 @@ export default function Home() {
                     photoUri={analyses[school.id]?.photoUri}
                     index={i}
                     isSelected={selectedSchool?.id === school.id}
+                    isAnalyzing={appState === "analyzing"}
                     onClick={() => setSelectedSchool(school)}
                   />
                 ))}

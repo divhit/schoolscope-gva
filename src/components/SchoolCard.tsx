@@ -9,6 +9,7 @@ interface SchoolCardProps {
   photoUri?: string;
   index: number;
   isSelected: boolean;
+  isAnalyzing?: boolean;
   onClick: () => void;
 }
 
@@ -18,6 +19,7 @@ export function SchoolCard({
   photoUri,
   index,
   isSelected,
+  isAnalyzing = false,
   onClick,
 }: SchoolCardProps) {
   const categoryColors: Record<string, string> = {
@@ -131,7 +133,7 @@ export function SchoolCard({
           </p>
         )}
 
-        {!analysis && score === 0 && (
+        {!analysis && isAnalyzing && (
           <div className="mt-3 pt-3 border-t border-[var(--border-light)] space-y-1.5">
             <div className="h-2 w-full rounded animate-shimmer" />
             <div className="h-2 w-3/4 rounded animate-shimmer" />
