@@ -75,6 +75,11 @@ export default function Home() {
 
       const location = await getUserLocation();
 
+      // Safety timeout: if search takes > 45s, show whatever we have
+      const safetyTimeout = setTimeout(() => {
+        setAppState((prev) => prev !== "idle" && prev !== "results" ? "results" : prev);
+      }, 45000);
+
       try {
         const response = await fetch("/api/schools", {
           method: "POST",
@@ -161,7 +166,9 @@ export default function Home() {
       } catch (err) {
         if (err instanceof DOMException && err.name === "AbortError") return;
         console.error("Search failed:", err);
-        setAppState("idle");
+        setAppState("results");
+      } finally {
+        clearTimeout(safetyTimeout);
       }
     },
     [getUserLocation]
