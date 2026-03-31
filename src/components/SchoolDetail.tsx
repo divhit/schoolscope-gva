@@ -319,40 +319,88 @@ export function SchoolDetail({ school, analysis, photoUri, onClose }: SchoolDeta
                   </div>
                 )}
 
-                {/* Historical Enrollment */}
-                {histData.length > 0 && (
+                {/* Historical Enrollment with Capacity Line */}
+                {histData.length > 0 && (() => {
+                  // Thin out data for long histories — show every Nth year
+                  const step = histData.length > 15 ? Math.ceil(histData.length / 12) : 1;
+                  const displayData = histData.filter((_, i) => i % step === 0 || i === histData.length - 1);
+                  const cap = school.capacity ?? 0;
+                  const allValues = [...displayData.map((d) => d.count), cap].filter((v) => v > 0);
+                  const maxVal = Math.max(...allValues);
+                  const chartHeight = 120;
+
+                  return (
                   <div className="glass-light rounded-xl p-4">
-                    <h3 className="text-sm font-semibold text-white mb-1">Historical Enrolment</h3>
-                    <p className="text-[10px] text-text-muted mb-3">Headcount trend over time</p>
-                    <div className="flex items-end gap-2" style={{ height: 112 }}>
-                      {histData.map((h, i) => {
-                        const maxCount = Math.max(...histData.map((x) => x.count));
-                        const minCount = Math.min(...histData.map((x) => x.count));
-                        const range = maxCount - minCount || 1;
-                        const barHeight = Math.round(24 + ((h.count - minCount) / range) * 64);
-                        return (
-                          <div key={h.year} className="flex-1 flex flex-col items-center justify-end" style={{ height: "100%" }}>
-                            <span className="text-[9px] text-text-secondary mb-1">{h.count}</span>
-                            <motion.div
-                              initial={{ height: 0 }}
-                              animate={{ height: barHeight }}
-                              transition={{ duration: 0.6, delay: i * 0.1 }}
-                              className="w-full rounded-t"
-                              style={{ background: i === histData.length - 1 ? accentColor : `${accentColor}55` }}
-                            />
-                            <span className="text-[8px] text-text-muted mt-1">{h.year.split("/")[0].slice(2)}/{h.year.split("/")[1]?.slice(2)}</span>
-                          </div>
-                        );
-                      })}
-                    </div>
-                    {school.capacity && (
-                      <div className="flex items-center gap-2 mt-3 pt-2 border-t border-white/5">
-                        <div className="w-3 h-0.5 bg-warning rounded" />
-                        <span className="text-[10px] text-text-muted">Building Capacity: {school.capacity}</span>
+                    <div className="flex items-center justify-between mb-1">
+                      <h3 className="text-sm font-semibold text-white">Historical Utilization</h3>
+                      <div className="flex items-center gap-3">
+                        <div className="flex items-center gap-1"><div className="w-2 h-2 rounded-sm" style={{ background: accentColor }} /><span className="text-[9px] text-text-muted">Headcount</span></div>
+                        {cap > 0 && <div className="flex items-center gap-1"><div className="w-3 h-0.5 bg-white/60 rounded" /><span className="text-[9px] text-text-muted">Capacity</span></div>}
+                        {cap > 0 && <div className="flex items-center gap-1"><div className="w-2 h-2 rounded-sm bg-danger/70" /><span className="text-[9px] text-text-muted">Over</span></div>}
                       </div>
-                    )}
+                    </div>
+                    <p className="text-[10px] text-text-muted mb-3">School Space Utilization Over Time</p>
+                    <div className="relative" style={{ height: chartHeight }}>
+                      {/* Capacity line */}
+                      {cap > 0 && (
+                        <div
+                          className="absolute left-0 right-0 border-t-2 border-white/40 border-dashed z-10"
+                          style={{ bottom: `${(cap / maxVal) * chartHeight}px` }}
+                        >
+                          <span className="absolute -top-3.5 right-0 text-[8px] text-white/50">{cap.toLocaleString()}</span>
+                        </div>
+                      )}
+                      {/* Bars */}
+                      <div className="flex items-end gap-px h-full">
+                        {displayData.map((h, i) => {
+                          const barH = Math.max(2, (h.count / maxVal) * chartHeight);
+                          const overCapacity = cap > 0 && h.count > cap;
+                          return (
+                            <div key={h.year} className="flex-1 flex flex-col items-center justify-end h-full">
+                              <motion.div
+                                initial={{ height: 0 }}
+                                animate={{ height: barH }}
+                                transition={{ duration: 0.5, delay: i * 0.03 }}
+                                className="w-full rounded-t-sm"
+                                style={{ background: overCapacity ? "#f87171" : (i === displayData.length - 1 ? accentColor : `${accentColor}88`) }}
+                              />
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+                    {/* Year labels */}
+                    <div className="flex gap-px mt-1">
+                      {displayData.map((h, i) => (
+                        <div key={h.year} className="flex-1 text-center">
+                          <span className="text-[7px] text-text-muted">{i === 0 || i === displayData.length - 1 || i % Math.ceil(displayData.length / 5) === 0 ? h.year.split("/")[0] : ""}</span>
+                        </div>
+                      ))}
+                    </div>
+                    {/* Summary stats */}
+                    <div className="flex items-center gap-4 mt-3 pt-2 border-t border-white/5">
+                      <div>
+                        <span className="text-[9px] text-text-muted">Current: </span>
+                        <span className="text-xs font-medium text-white">{displayData[displayData.length - 1]?.count.toLocaleString()}</span>
+                      </div>
+                      {cap > 0 && (
+                        <div>
+                          <span className="text-[9px] text-text-muted">Capacity: </span>
+                          <span className="text-xs font-medium text-white">{cap.toLocaleString()}</span>
+                        </div>
+                      )}
+                      {cap > 0 && (
+                        <div>
+                          <span className="text-[9px] text-text-muted">Utilization: </span>
+                          <span className="text-xs font-medium" style={{ color: school.utilizationRate && school.utilizationRate > 100 ? "#f87171" : accentColor }}>
+                            {school.utilizationRate ?? Math.round((displayData[displayData.length - 1]?.count / cap) * 100)}%
+                          </span>
+                        </div>
+                      )}
+                    </div>
                   </div>
-                )}
+                  );
+                })()}
 
                 {/* FSA Breakdown */}
                 {(school.fsaReading || school.fsaWriting || school.fsaNumeracy) && (

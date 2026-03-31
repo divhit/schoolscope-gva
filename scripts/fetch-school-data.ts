@@ -206,11 +206,16 @@ async function main() {
   }
   console.log(`Contacts mapped: ${contactsMap.size}`);
 
-  // 3. Fetch Enrollment data (most recent)
-  const enrollRaw = await fetchCSV(
+  // 3. Fetch Enrollment data (current + historical)
+  const enrollRecent = await fetchCSV(
     "https://catalogue.data.gov.bc.ca/dataset/2c53729a-2453-4633-92f3-6876a45f8bc4/resource/e2debe69-0d03-492f-b2dc-656fbe01cd38/download/student_enrolment_and_fte_2020-21_to_2025_26.csv",
-    "Student Enrollment"
+    "Student Enrollment (2020-2025)"
   );
+  const enrollOlder = await fetchCSV(
+    "https://catalogue.data.gov.bc.ca/dataset/2c53729a-2453-4633-92f3-6876a45f8bc4/resource/62851d48-f57c-45bf-a7a4-d1677c66c1ca/download/student_enrolment_and_fte_2004-05_to_2019_20.csv",
+    "Student Enrollment (2004-2019)"
+  );
+  const enrollRaw = [...enrollOlder, ...enrollRecent];
 
   // Group by school number, get latest year per school
   const enrollMap = new Map<string, { byGrade: Map<string, number>; total: number; byYear: Map<string, number> }>();
