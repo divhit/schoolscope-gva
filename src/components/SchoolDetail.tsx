@@ -121,7 +121,7 @@ export function SchoolDetail({ school, analysis, photoUri, onClose }: SchoolDeta
               <div className="inline-block px-2.5 py-1 rounded-lg text-[10px] font-semibold uppercase tracking-wider mb-2" style={{ background: `${accentColor}22`, color: accentColor }}>
                 {school.category} · {school.district} {school.districtNumber}
               </div>
-              <h2 className="text-2xl font-bold text-white font-[family-name:var(--font-space-grotesk)]">{school.name}</h2>
+              <h2 className="text-2xl font-bold text-white font-semibold">{school.name}</h2>
               <p className="text-sm text-text-secondary mt-1">{school.gradeRange} · {school.schoolType} School</p>
             </div>
           </div>
@@ -206,7 +206,7 @@ export function SchoolDetail({ school, analysis, photoUri, onClose }: SchoolDeta
                 {analysis && (
                   <>
                     <div>
-                      <h3 className="text-sm font-semibold text-white font-[family-name:var(--font-space-grotesk)] mb-2">Strengths</h3>
+                      <h3 className="text-sm font-semibold text-white font-semibold mb-2">Strengths</h3>
                       <div className="space-y-2">
                         {analysis.strengths.map((s, i) => (
                           <div key={i} className="flex items-start gap-2">
@@ -217,7 +217,7 @@ export function SchoolDetail({ school, analysis, photoUri, onClose }: SchoolDeta
                       </div>
                     </div>
                     <div>
-                      <h3 className="text-sm font-semibold text-white font-[family-name:var(--font-space-grotesk)] mb-2">Considerations</h3>
+                      <h3 className="text-sm font-semibold text-white font-semibold mb-2">Considerations</h3>
                       <div className="space-y-2">
                         {analysis.considerations.map((c, i) => (
                           <div key={i} className="flex items-start gap-2">
@@ -229,7 +229,7 @@ export function SchoolDetail({ school, analysis, photoUri, onClose }: SchoolDeta
                     </div>
                     {analysis.bestFor.length > 0 && (
                       <div>
-                        <h3 className="text-sm font-semibold text-white font-[family-name:var(--font-space-grotesk)] mb-2">Best For</h3>
+                        <h3 className="text-sm font-semibold text-white font-semibold mb-2">Best For</h3>
                         <div className="flex flex-wrap gap-2">
                           {analysis.bestFor.map((tag, i) => (
                             <span key={i} className="text-[11px] px-3 py-1.5 rounded-full font-medium" style={{ background: `${accentColor}15`, color: accentColor }}>{tag}</span>
@@ -405,7 +405,7 @@ export function SchoolDetail({ school, analysis, photoUri, onClose }: SchoolDeta
                 {/* FSA Breakdown */}
                 {(school.fsaReading || school.fsaWriting || school.fsaNumeracy) && (
                   <div className="space-y-3">
-                    <h3 className="text-sm font-semibold text-white font-[family-name:var(--font-space-grotesk)]">Foundation Skills Assessment</h3>
+                    <h3 className="text-sm font-semibold text-white font-semibold">Foundation Skills Assessment</h3>
                     {school.fsaReading && <StatBar label="Reading" value={school.fsaReading} max={100} color="#3b82f6" />}
                     {school.fsaWriting && <StatBar label="Writing" value={school.fsaWriting} max={100} color="#8b5cf6" />}
                     {school.fsaNumeracy && <StatBar label="Numeracy" value={school.fsaNumeracy} max={100} color="#34d399" />}

@@ -199,7 +199,7 @@ export default function Home() {
                 </svg>
               </div>
               <div>
-                <h1 className="text-base font-[family-name:var(--font-display)] text-[var(--text)] italic">
+                <h1 className="text-base font-semibold text-[var(--text)]">
                   SchoolScope
                 </h1>
                 <p className="text-[9px] uppercase tracking-[0.15em] text-[var(--text-muted)] -mt-0.5 font-medium">
@@ -275,7 +275,7 @@ export default function Home() {
                     Greater Vancouver &middot; 619 Schools &middot; 11 Districts
                   </motion.p>
 
-                  <h2 className="text-4xl md:text-[52px] leading-[1.1] font-[family-name:var(--font-display)] text-[var(--text)] mb-5 italic">
+                  <h2 className="text-4xl md:text-[52px] leading-[1.1] font-semibold text-[var(--text)] mb-5">
                     Find the right school<br />for your family
                   </h2>
                   <p className="text-base text-[var(--text-secondary)] mb-10 leading-relaxed max-w-lg mx-auto">

@@ -74,7 +74,7 @@ export function SchoolCard({
 
         {/* Category */}
         <div className="absolute bottom-3 left-3">
-          <span className="text-[10px] font-semibold uppercase tracking-wider px-2.5 py-1 rounded-md bg-black/60 backdrop-blur-sm" style={{ color: catColor === "#1C1C1C" ? "#4ADE80" : catColor }}>
+          <span className="text-[10px] font-semibold uppercase tracking-wider px-2.5 py-1 rounded-md bg-black/60 backdrop-blur-sm" style={{ color: catColor }}>
             {school.category}
           </span>
         </div>
@@ -82,7 +82,7 @@ export function SchoolCard({
 
       {/* Content */}
       <div className="p-4">
-        <h3 className="font-semibold text-[15px] text-[var(--text)] truncate font-[family-name:var(--font-display)]">
+        <h3 className="font-semibold text-[15px] text-[var(--text)] truncate font-semibold">
           {school.name}
         </h3>
         <p className="text-xs text-[var(--text-muted)] mt-1">

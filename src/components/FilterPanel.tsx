@@ -173,7 +173,7 @@ export function FilterPanel({ schools, onFilter, accentColor }: FilterPanelProps
             <div className="p-4 space-y-4">
               {/* Header */}
               <div className="flex items-center justify-between">
-                <h3 className="text-sm font-semibold text-white font-[family-name:var(--font-space-grotesk)]">Filter Schools</h3>
+                <h3 className="text-sm font-semibold text-white font-semibold">Filter Schools</h3>
                 {activeCount > 0 && (
                   <button onClick={clearAll} className="text-[10px] text-accent hover:underline">
                     Clear all

@@ -31,7 +31,7 @@ export function StatsOverview() {
             transition={{ delay: 0.1 + i * 0.05 }}
             className="bg-[var(--surface)] rounded-xl p-4 text-center border border-[var(--border)]"
           >
-            <p className="text-2xl font-bold font-[family-name:var(--font-display)]" style={{ color: stat.color }}>
+            <p className="text-2xl font-bold font-semibold" style={{ color: stat.color }}>
               {stat.value}
             </p>
             <p className="text-[10px] uppercase tracking-wider text-[var(--text-muted)] mt-1 font-medium">{stat.label}</p>
@@ -41,7 +41,7 @@ export function StatsOverview() {
 
       {/* Top Schools */}
       <div>
-        <h3 className="text-sm font-semibold text-[var(--text)] font-[family-name:var(--font-display)] mb-3">
+        <h3 className="text-sm font-semibold text-[var(--text)] font-semibold mb-3">
           Top Rated Schools
         </h3>
         <div className="space-y-2">
@@ -74,7 +74,7 @@ export function StatsOverview() {
 
       {/* District breakdown */}
       <div>
-        <h3 className="text-sm font-semibold text-[var(--text)] font-[family-name:var(--font-display)] mb-3">
+        <h3 className="text-sm font-semibold text-[var(--text)] font-semibold mb-3">
           By District
         </h3>
         <div className="grid grid-cols-2 gap-2">
