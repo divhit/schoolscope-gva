@@ -1,6 +1,6 @@
 import { NextRequest } from "next/server";
 import { interpretSearch, analyzeSchool } from "@/lib/gemini";
-import { enrichSchoolWithNearby, getSchoolPhoto } from "@/lib/places";
+import { getSchoolPhoto } from "@/lib/places";
 import { getAllSchools, getSchoolsNear } from "@/lib/schools-data";
 import type { School, SearchRequest } from "@/lib/types";
 
@@ -185,39 +185,34 @@ export async function POST(request: NextRequest) {
 
         send("searching", topSchools);
 
-        // Phase 3: Deep analysis with Gemini + Places API
-        const BATCH = 3;
-        for (let i = 0; i < Math.min(topSchools.length, 6); i += BATCH) {
-          const batch = topSchools.slice(i, i + BATCH);
-          await Promise.all(
-            batch.map(async (school) => {
+        // Phase 3: AI analysis (top 3 only, no Places API to stay under 60s)
+        const toAnalyze = topSchools.slice(0, 3);
+        await Promise.all(
+          toAnalyze.map(async (school) => {
+            try {
+              const nearbyInfo = `District: ${school.district}, Category: ${school.category}, Enrollment: ${school.enrollment}`;
+              const analysis = await analyzeSchool(school, query, nearbyInfo);
+
+              // Try to get photo but don't block on it
+              let photoUri: string | null = null;
               try {
-                const [nearbyInfo, photoUri] = await Promise.all([
-                  enrichSchoolWithNearby(
-                    school.location.latitude,
-                    school.location.longitude
-                  ),
-                  getSchoolPhoto(
-                    school.name,
-                    school.location.latitude,
-                    school.location.longitude
-                  ),
-                ]);
+                photoUri = await getSchoolPhoto(
+                  school.name,
+                  school.location.latitude,
+                  school.location.longitude
+                );
+              } catch { /* skip photo */ }
 
-                const analysis = await analyzeSchool(school, query, nearbyInfo);
-
-                send("analyzing", {
-                  schoolId: school.id,
-                  analysis,
-                  photoUri,
-                  nearbyInfo,
-                });
-              } catch (err) {
-                console.error(`Analysis failed for ${school.name}:`, err);
-              }
-            })
-          );
-        }
+              send("analyzing", {
+                schoolId: school.id,
+                analysis,
+                photoUri,
+              });
+            } catch (err) {
+              console.error(`Analysis failed for ${school.name}:`, err);
+            }
+          })
+        );
 
         send("complete", { totalSchools: topSchools.length });
       } catch (error) {
