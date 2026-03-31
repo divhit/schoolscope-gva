@@ -66,55 +66,44 @@ function NeighborhoodOverlay() {
     fetch("/data/vancouver-neighborhoods.geojson")
       .then((res) => res.json())
       .then((geojson: { features: GeoJSONFeature[] }) => {
-        // Add each neighborhood as a polygon
         geojson.features.forEach((feature) => {
-          const name = feature.properties.name;
-          const fillColor = HOOD_COLORS[name] ?? "#6366f120";
-          const strokeColor = HOOD_BORDER_COLORS[name] ?? "#6366f155";
+          try {
+            const name = feature.properties.name;
+            const fillColor = HOOD_COLORS[name] ?? "#6366f120";
+            const strokeColor = HOOD_BORDER_COLORS[name] ?? "#6366f155";
 
-          if (feature.geometry.type === "Polygon") {
-            const coords = (feature.geometry.coordinates as number[][][])[0];
-            const path = coords.map(([lng, lat]) => ({ lat, lng }));
+            if (feature.geometry.type === "Polygon") {
+              const coords = (feature.geometry.coordinates as number[][][])[0];
+              const path = coords.map(([lng, lat]) => ({ lat, lng }));
 
-            const polygon = new google.maps.Polygon({
-              paths: path,
-              fillColor,
-              fillOpacity: 0.3,
-              strokeColor,
-              strokeOpacity: 0.6,
-              strokeWeight: 1.5,
-              map,
-            });
+              const polygon = new google.maps.Polygon({
+                paths: path,
+                fillColor,
+                fillOpacity: 0.25,
+                strokeColor,
+                strokeOpacity: 0.6,
+                strokeWeight: 1.5,
+                map,
+              });
 
-            // Add label
-            const bounds = new google.maps.LatLngBounds();
-            path.forEach((p) => bounds.extend(p));
-            const center = bounds.getCenter();
-
-            const marker = new google.maps.marker.AdvancedMarkerElement({
-              position: center,
-              map,
-              content: (() => {
-                const div = document.createElement("div");
-                div.style.cssText = "font-size:10px;color:white;text-shadow:0 1px 3px rgba(0,0,0,0.8);font-weight:600;pointer-events:none;white-space:nowrap;";
-                div.textContent = name;
-                return div;
-              })(),
-            });
-
-            // Hover effect
-            polygon.addListener("mouseover", () => {
-              polygon.setOptions({ fillOpacity: 0.5, strokeWeight: 2.5 });
-            });
-            polygon.addListener("mouseout", () => {
-              polygon.setOptions({ fillOpacity: 0.3, strokeWeight: 1.5 });
-            });
+              polygon.addListener("mouseover", () => {
+                polygon.setOptions({ fillOpacity: 0.45, strokeWeight: 2.5 });
+              });
+              polygon.addListener("mouseout", () => {
+                polygon.setOptions({ fillOpacity: 0.25, strokeWeight: 1.5 });
+              });
+            }
+          } catch (e) {
+            // Skip individual polygon errors silently
           }
         });
 
         setLoaded(true);
       })
-      .catch((err) => console.error("Failed to load neighborhoods:", err));
+      .catch(() => {
+        // Neighborhood overlay is optional — don't break the map
+        setLoaded(true);
+      });
   }, [map, loaded]);
 
   return null;
