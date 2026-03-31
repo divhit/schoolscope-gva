@@ -424,6 +424,20 @@ async function main() {
     console.log(`Supplementary programs: ${supplementaryPrograms.length} entries`);
   }
 
+  // 10. Load scraped VSB programs data (comprehensive)
+  const scrapedProgPath = "scripts/vsb-programs-scraped.json";
+  if (existsSync(scrapedProgPath)) {
+    const scrapedData: { schoolName: string; programs: { name: string; description: string; url?: string }[] }[] =
+      JSON.parse(readFileSync(scrapedProgPath, "utf-8"));
+    for (const entry of scrapedData) {
+      supplementaryPrograms.push({
+        match: entry.schoolName,
+        programs: entry.programs.map((p) => ({ name: p.name, description: p.description })),
+      });
+    }
+    console.log(`Scraped VSB programs: ${scrapedData.length} schools added`);
+  }
+
   // === BUILD SCHOOL RECORDS ===
   console.log("\n=== Building school records ===");
 

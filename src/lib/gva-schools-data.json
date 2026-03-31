@@ -38710,6 +38710,10 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Early French Immersion",
+        "description": "K-7 program where BC curriculum is instructed in French from kindergarten to end of Grade 3, and Grades 4-7 50-80% of curriculum taught in French."
       }
     ],
     "tags": [
@@ -41664,9 +41668,18 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Catalyst Mini School Program",
+        "description": "Mini school program for highly motivated students at King George Secondary."
+      },
+      {
+        "name": "International Baccalaureate - Middle Years Programme (MYP)",
+        "description": "Grades 8-10 IB MYP program. Note: VSB voted to discontinue MYP effective June 27, 2025."
       }
     ],
     "tags": [
+      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -41825,6 +41838,14 @@
       {
         "name": "Magee Mini School",
         "description": "Enriched academic program"
+      },
+      {
+        "name": "SPARTS",
+        "description": "Sports-focused mini school program for highly motivated students at Magee Secondary."
+      },
+      {
+        "name": "Advanced Placement (AP)",
+        "description": "College-level AP courses including AP Art."
       }
     ],
     "tags": [
@@ -42155,6 +42176,10 @@
       {
         "name": "SOLE Mini School",
         "description": "Social justice and outdoor leadership enrichment"
+      },
+      {
+        "name": "French Immersion (Secondary)",
+        "description": "Grades 8-12 continuation of elementary French Immersion. Early Immersion students continue at least half the school day in French. Requires completion of elementary French Immersion program."
       }
     ],
     "tags": [
@@ -42319,6 +42344,10 @@
       {
         "name": "Digital Immersion Mini School",
         "description": "Technology-enhanced learning with experiential education"
+      },
+      {
+        "name": "Digital Immersion Mini School Program",
+        "description": "Technology-focused mini school program for highly motivated students."
       }
     ],
     "tags": [
@@ -42482,10 +42511,19 @@
       {
         "name": "TREK Outdoor Education",
         "description": "Outdoor and experiential education program with field studies"
+      },
+      {
+        "name": "Byng Arts Mini School Program",
+        "description": "Arts-focused mini school program for highly motivated students."
+      },
+      {
+        "name": "Advanced Placement (AP)",
+        "description": "College-level AP courses including Calculus, English Literature, French, Studio Art, Statistics, and Computer Science."
       }
     ],
     "tags": [
       "AP",
+      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -42640,9 +42678,18 @@
       {
         "name": "Templeton Mini School",
         "description": "Enriched academic program"
+      },
+      {
+        "name": "Templeton Mini School Program",
+        "description": "Mini school program for highly motivated students at Templeton Secondary."
+      },
+      {
+        "name": "Advanced Placement (AP)",
+        "description": "College-level AP courses for students with strong academic achievement."
       }
     ],
     "tags": [
+      "AP",
       "mini-school",
       "vancouver"
     ],
@@ -42798,10 +42845,27 @@
       {
         "name": "Early French Immersion",
         "description": "Full French immersion starting in Kindergarten"
+      },
+      {
+        "name": "French Immersion (Secondary)",
+        "description": "Grades 8-12 continuation of elementary French Immersion. Early Immersion students continue at least half the school day in French. Requires completion of elementary French Immersion program."
+      },
+      {
+        "name": "Flex Humanities Program",
+        "description": "Mini school program focused on humanities for highly motivated students."
+      },
+      {
+        "name": "Summit Program",
+        "description": "Mini school program for highly motivated students at Vancouver Technical Secondary."
+      },
+      {
+        "name": "Advanced Placement (AP)",
+        "description": "College-level AP courses including AP Studio Art 12: Drawing. District AP exam site for May 2026."
       }
     ],
     "tags": [
       "french-immersion",
+      "AP",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -42960,6 +43024,10 @@
       {
         "name": "Mini School",
         "description": "Enriched academic program with selective admission"
+      },
+      {
+        "name": "Point Grey Mini School Program",
+        "description": "Mini school program for highly motivated students at Point Grey Secondary."
       }
     ],
     "tags": [
@@ -43119,6 +43187,10 @@
       {
         "name": "Gladstone Mini School",
         "description": "Enriched academic program with arts integration"
+      },
+      {
+        "name": "Gladstone Mini School Program",
+        "description": "Mini school program for highly motivated students at Gladstone Secondary."
       }
     ],
     "tags": [
@@ -43289,6 +43361,22 @@
       {
         "name": "Churchill IDEAL Mini School",
         "description": "Enriched academic program"
+      },
+      {
+        "name": "French Immersion (Secondary)",
+        "description": "Grades 8-12 continuation of elementary French Immersion. Early Immersion students continue at least half the school day in French. Requires completion of elementary French Immersion program."
+      },
+      {
+        "name": "International Baccalaureate - Diploma Programme",
+        "description": "Grades 10-12 IB Diploma Programme. Two-year program (Grades 11-12) focusing on enrichment and learning skills for post-secondary. Students study six subjects plus programme core. Offered since 1983."
+      },
+      {
+        "name": "Ideal Mini School Program",
+        "description": "Mini school program for highly motivated students providing additional academic opportunities."
+      },
+      {
+        "name": "Synergy Program",
+        "description": "Additional enrichment program at Churchill Secondary."
       }
     ],
     "tags": [
@@ -43454,6 +43542,10 @@
       {
         "name": "Killarney CS Mini School",
         "description": "Community service focused enriched program"
+      },
+      {
+        "name": "Computer Science Mini School Program",
+        "description": "Computer science focused mini school program for highly motivated students."
       }
     ],
     "tags": [
@@ -43613,6 +43705,10 @@
       {
         "name": "Tupper Mini School",
         "description": "Enriched academic program"
+      },
+      {
+        "name": "Tupper Mini School Program",
+        "description": "Mini school program for highly motivated students at Tupper Secondary."
       }
     ],
     "tags": [
@@ -43771,6 +43867,10 @@
       {
         "name": "Odyssey Mini School",
         "description": "Enriched academic program with arts focus"
+      },
+      {
+        "name": "Odyssey Program",
+        "description": "Mini school program for highly motivated students at David Thompson Secondary."
       }
     ],
     "tags": [
@@ -43933,6 +44033,14 @@
       {
         "name": "Mini School",
         "description": "Enriched academic program"
+      },
+      {
+        "name": "Prince of Wales Mini School Program",
+        "description": "Mini school program for highly motivated students at Prince of Wales Secondary."
+      },
+      {
+        "name": "TREK Outdoor Education Program",
+        "description": "Grade 10 focused outdoor education program."
       }
     ],
     "tags": [
@@ -44245,6 +44353,14 @@
       {
         "name": "Hamber Mini School",
         "description": "Enriched academic program"
+      },
+      {
+        "name": "Challenge Studio Program",
+        "description": "Mini school program for highly motivated students at Eric Hamber Secondary."
+      },
+      {
+        "name": "Mandarin Bilingual (Secondary)",
+        "description": "Grades 8-12. Two Mandarin courses in Grade 8, one in Grade 9 as cohort, then mainstream Grades 10-12. Priority for Trudeau Elementary graduates."
       }
     ],
     "tags": [
@@ -44407,6 +44523,10 @@
       {
         "name": "UHill Mini School",
         "description": "Enriched academic program"
+      },
+      {
+        "name": "Advanced Placement (AP)",
+        "description": "College-level AP courses including AP Microeconomics, AP English Literature and Composition, AP Calculus AB, AP European History, AP Human Geography, and AP Studio Art."
       }
     ],
     "tags": [
@@ -44732,6 +44852,10 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "International Baccalaureate - Middle Years Programme (MYP)",
+        "description": "Grades 6-7 IB MYP program. Note: VSB voted to discontinue MYP effective June 27, 2025."
       }
     ],
     "tags": [
@@ -45066,6 +45190,10 @@
       {
         "name": "Indigenous Focus",
         "description": "Integrates Indigenous perspectives and content into curriculum and school culture"
+      },
+      {
+        "name": "Indigenous Focus School",
+        "description": "K-7 district choice program for Indigenous and non-Indigenous Vancouver students. Curriculum emphasizes respect for local First Nations, Indigenous peoples' values, histories, and shared worldviews. Named 'Xpey'' (cedar in Musqueam) gifted by Musqueam in 2018."
       }
     ],
     "tags": [
@@ -45389,6 +45517,10 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Intensive French",
+        "description": "Grades 6-7 district program. Students receive ~80% instruction in French September-January, then ~20% February-June. Math taught in English year-round. Develops oral skills equivalent to Grade 11 core French."
       }
     ],
     "tags": [
@@ -48560,6 +48692,10 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Mandarin Bilingual",
+        "description": "Grades 4-7 full-day program. Core curriculum taught in English with Mandarin taught through Mandarin Language Arts."
       }
     ],
     "tags": [
@@ -49390,6 +49526,10 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Early Mandarin Bilingual",
+        "description": "K-7 language instruction program where children learn and study in Mandarin for 50% of the day and English for 50%."
       }
     ],
     "tags": [
@@ -51214,9 +51354,14 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Montessori",
+        "description": "K-7 Montessori alternative program emphasizing child-centered, developmentally appropriate, hands-on learning with independence and self-motivation."
       }
     ],
     "tags": [
+      "montessori",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -51719,9 +51864,14 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Montessori",
+        "description": "K-7 Montessori alternative program emphasizing child-centered, developmentally appropriate, hands-on learning with independence and self-motivation. 22 Kindergarten spots and 24 Grade 1 spots available."
       }
     ],
     "tags": [
+      "montessori",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -52883,6 +53033,10 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "International Baccalaureate - Primary Years Programme (PYP)",
+        "description": "K-7 inquiry-based, transdisciplinary IB programme fostering development of the whole child. Emphasizes international-mindedness, personal values, and independent learning. No external IB examinations."
       }
     ],
     "tags": [
@@ -56521,9 +56675,14 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Montessori",
+        "description": "K-7 Montessori alternative program emphasizing child-centered, developmentally appropriate, hands-on learning with independence and self-motivation."
       }
     ],
     "tags": [
+      "montessori",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -58354,6 +58513,10 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "International Baccalaureate - Middle Years Programme (MYP)",
+        "description": "Grades 6-7 IB MYP program. Note: VSB voted to discontinue MYP effective June 27, 2025."
       }
     ],
     "tags": [
