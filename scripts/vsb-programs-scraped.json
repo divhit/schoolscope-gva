@@ -1,0 +1,667 @@
+[
+  {
+    "schoolName": "Hastings Community Elementary",
+    "programs": [
+      {
+        "name": "Early French Immersion",
+        "description": "K-7 program where BC curriculum is instructed in French from kindergarten to end of Grade 3, and Grades 4-7 50-80% of curriculum taught in French.",
+        "url": "https://www.vsb.bc.ca/early-french-immersion-k-7"
+      }
+    ]
+  },
+  {
+    "schoolName": "Henry Hudson Elementary",
+    "programs": [
+      {
+        "name": "Early French Immersion",
+        "description": "Grades 6-7 only. No K-5 enrolment for 2025-2026. BC curriculum instructed in French.",
+        "url": "https://www.vsb.bc.ca/early-french-immersion-k-7"
+      }
+    ]
+  },
+  {
+    "schoolName": "Ecole Jules Quesnel Elementary",
+    "programs": [
+      {
+        "name": "Early French Immersion",
+        "description": "K-7 French Immersion ONLY school. BC curriculum instructed in French from kindergarten through Grade 7.",
+        "url": "https://www.vsb.bc.ca/early-french-immersion-k-7"
+      }
+    ]
+  },
+  {
+    "schoolName": "Kerrisdale Elementary",
+    "programs": [
+      {
+        "name": "Early French Immersion",
+        "description": "K-7 program where BC curriculum is instructed in French from kindergarten to end of Grade 3, and Grades 4-7 50-80% of curriculum taught in French.",
+        "url": "https://www.vsb.bc.ca/early-french-immersion-k-7"
+      }
+    ]
+  },
+  {
+    "schoolName": "Laura Secord Elementary",
+    "programs": [
+      {
+        "name": "Early French Immersion",
+        "description": "K-7 program where BC curriculum is instructed in French from kindergarten to end of Grade 3, and Grades 4-7 50-80% of curriculum taught in French.",
+        "url": "https://www.vsb.bc.ca/early-french-immersion-k-7"
+      },
+      {
+        "name": "Late French Immersion",
+        "description": "Grades 6-7 program for students aged 10-11 who completed Grade 5. In Grade 6, 100% of BC curriculum taught in French; English Language Arts reintroduced in Grade 7.",
+        "url": "https://www.vsb.bc.ca/late-french-immersion-gr-6-7"
+      }
+    ]
+  },
+  {
+    "schoolName": "L'Ecole Bilingue Elementary",
+    "programs": [
+      {
+        "name": "Early French Immersion",
+        "description": "K-7 French Immersion ONLY school. BC curriculum instructed in French from kindergarten through Grade 7.",
+        "url": "https://www.vsb.bc.ca/early-french-immersion-k-7"
+      }
+    ]
+  },
+  {
+    "schoolName": "Lord Selkirk Elementary",
+    "programs": [
+      {
+        "name": "Early French Immersion",
+        "description": "K-7 program where BC curriculum is instructed in French from kindergarten to end of Grade 3, and Grades 4-7 50-80% of curriculum taught in French.",
+        "url": "https://www.vsb.bc.ca/early-french-immersion-k-7"
+      }
+    ]
+  },
+  {
+    "schoolName": "Lord Tennyson Elementary",
+    "programs": [
+      {
+        "name": "Early French Immersion",
+        "description": "K-7 program where BC curriculum is instructed in French from kindergarten to end of Grade 3, and Grades 4-7 50-80% of curriculum taught in French.",
+        "url": "https://www.vsb.bc.ca/early-french-immersion-k-7"
+      }
+    ]
+  },
+  {
+    "schoolName": "Sir James Douglas Elementary",
+    "programs": [
+      {
+        "name": "Early French Immersion",
+        "description": "K-7 program. Students attend an annex for K-3. BC curriculum instructed in French.",
+        "url": "https://www.vsb.bc.ca/early-french-immersion-k-7"
+      },
+      {
+        "name": "Late French Immersion",
+        "description": "Grades 6-7 program for students aged 10-11 who completed Grade 5. In Grade 6, 100% of BC curriculum taught in French; English Language Arts reintroduced in Grade 7.",
+        "url": "https://www.vsb.bc.ca/late-french-immersion-gr-6-7"
+      }
+    ]
+  },
+  {
+    "schoolName": "Quilchena Elementary",
+    "programs": [
+      {
+        "name": "Early French Immersion",
+        "description": "K-7 program where BC curriculum is instructed in French from kindergarten to end of Grade 3, and Grades 4-7 50-80% of curriculum taught in French.",
+        "url": "https://www.vsb.bc.ca/early-french-immersion-k-7"
+      }
+    ]
+  },
+  {
+    "schoolName": "Lord Strathcona Elementary",
+    "programs": [
+      {
+        "name": "Early French Immersion",
+        "description": "K-7 program where BC curriculum is instructed in French from kindergarten to end of Grade 3, and Grades 4-7 50-80% of curriculum taught in French.",
+        "url": "https://www.vsb.bc.ca/early-french-immersion-k-7"
+      }
+    ]
+  },
+  {
+    "schoolName": "Trafalgar Elementary",
+    "programs": [
+      {
+        "name": "Early French Immersion",
+        "description": "K-7 program where BC curriculum is instructed in French from kindergarten to end of Grade 3, and Grades 4-7 50-80% of curriculum taught in French.",
+        "url": "https://www.vsb.bc.ca/early-french-immersion-k-7"
+      },
+      {
+        "name": "Late French Immersion",
+        "description": "Grades 6-7 program for students aged 10-11 who completed Grade 5. In Grade 6, 100% of BC curriculum taught in French; English Language Arts reintroduced in Grade 7.",
+        "url": "https://www.vsb.bc.ca/late-french-immersion-gr-6-7"
+      }
+    ]
+  },
+  {
+    "schoolName": "John Norquay Elementary",
+    "programs": [
+      {
+        "name": "Early Mandarin Bilingual",
+        "description": "K-7 language instruction program where children learn and study in Mandarin for 50% of the day and English for 50%.",
+        "url": "https://www.vsb.bc.ca/mandarin-bilingual"
+      }
+    ]
+  },
+  {
+    "schoolName": "Pierre Elliott Trudeau Elementary",
+    "programs": [
+      {
+        "name": "Mandarin Bilingual",
+        "description": "Grades 4-7 full-day program. Core curriculum taught in English with Mandarin taught through Mandarin Language Arts.",
+        "url": "https://www.vsb.bc.ca/mandarin-bilingual"
+      }
+    ]
+  },
+  {
+    "schoolName": "Xpey' Elementary",
+    "programs": [
+      {
+        "name": "Indigenous Focus School",
+        "description": "K-7 district choice program for Indigenous and non-Indigenous Vancouver students. Curriculum emphasizes respect for local First Nations, Indigenous peoples' values, histories, and shared worldviews. Named 'Xpey'' (cedar in Musqueam) gifted by Musqueam in 2018.",
+        "url": "https://www.vsb.bc.ca/indigenous-focus"
+      }
+    ]
+  },
+  {
+    "schoolName": "Nootka Elementary",
+    "programs": [
+      {
+        "name": "Fine Arts Program",
+        "description": "K-7 district program emphasizing visual arts, dance, music, and process drama. Approximately one-third of weekly curriculum is arts instruction taught by specialists.",
+        "url": "https://www.vsb.bc.ca/fine-arts-program"
+      }
+    ]
+  },
+  {
+    "schoolName": "Tyee Elementary",
+    "programs": [
+      {
+        "name": "Montessori",
+        "description": "K-7 Montessori alternative program emphasizing child-centered, developmentally appropriate, hands-on learning with independence and self-motivation.",
+        "url": "https://www.vsb.bc.ca/montessori-elementary"
+      }
+    ]
+  },
+  {
+    "schoolName": "Maple Grove Elementary",
+    "programs": [
+      {
+        "name": "Montessori",
+        "description": "K-7 Montessori alternative program emphasizing child-centered, developmentally appropriate, hands-on learning with independence and self-motivation.",
+        "url": "https://www.vsb.bc.ca/montessori-elementary"
+      }
+    ]
+  },
+  {
+    "schoolName": "Renfrew Community Elementary",
+    "programs": [
+      {
+        "name": "Montessori",
+        "description": "K-7 Montessori alternative program emphasizing child-centered, developmentally appropriate, hands-on learning with independence and self-motivation. 22 Kindergarten spots and 24 Grade 1 spots available.",
+        "url": "https://www.vsb.bc.ca/montessori-elementary"
+      }
+    ]
+  },
+  {
+    "schoolName": "General Brock Elementary",
+    "programs": [
+      {
+        "name": "Intensive French",
+        "description": "Grades 6-7 district program. Students receive ~80% instruction in French September-January, then ~20% February-June. Math taught in English year-round. Develops oral skills equivalent to Grade 11 core French.",
+        "url": "https://www.vsb.bc.ca/page/5308/intensive-french-gr-6-7"
+      }
+    ]
+  },
+  {
+    "schoolName": "Southlands Elementary",
+    "programs": [
+      {
+        "name": "International Baccalaureate - Primary Years Programme (PYP)",
+        "description": "K-7 inquiry-based, transdisciplinary IB programme fostering development of the whole child. Emphasizes international-mindedness, personal values, and independent learning. No external IB examinations.",
+        "url": "https://www.vsb.bc.ca/international-baccalaureate"
+      }
+    ]
+  },
+  {
+    "schoolName": "Elsie Roy Elementary",
+    "programs": [
+      {
+        "name": "International Baccalaureate - Middle Years Programme (MYP)",
+        "description": "Grades 6-7 IB MYP program. Note: VSB voted to discontinue MYP effective June 27, 2025.",
+        "url": "https://www.vsb.bc.ca/middle-years-programme-myp-1"
+      }
+    ]
+  },
+  {
+    "schoolName": "Lord Roberts Elementary",
+    "programs": [
+      {
+        "name": "International Baccalaureate - Middle Years Programme (MYP)",
+        "description": "Grades 6-7 IB MYP program. Note: VSB voted to discontinue MYP effective June 27, 2025.",
+        "url": "https://www.vsb.bc.ca/middle-years-programme-myp-1"
+      }
+    ]
+  },
+  {
+    "schoolName": "Churchill Secondary",
+    "programs": [
+      {
+        "name": "French Immersion (Secondary)",
+        "description": "Grades 8-12 continuation of elementary French Immersion. Early Immersion students continue at least half the school day in French. Requires completion of elementary French Immersion program.",
+        "url": "https://www.vsb.bc.ca/french-immersion"
+      },
+      {
+        "name": "International Baccalaureate - Diploma Programme",
+        "description": "Grades 10-12 IB Diploma Programme. Two-year program (Grades 11-12) focusing on enrichment and learning skills for post-secondary. Students study six subjects plus programme core. Offered since 1983.",
+        "url": "https://www.vsb.bc.ca/sir-winston-churchill/international-baccalaureate"
+      },
+      {
+        "name": "Ideal Mini School Program",
+        "description": "Mini school program for highly motivated students providing additional academic opportunities.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
+      },
+      {
+        "name": "Synergy Program",
+        "description": "Additional enrichment program at Churchill Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
+      }
+    ]
+  },
+  {
+    "schoolName": "Kitsilano Secondary",
+    "programs": [
+      {
+        "name": "French Immersion (Secondary)",
+        "description": "Grades 8-12 continuation of elementary French Immersion. Early Immersion students continue at least half the school day in French. Requires completion of elementary French Immersion program.",
+        "url": "https://www.vsb.bc.ca/french-immersion"
+      }
+    ]
+  },
+  {
+    "schoolName": "Vancouver Technical Secondary",
+    "programs": [
+      {
+        "name": "French Immersion (Secondary)",
+        "description": "Grades 8-12 continuation of elementary French Immersion. Early Immersion students continue at least half the school day in French. Requires completion of elementary French Immersion program.",
+        "url": "https://www.vsb.bc.ca/french-immersion"
+      },
+      {
+        "name": "Flex Humanities Program",
+        "description": "Mini school program focused on humanities for highly motivated students.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
+      },
+      {
+        "name": "Summit Program",
+        "description": "Mini school program for highly motivated students at Vancouver Technical Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
+      },
+      {
+        "name": "Advanced Placement (AP)",
+        "description": "College-level AP courses including AP Studio Art 12: Drawing. District AP exam site for May 2026.",
+        "url": "https://www.vsb.bc.ca/advanced-placement-exams"
+      }
+    ]
+  },
+  {
+    "schoolName": "Britannia Secondary",
+    "programs": [
+      {
+        "name": "Venture Program",
+        "description": "Mini school program for highly motivated students at Britannia Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
+      },
+      {
+        "name": "Hockey Academy",
+        "description": "Combines regular secondary school coursework with hockey training.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
+      },
+      {
+        "name": "International Baccalaureate - Diploma Programme",
+        "description": "Grades 10-12 IB Diploma Programme. Two-year program (Grades 11-12) with six subjects plus programme core, focused on enrichment and post-secondary readiness.",
+        "url": "https://www.vsb.bc.ca/britannia-secondary/ib"
+      }
+    ]
+  },
+  {
+    "schoolName": "Lord Byng Secondary",
+    "programs": [
+      {
+        "name": "Byng Arts Mini School Program",
+        "description": "Arts-focused mini school program for highly motivated students.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
+      },
+      {
+        "name": "Advanced Placement (AP)",
+        "description": "College-level AP courses including Calculus, English Literature, French, Studio Art, Statistics, and Computer Science.",
+        "url": "https://www.vsb.bc.ca/lord-byng/advanced-placement-ap"
+      }
+    ]
+  },
+  {
+    "schoolName": "David Thompson Secondary",
+    "programs": [
+      {
+        "name": "Odyssey Program",
+        "description": "Mini school program for highly motivated students at David Thompson Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
+      }
+    ]
+  },
+  {
+    "schoolName": "Gladstone Secondary",
+    "programs": [
+      {
+        "name": "Gladstone Mini School Program",
+        "description": "Mini school program for highly motivated students at Gladstone Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
+      }
+    ]
+  },
+  {
+    "schoolName": "Eric Hamber Secondary",
+    "programs": [
+      {
+        "name": "Challenge Studio Program",
+        "description": "Mini school program for highly motivated students at Eric Hamber Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
+      },
+      {
+        "name": "Mandarin Bilingual (Secondary)",
+        "description": "Grades 8-12. Two Mandarin courses in Grade 8, one in Grade 9 as cohort, then mainstream Grades 10-12. Priority for Trudeau Elementary graduates.",
+        "url": "https://www.vsb.bc.ca/mandarin-bilingual-1"
+      }
+    ]
+  },
+  {
+    "schoolName": "John Oliver Secondary",
+    "programs": [
+      {
+        "name": "Digital Immersion Mini School Program",
+        "description": "Technology-focused mini school program for highly motivated students.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
+      }
+    ]
+  },
+  {
+    "schoolName": "Killarney Secondary",
+    "programs": [
+      {
+        "name": "Computer Science Mini School Program",
+        "description": "Computer science focused mini school program for highly motivated students.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
+      }
+    ]
+  },
+  {
+    "schoolName": "King George Secondary",
+    "programs": [
+      {
+        "name": "Catalyst Mini School Program",
+        "description": "Mini school program for highly motivated students at King George Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
+      },
+      {
+        "name": "International Baccalaureate - Middle Years Programme (MYP)",
+        "description": "Grades 8-10 IB MYP program. Note: VSB voted to discontinue MYP effective June 27, 2025.",
+        "url": "https://www.vsb.bc.ca/middle-years-programme-myp-1"
+      }
+    ]
+  },
+  {
+    "schoolName": "Magee Secondary",
+    "programs": [
+      {
+        "name": "SPARTS",
+        "description": "Sports-focused mini school program for highly motivated students at Magee Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
+      },
+      {
+        "name": "Advanced Placement (AP)",
+        "description": "College-level AP courses including AP Art.",
+        "url": "https://www.vsb.bc.ca/magee/page/3164/ap-art"
+      }
+    ]
+  },
+  {
+    "schoolName": "Point Grey Secondary",
+    "programs": [
+      {
+        "name": "Point Grey Mini School Program",
+        "description": "Mini school program for highly motivated students at Point Grey Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
+      }
+    ]
+  },
+  {
+    "schoolName": "Prince of Wales Secondary",
+    "programs": [
+      {
+        "name": "Prince of Wales Mini School Program",
+        "description": "Mini school program for highly motivated students at Prince of Wales Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
+      },
+      {
+        "name": "TREK Outdoor Education Program",
+        "description": "Grade 10 focused outdoor education program.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
+      }
+    ]
+  },
+  {
+    "schoolName": "Templeton Secondary",
+    "programs": [
+      {
+        "name": "Templeton Mini School Program",
+        "description": "Mini school program for highly motivated students at Templeton Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
+      },
+      {
+        "name": "Advanced Placement (AP)",
+        "description": "College-level AP courses for students with strong academic achievement.",
+        "url": "https://www.vsb.bc.ca/templeton/page/4183/advanced-placement-courses-at-templeton"
+      }
+    ]
+  },
+  {
+    "schoolName": "Tupper Secondary",
+    "programs": [
+      {
+        "name": "Tupper Mini School Program",
+        "description": "Mini school program for highly motivated students at Tupper Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
+      }
+    ]
+  },
+  {
+    "schoolName": "Windermere Secondary",
+    "programs": [
+      {
+        "name": "Windermere Leadership",
+        "description": "Leadership-focused mini school program for highly motivated students.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
+      },
+      {
+        "name": "Early Mandarin Bilingual (Secondary)",
+        "description": "Grades 8-12. Two Mandarin courses in Grade 8, one in Grade 9 as cohort, then mainstream Grades 10-12. Priority for John Norquay Elementary graduates.",
+        "url": "https://www.vsb.bc.ca/mandarin-bilingual-1"
+      }
+    ]
+  },
+  {
+    "schoolName": "University Hill Secondary",
+    "programs": [
+      {
+        "name": "Advanced Placement (AP)",
+        "description": "College-level AP courses including AP Microeconomics, AP English Literature and Composition, AP Calculus AB, AP European History, AP Human Geography, and AP Studio Art.",
+        "url": "https://www.vsb.bc.ca/university-hill/page/4503/ap-courses"
+      }
+    ]
+  },
+  {
+    "schoolName": "Vancouver Learning Network (VLN)",
+    "programs": [
+      {
+        "name": "Distributed Learning - Secondary",
+        "description": "Online/distributed learning program for students who wish to learn at home or need flexible scheduling. Full-time and part-time options available.",
+        "url": "https://www.vsb.bc.ca/vancouver-learning-network"
+      },
+      {
+        "name": "Advanced Placement (AP) - Online",
+        "description": "AP courses available through online distributed learning for students across the district.",
+        "url": "https://www.vsb.bc.ca/advanced-placement-exams"
+      },
+      {
+        "name": "Distributed Learning - Elementary (K-7)",
+        "description": "Online/distributed learning for K-7 students learning at home or needing flexible scheduling.",
+        "url": "https://www.vsb.bc.ca/vancouver-learning-network"
+      }
+    ]
+  },
+  {
+    "schoolName": "VSB Career Programs (District-wide)",
+    "programs": [
+      {
+        "name": "Youth TRAIN in Trades - Aircraft Maintenance Engineer",
+        "description": "Trades training program earning high school credits and industry certification.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Youth TRAIN in Trades - Architectural CADD and Graphics Technician",
+        "description": "Trades training in architectural computer-aided design and drafting.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Youth TRAIN in Trades - Automotive Collision and Refinishing",
+        "description": "Trades training in auto body collision repair and refinishing.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Youth TRAIN in Trades - Auto Service Technician",
+        "description": "Trades training in automotive service and repair.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Youth TRAIN in Trades - Baking & Pastry Arts",
+        "description": "Trades training in professional baking and pastry.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Youth TRAIN in Trades - Bricklayer",
+        "description": "Trades training in bricklaying and masonry.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Youth TRAIN in Trades - Carpentry",
+        "description": "Trades training in carpentry and construction.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Youth TRAIN in Trades - Cisco and IT Networking",
+        "description": "Trades training in Cisco networking and IT infrastructure.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Youth TRAIN in Trades - Early Childhood Educator",
+        "description": "Training in early childhood education and care.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Youth TRAIN in Trades - Electrical",
+        "description": "Trades training in electrical work and wiring.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Youth TRAIN in Trades - Emergency Medical Responder",
+        "description": "Training in emergency medical response.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Youth TRAIN in Trades - Hairstylist",
+        "description": "Trades training in professional hairstyling.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Youth TRAIN in Trades - Health Care Assistant",
+        "description": "Training in healthcare assistance and patient care.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Youth TRAIN in Trades - Heavy Mechanical Trades",
+        "description": "Trades training in heavy equipment mechanics.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Youth TRAIN in Trades - Industrial Mechanic (Millwright)",
+        "description": "Trades training in industrial mechanics and millwright work.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Youth TRAIN in Trades - Medical Laboratory Assistant",
+        "description": "Training in medical laboratory assistance.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Youth TRAIN in Trades - Metal Fabricator",
+        "description": "Trades training in metal fabrication and welding.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Youth TRAIN in Trades - Motorcycle Technician",
+        "description": "Trades training in motorcycle mechanics and repair.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Youth TRAIN in Trades - Painting and Decorating",
+        "description": "Trades training in professional painting and decorating.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Youth TRAIN in Trades - Pharmacy Technician",
+        "description": "Training in pharmacy technology.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Youth TRAIN in Trades - Plumbing",
+        "description": "Trades training in plumbing installation and repair.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Youth TRAIN in Trades - Professional Cook 1",
+        "description": "Trades training in professional cooking and culinary arts.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Youth WORK in Trades",
+        "description": "On-the-job learning in a paid and registered youth apprenticeship.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Youth EXPLORE Trades Sampler",
+        "description": "Experience and learn basic skills across multiple trades in a sampler format.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Dual Credit Programs",
+        "description": "Earn both high school and post-secondary credits in healthcare and technology fields.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Headstart-in-Art",
+        "description": "Arts-focused career program.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Job Training",
+        "description": "Integrates classroom learning with practical work experience for youth with diverse abilities.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      },
+      {
+        "name": "Work Experience",
+        "description": "Combines classroom theory with workplace practical experience.",
+        "url": "https://www.vsb.bc.ca/career-programs/programs"
+      }
+    ]
+  }
+]
