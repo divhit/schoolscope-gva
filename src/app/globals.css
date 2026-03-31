@@ -35,7 +35,7 @@
   --color-danger: var(--danger);
   --color-text-secondary: var(--text-secondary);
   --color-text-muted: var(--text-muted);
-  --font-sans: var(--font-manrope);
+  --font-sans: var(--font-raleway);
 }
 
 body {

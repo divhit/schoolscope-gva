@@ -12,6 +12,7 @@ interface SchoolMapProps {
   userLocation: { lat: number; lng: number } | null;
   accentColor?: string;
   showNeighborhoods?: boolean;
+  onMapMove?: (center: { lat: number; lng: number }) => void;
 }
 
 // Neighborhood colors
@@ -127,6 +128,7 @@ export function SchoolMap({
   userLocation,
   accentColor,
   showNeighborhoods = true,
+  onMapMove,
 }: SchoolMapProps) {
   const center = userLocation ?? { lat: 49.2527, lng: -123.0907 };
 
@@ -139,6 +141,12 @@ export function SchoolMap({
       className="h-full w-full rounded-2xl"
       colorScheme="DARK"
       mapId="schoolscope-dark"
+      onIdle={(e) => {
+        if (onMapMove && e.map) {
+          const c = e.map.getCenter();
+          if (c) onMapMove({ lat: c.lat(), lng: c.lng() });
+        }
+      }}
     >
       <MapPanner location={userLocation} />
       {showNeighborhoods && <NeighborhoodOverlay />}

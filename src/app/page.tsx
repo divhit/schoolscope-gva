@@ -248,10 +248,11 @@ export default function Home() {
       lng = loc.lng;
     }
 
-    // Load nearby schools directly from data (no API call)
-    const nearby = getSchoolsNear(lat, lng, 5);
-    const allSchoolsList = nearby.length >= 10 ? nearby : getSchoolsNear(lat, lng, 10);
-    setSchools(allSchoolsList.slice(0, 30));
+    // Load schools within 2km of the address (tight radius for relevance)
+    let nearby = getSchoolsNear(lat, lng, 2);
+    if (nearby.length < 5) nearby = getSchoolsNear(lat, lng, 3);
+    if (nearby.length < 3) nearby = getSchoolsNear(lat, lng, 5);
+    setSchools(nearby.slice(0, 20));
     setInterpretation({
       searchTerms: [],
       schoolTypes: [],
@@ -265,6 +266,22 @@ export default function Home() {
 
   const isSearching = appState !== "idle" && appState !== "results";
   const accentColor = interpretation?.accentColor;
+
+  // Load more schools when user pans the map (only in browse/results mode)
+  const handleMapMove = useCallback((center: { lat: number; lng: number }) => {
+    if (appState !== "results" || !interpretation) return;
+    // Only reload if this was a browse (address) search, not AI search
+    if (interpretation.searchTerms.length > 0) return;
+    const nearby = getSchoolsNear(center.lat, center.lng, 2);
+    if (nearby.length < 3) return;
+    // Merge with existing schools, deduplicate
+    setSchools((prev) => {
+      const ids = new Set(prev.map((s) => s.id));
+      const newSchools = nearby.filter((s) => !ids.has(s.id));
+      if (newSchools.length === 0) return prev;
+      return [...prev, ...newSchools].slice(0, 40);
+    });
+  }, [appState, interpretation]);
 
   // Sort schools by analysis score if available
   const displaySchools = filteredSchools ?? schools;
@@ -410,6 +427,7 @@ export default function Home() {
                     onSelectSchool={setSelectedSchool}
                     userLocation={userLocation}
                     accentColor={accentColor}
+                    onMapMove={handleMapMove}
                   />
                 </MapErrorBoundary>
               </div>
