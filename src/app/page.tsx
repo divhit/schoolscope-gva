@@ -11,6 +11,7 @@ import { SchoolDetail } from "@/components/SchoolDetail";
 import { SearchStatus } from "@/components/SearchStatus";
 import { StatsOverview } from "@/components/StatsOverview";
 import { FilterPanel } from "@/components/FilterPanel";
+import { getAllSchools, getSchoolsNear } from "@/lib/schools-data";
 import type { School, SchoolAnalysis, AppState, SearchInterpretation } from "@/lib/types";
 
 interface SchoolAnalysisData {
@@ -174,6 +175,59 @@ export default function Home() {
     [getUserLocation]
   );
 
+  // Browse mode: load all nearby schools without AI
+  const handleBrowse = useCallback(async (address?: string) => {
+    setAppState("searching");
+    setSchools([]);
+    setAnalyses({});
+    setSelectedSchool(null);
+    setFilteredSchools(null);
+    setInterpretation(null);
+
+    let lat: number, lng: number;
+
+    if (address) {
+      // Geocode the address using Google Maps
+      try {
+        const res = await fetch(
+          `https://maps.googleapis.com/maps/api/geocode/json?address=${encodeURIComponent(address + ", Greater Vancouver, BC")}&key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}`
+        );
+        const data = await res.json();
+        if (data.results?.[0]) {
+          lat = data.results[0].geometry.location.lat;
+          lng = data.results[0].geometry.location.lng;
+          setUserLocation({ lat, lng });
+        } else {
+          const loc = await getUserLocation();
+          lat = loc.lat;
+          lng = loc.lng;
+        }
+      } catch {
+        const loc = await getUserLocation();
+        lat = loc.lat;
+        lng = loc.lng;
+      }
+    } else {
+      const loc = await getUserLocation();
+      lat = loc.lat;
+      lng = loc.lng;
+    }
+
+    // Load nearby schools directly from data (no API call)
+    const nearby = getSchoolsNear(lat, lng, 5);
+    const allSchoolsList = nearby.length >= 10 ? nearby : getSchoolsNear(lat, lng, 10);
+    setSchools(allSchoolsList.slice(0, 30));
+    setInterpretation({
+      searchTerms: [],
+      schoolTypes: [],
+      priorities: [],
+      neighborhoods: [],
+      summary: address ? `Schools near ${address}` : "Schools near your location",
+      accentColor: "#3B82F6",
+    });
+    setAppState("results");
+  }, [getUserLocation]);
+
   const isSearching = appState !== "idle" && appState !== "results";
   const accentColor = interpretation?.accentColor;
 
@@ -212,6 +266,7 @@ export default function Home() {
             <div className="flex-1 flex justify-center">
               <SearchBar
                 onSearch={handleSearch}
+                onBrowse={handleBrowse}
                 isSearching={isSearching}
                 accentColor={accentColor}
               />
