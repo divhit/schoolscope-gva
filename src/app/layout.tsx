@@ -1,23 +1,23 @@
 import type { Metadata } from "next";
-import { Space_Grotesk, Inter } from "next/font/google";
+import { Instrument_Serif, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 
-const spaceGrotesk = Space_Grotesk({
-  variable: "--font-space-grotesk",
+const instrumentSerif = Instrument_Serif({
+  variable: "--font-instrument-serif",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: "400",
 });
 
-const inter = Inter({
-  variable: "--font-inter",
+const plusJakarta = Plus_Jakarta_Sans({
+  variable: "--font-plus-jakarta",
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
+  weight: ["300", "400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
-  title: "SchoolScope GVA | AI-Powered School Explorer",
+  title: "SchoolScope GVA | Find the Right School",
   description:
-    "Discover the perfect school in Greater Vancouver. AI-powered search, interactive maps, real data from BC Ministry of Education.",
+    "Discover the perfect school in Greater Vancouver. AI-powered search with real data from BC Ministry of Education.",
 };
 
 export default function RootLayout({
@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${spaceGrotesk.variable} ${inter.variable} h-full antialiased`}
+      className={`${instrumentSerif.variable} ${plusJakarta.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>

@@ -126,8 +126,8 @@ export function SchoolMap({
       gestureHandling="greedy"
       disableDefaultUI
       className="h-full w-full rounded-2xl"
-      colorScheme="DARK"
-      mapId="schoolscope-dark"
+      colorScheme="LIGHT"
+      mapId="schoolscope-light"
     >
       {showNeighborhoods && <NeighborhoodOverlay />}
 

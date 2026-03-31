@@ -189,20 +189,20 @@ export default function Home() {
     <APIProvider apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!}>
       <div className="flex flex-col h-screen overflow-hidden">
         {/* Top bar */}
-        <header className="relative z-40 shrink-0">
-          <div className="px-4 md:px-6 py-4 flex items-center gap-4">
+        <header className="relative z-40 shrink-0 bg-white/80 backdrop-blur-md border-b border-[var(--border-light)]">
+          <div className="px-4 md:px-6 py-3 flex items-center gap-4">
             {/* Logo */}
-            <div className="flex items-center gap-2 shrink-0">
-              <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-accent to-accent-2 flex items-center justify-center">
+            <div className="flex items-center gap-2.5 shrink-0">
+              <div className="w-8 h-8 rounded-xl flex items-center justify-center" style={{ background: "var(--accent)" }}>
                 <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
               </div>
               <div>
-                <h1 className="text-base font-bold font-[family-name:var(--font-space-grotesk)] gradient-text">
+                <h1 className="text-base font-[family-name:var(--font-display)] text-[var(--text)]">
                   SchoolScope
                 </h1>
-                <p className="text-[9px] uppercase tracking-widest text-text-muted -mt-0.5">
+                <p className="text-[9px] uppercase tracking-[0.15em] text-[var(--text-muted)] -mt-0.5 font-medium">
                   Greater Vancouver
                 </p>
               </div>
@@ -227,19 +227,19 @@ export default function Home() {
             )}
 
             {/* View toggle */}
-            <div className="shrink-0 flex items-center gap-1 glass rounded-xl p-1">
+            <div className="shrink-0 flex items-center gap-0.5 bg-[var(--surface-2)] rounded-xl p-1">
               <button
                 onClick={() => setShowMap(true)}
-                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
-                  showMap ? "bg-white/10 text-white" : "text-text-muted hover:text-white"
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+                  showMap ? "bg-white text-[var(--text)] shadow-sm" : "text-[var(--text-muted)] hover:text-[var(--text)]"
                 }`}
               >
                 Map
               </button>
               <button
                 onClick={() => setShowMap(false)}
-                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
-                  !showMap ? "bg-white/10 text-white" : "text-text-muted hover:text-white"
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+                  !showMap ? "bg-white text-[var(--text)] shadow-sm" : "text-[var(--text-muted)] hover:text-[var(--text)]"
                 }`}
               >
                 List
@@ -261,51 +261,39 @@ export default function Home() {
             {appState === "idle" ? (
               /* Idle state — hero */
               <div className="h-full flex flex-col items-center justify-center px-6 relative overflow-hidden">
-                {/* Background gradient orbs */}
-                <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                  <div className="absolute -top-40 -left-40 w-96 h-96 rounded-full bg-accent/5 blur-3xl" />
-                  <div className="absolute -bottom-40 -right-40 w-96 h-96 rounded-full bg-accent-2/5 blur-3xl" />
-                  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-accent/3 blur-[100px]" />
-                </div>
-
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   className="relative z-10 text-center max-w-2xl"
                 >
-                  <motion.div
-                    initial={{ scale: 0.8, opacity: 0 }}
-                    animate={{ scale: 1, opacity: 1 }}
+                  <motion.p
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
                     transition={{ delay: 0.1 }}
-                    className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-accent to-accent-2 flex items-center justify-center shadow-lg shadow-accent/20"
+                    className="text-xs uppercase tracking-[0.2em] text-[var(--accent)] font-semibold mb-4"
                   >
-                    <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                    </svg>
-                  </motion.div>
+                    Greater Vancouver &middot; 619 Schools &middot; 11 Districts
+                  </motion.p>
 
-                  <h2 className="text-4xl md:text-5xl font-bold font-[family-name:var(--font-space-grotesk)] gradient-text mb-4">
-                    Find the Perfect School
+                  <h2 className="text-4xl md:text-[52px] leading-[1.1] font-[family-name:var(--font-display)] text-[var(--text)] mb-5">
+                    Find the right school<br />for your family
                   </h2>
-                  <p className="text-lg text-text-secondary mb-8 leading-relaxed">
-                    AI-powered school discovery for{" "}
-                    <span className="text-white font-medium">Greater Vancouver</span>.
-                    Search naturally — we analyze academics, neighborhood, transit access,
-                    and nearby amenities for every school.
+                  <p className="text-base text-[var(--text-secondary)] mb-10 leading-relaxed max-w-lg mx-auto">
+                    Search naturally. We analyze academics, enrollment, facilities,
+                    programs, and neighborhood for every school in the Greater Vancouver Area.
                   </p>
 
-                  <div className="flex flex-wrap justify-center gap-2 mb-10">
+                  <div className="flex flex-wrap justify-center gap-2 mb-12">
                     {[
-                      "600+ Schools",
-                      "BC Gov Data",
+                      "Real BC Gov Data",
                       "AI Analysis",
-                      "Google Maps",
-                      "Real Enrollment",
-                      "11 Districts",
+                      "22-Year Enrollment History",
+                      "IB & AP Programs",
+                      "FCI & Seismic Data",
                     ].map((tag) => (
                       <span
                         key={tag}
-                        className="text-xs px-3 py-1.5 rounded-full glass text-text-secondary"
+                        className="text-[11px] px-3 py-1.5 rounded-full bg-[var(--surface-2)] text-[var(--text-secondary)] border border-[var(--border-light)]"
                       >
                         {tag}
                       </span>
@@ -313,7 +301,6 @@ export default function Home() {
                   </div>
                 </motion.div>
 
-                {/* Stats */}
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -347,7 +334,7 @@ export default function Home() {
                 animate={{ width: showMap ? "40%" : "100%", opacity: 1 }}
                 exit={{ width: 0, opacity: 0 }}
                 transition={{ duration: 0.4 }}
-                className="h-full overflow-y-auto border-l border-white/5 bg-background hidden md:block"
+                className="h-full overflow-y-auto border-l border-[var(--border-light)] bg-[var(--background)] hidden md:block"
               >
                 <div className="p-4 space-y-4">
                   {/* Interpretation header */}
@@ -355,9 +342,9 @@ export default function Home() {
                     <motion.div
                       initial={{ opacity: 0, y: -8 }}
                       animate={{ opacity: 1, y: 0 }}
-                      className="glass rounded-xl p-4"
+                      className="bg-white rounded-xl p-4 border border-[var(--border-light)] shadow-sm"
                     >
-                      <p className="text-sm text-white font-medium">{interpretation.summary}</p>
+                      <p className="text-sm text-[var(--text)] font-medium">{interpretation.summary}</p>
                       <div className="flex flex-wrap gap-1.5 mt-2">
                         {interpretation.priorities.slice(0, 4).map((p, i) => (
                           <span
@@ -414,9 +401,9 @@ export default function Home() {
 
           {/* Mobile results */}
           {appState !== "idle" && (
-            <div className="md:hidden fixed bottom-0 left-0 right-0 z-30 max-h-[50vh] overflow-y-auto bg-background border-t border-white/5 rounded-t-2xl">
+            <div className="md:hidden fixed bottom-0 left-0 right-0 z-30 max-h-[50vh] overflow-y-auto bg-white border-t border-[var(--border)] rounded-t-2xl shadow-2xl">
               <div className="p-4 space-y-3">
-                <div className="w-10 h-1 rounded-full bg-white/20 mx-auto mb-2" />
+                <div className="w-10 h-1 rounded-full bg-[var(--border)] mx-auto mb-2" />
 
                 <SearchStatus
                   state={appState}
