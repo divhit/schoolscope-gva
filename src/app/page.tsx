@@ -119,10 +119,45 @@ export default function Home() {
                 const data = JSON.parse(line.slice(6));
 
                 switch (eventType) {
-                  case "interpreting":
-                    setInterpretation(data as SearchInterpretation);
+                  case "interpreting": {
+                    const interp = data as SearchInterpretation;
+                    setInterpretation(interp);
                     setAppState("searching");
+                    // Zoom map to the identified neighborhood
+                    const hoodCenters: Record<string, { lat: number; lng: number }> = {
+                      kitsilano: { lat: 49.2685, lng: -123.1680 },
+                      kits: { lat: 49.2685, lng: -123.1680 },
+                      kerrisdale: { lat: 49.2330, lng: -123.1570 },
+                      dunbar: { lat: 49.2500, lng: -123.1880 },
+                      fairview: { lat: 49.2630, lng: -123.1300 },
+                      "mount pleasant": { lat: 49.2620, lng: -123.1000 },
+                      "commercial drive": { lat: 49.2700, lng: -123.0700 },
+                      shaughnessy: { lat: 49.2440, lng: -123.1510 },
+                      oakridge: { lat: 49.2260, lng: -123.1160 },
+                      marpole: { lat: 49.2110, lng: -123.1290 },
+                      killarney: { lat: 49.2200, lng: -123.0430 },
+                      ubc: { lat: 49.2606, lng: -123.2460 },
+                      vancouver: { lat: 49.2500, lng: -123.1200 },
+                      burnaby: { lat: 49.2488, lng: -123.0016 },
+                      richmond: { lat: 49.1666, lng: -123.1336 },
+                      surrey: { lat: 49.1044, lng: -122.8251 },
+                      coquitlam: { lat: 49.2838, lng: -122.7932 },
+                      "north vancouver": { lat: 49.3200, lng: -123.0700 },
+                      "west vancouver": { lat: 49.3400, lng: -123.1700 },
+                      "new westminster": { lat: 49.2069, lng: -122.9110 },
+                      delta: { lat: 49.0847, lng: -123.0587 },
+                      langley: { lat: 49.1044, lng: -122.6600 },
+                      "maple ridge": { lat: 49.2193, lng: -122.5984 },
+                    };
+                    for (const hood of interp.neighborhoods) {
+                      const center = hoodCenters[hood.toLowerCase()];
+                      if (center) {
+                        setUserLocation(center);
+                        break;
+                      }
+                    }
                     break;
+                  }
 
                   case "searching":
                     setSchools(data as School[]);

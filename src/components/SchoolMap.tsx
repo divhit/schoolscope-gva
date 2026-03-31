@@ -109,6 +109,17 @@ function NeighborhoodOverlay() {
   return null;
 }
 
+function MapPanner({ location }: { location: { lat: number; lng: number } | null }) {
+  const map = useMap();
+  useEffect(() => {
+    if (map && location) {
+      map.panTo(location);
+      map.setZoom(14);
+    }
+  }, [map, location]);
+  return null;
+}
+
 export function SchoolMap({
   schools,
   selectedSchool,
@@ -129,6 +140,7 @@ export function SchoolMap({
       colorScheme="DARK"
       mapId="schoolscope-dark"
     >
+      <MapPanner location={userLocation} />
       {showNeighborhoods && <NeighborhoodOverlay />}
 
       {userLocation && (
