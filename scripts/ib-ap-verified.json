@@ -1,0 +1,834 @@
+[
+  {
+    "schoolName": "Britannia Secondary School",
+    "district": "Vancouver (SD39)",
+    "programs": [
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB DP offered at grades 10-12. One of three IB schools in the Vancouver School Board.",
+        "source": "https://www.vsb.bc.ca/middle-years-programme-myp-1"
+      }
+    ]
+  },
+  {
+    "schoolName": "Sir Winston Churchill Secondary School",
+    "district": "Vancouver (SD39)",
+    "programs": [
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB DP offered at grades 10-12. One of three IB schools in the Vancouver School Board.",
+        "source": "https://www.ibo.org/en/school/000277"
+      }
+    ]
+  },
+  {
+    "schoolName": "King George Secondary School",
+    "district": "Vancouver (SD39)",
+    "programs": [
+      {
+        "name": "IB Middle Years Programme",
+        "description": "IB MYP for all grades 8-10 students. All students at King George are automatically enrolled in MYP. Note: VSB voted to discontinue MYP effective June 27, 2025.",
+        "source": "https://www.vsb.bc.ca/middle-years-programme-myp-1"
+      }
+    ]
+  },
+  {
+    "schoolName": "Southlands Elementary School",
+    "district": "Vancouver (SD39)",
+    "programs": [
+      {
+        "name": "IB Primary Years Programme",
+        "description": "IB PYP for K-Grade 7. Authorized since 2013. All students participate in PYP.",
+        "source": "https://www.vsb.bc.ca/southlands/page/3944/ib-primary-years-programme"
+      }
+    ]
+  },
+  {
+    "schoolName": "Elsie Roy Elementary School",
+    "district": "Vancouver (SD39)",
+    "programs": [
+      {
+        "name": "IB Middle Years Programme",
+        "description": "IB MYP for grades 6-7. Note: VSB voted to discontinue MYP effective June 27, 2025.",
+        "source": "https://www.vsb.bc.ca/middle-years-programme-myp-1"
+      }
+    ]
+  },
+  {
+    "schoolName": "Lord Roberts Elementary School",
+    "district": "Vancouver (SD39)",
+    "programs": [
+      {
+        "name": "IB Middle Years Programme",
+        "description": "IB MYP for grades 6-7. Note: VSB voted to discontinue MYP effective June 27, 2025.",
+        "source": "https://www.vsb.bc.ca/middle-years-programme-myp-1"
+      }
+    ]
+  },
+  {
+    "schoolName": "Lord Byng Secondary School",
+    "district": "Vancouver (SD39)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses offered include Calculus, English Literature, French, Studio Art, Statistics, and Computer Science.",
+        "source": "https://www.vsb.bc.ca/lord-byng/advanced-placement-ap"
+      }
+    ]
+  },
+  {
+    "schoolName": "University Hill Secondary School",
+    "district": "Vancouver (SD39)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses offered including AP English Literature and Composition, AP Human Geography, and AP Studio Art.",
+        "source": "https://www.vsb.bc.ca/advanced-placement-exams"
+      }
+    ]
+  },
+  {
+    "schoolName": "Templeton Secondary School",
+    "district": "Vancouver (SD39)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "Advanced Placement courses offered.",
+        "source": "https://www.vsb.bc.ca/templeton/page/4183/advanced-placement-courses-at-templeton"
+      }
+    ]
+  },
+  {
+    "schoolName": "Magee Secondary School",
+    "district": "Vancouver (SD39)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses offered in Art, Calculus, and English.",
+        "source": "https://www.vsb.bc.ca/advanced-placement-exams"
+      }
+    ]
+  },
+  {
+    "schoolName": "Point Grey Secondary School",
+    "district": "Vancouver (SD39)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses offered including Calculus, Visual Art and Design.",
+        "source": "https://www.vsb.bc.ca/advanced-placement-exams"
+      }
+    ]
+  },
+  {
+    "schoolName": "Windermere Secondary School",
+    "district": "Vancouver (SD39)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "Honours, enriched, and Advanced Placement courses for highly motivated students.",
+        "source": "https://www.vsb.bc.ca/advanced-placement-exams"
+      }
+    ]
+  },
+  {
+    "schoolName": "Kitsilano Secondary School",
+    "district": "Vancouver (SD39)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "Advanced Placement courses offered.",
+        "source": "https://www.vsb.bc.ca/advanced-placement-exams"
+      }
+    ]
+  },
+  {
+    "schoolName": "Johnston Heights Secondary School",
+    "district": "Surrey (SD36)",
+    "programs": [
+      {
+        "name": "IB Middle Years Programme",
+        "description": "IB MYP for all grades 8-10 students. All students at Johnston Heights are enrolled in MYP.",
+        "source": "https://www.surreyschools.ca/johnht/myp-middle-years-programme"
+      },
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB DP for grades 11-12. District choice programme open to all SD36 students who apply in Grade 10.",
+        "source": "https://www.surreyschools.ca/johnht/dp-diploma-programme"
+      }
+    ]
+  },
+  {
+    "schoolName": "Semiahmoo Secondary School",
+    "district": "Surrey (SD36)",
+    "programs": [
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB DP for grades 11-12. Internationally recognized two-year academic program.",
+        "source": "https://ibsemiahmoo.ca/apply/"
+      }
+    ]
+  },
+  {
+    "schoolName": "Fraser Heights Secondary School",
+    "district": "Surrey (SD36)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses in Calculus, Physics, Psychology, and Economics.",
+        "source": "https://www.studyinsurrey.ca/programs/specialty-programs/advanced-placement"
+      }
+    ]
+  },
+  {
+    "schoolName": "Earl Marriott Secondary School",
+    "district": "Surrey (SD36)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "Wide range of academic pathways including Advanced Placement.",
+        "source": "https://www.studyinsurrey.ca/schools/earl-marriott-secondary-school-surrey-metro-vancouver-bc"
+      }
+    ]
+  },
+  {
+    "schoolName": "Panorama Ridge Secondary School",
+    "district": "Surrey (SD36)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses including English, Geography, Biology, and Calculus.",
+        "source": "https://www.studyinsurrey.ca/schools/panorama-ridge-secondary"
+      }
+    ]
+  },
+  {
+    "schoolName": "Fleetwood Park Secondary School",
+    "district": "Surrey (SD36)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses in Calculus and Chemistry.",
+        "source": "https://www.surreyschools.ca/fltsec/_ci/p/178829"
+      }
+    ]
+  },
+  {
+    "schoolName": "Richmond Secondary School",
+    "district": "Richmond (SD38)",
+    "programs": [
+      {
+        "name": "IB Diploma Programme",
+        "description": "The only school in Richmond certified to offer the IB Diploma Programme. Open to all grades 11-12 students in Richmond. Authorized since July 1, 1984.",
+        "source": "https://sd38.bc.ca/programs/secondary-programs/international-baccalaureate"
+      }
+    ]
+  },
+  {
+    "schoolName": "Hugh Boyd Secondary School",
+    "district": "Richmond (SD38)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses offered for gifted or motivated students to complete college-level studies during secondary school.",
+        "source": "https://boyd.sd38.bc.ca/school-information/2015-2016-course-planning/advanced-placement"
+      }
+    ]
+  },
+  {
+    "schoolName": "Port Moody Secondary School",
+    "district": "Coquitlam (SD43)",
+    "programs": [
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB DP for grades 11-12 with Pre-Diploma courses in grades 9-10. District-wide programme. Authorized October 13, 1986. Pre-Diploma includes Art, English, Social Studies, Math, Science, and 4 Modern Language options.",
+        "source": "https://www.sd43.bc.ca/Programs/IB/Pages/default.aspx"
+      }
+    ]
+  },
+  {
+    "schoolName": "Centennial Secondary School",
+    "district": "Coquitlam (SD43)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP Biology 12 and AP Chemistry in Grade 12. Also offers university Calculus courses taught by Douglas College at the school.",
+        "source": "https://www.sd43.bc.ca/school/centennial/ProgramsServices/ProgramsChoice/APP/Pages/default.aspx"
+      }
+    ]
+  },
+  {
+    "schoolName": "Pinetree Secondary School",
+    "district": "Coquitlam (SD43)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "Honours & AP Program offering AP Biology 12, AP Chemistry 12, and AP Physics 12.",
+        "source": "https://www.sd43.bc.ca/school/pinetree/ProgramsServices/HonoursAP/Pages/default.aspx"
+      }
+    ]
+  },
+  {
+    "schoolName": "Heritage Woods Secondary School",
+    "district": "Coquitlam (SD43)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "Advanced Placement courses offered.",
+        "source": "https://www.mycism.com/2025/08/a-comprehensive-guide-to-secondary-schools-in-coquitlam-school-district-sd43/"
+      }
+    ]
+  },
+  {
+    "schoolName": "Terry Fox Secondary School",
+    "district": "Coquitlam (SD43)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "Advanced Placement courses offered alongside French Immersion and other programs.",
+        "source": "https://www.mycism.com/2025/08/a-comprehensive-guide-to-secondary-schools-in-coquitlam-school-district-sd43/"
+      }
+    ]
+  },
+  {
+    "schoolName": "Riverside Secondary School",
+    "district": "Coquitlam (SD43)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "Advanced Placement courses offered.",
+        "source": "https://www.mycism.com/2025/08/a-comprehensive-guide-to-secondary-schools-in-coquitlam-school-district-sd43/"
+      }
+    ]
+  },
+  {
+    "schoolName": "Carson Graham Secondary School",
+    "district": "North Vancouver (SD44)",
+    "programs": [
+      {
+        "name": "IB Middle Years Programme",
+        "description": "IB MYP for all Grade 8, 9, and 10 students.",
+        "source": "https://www.sd44.ca/ProgramsServices/IB/pages/default.aspx"
+      },
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB DP for Grade 11 and 12 students.",
+        "source": "https://www.sd44.ca/ProgramsServices/IB/pages/default.aspx"
+      }
+    ]
+  },
+  {
+    "schoolName": "Capilano Elementary School",
+    "district": "North Vancouver (SD44)",
+    "programs": [
+      {
+        "name": "IB Primary Years Programme",
+        "description": "Authorized IB World School offering PYP for K-Grade 7.",
+        "source": "https://www.sd44.ca/school/capilano/ProgramsServices/IB/Pages/IB.aspx"
+      }
+    ]
+  },
+  {
+    "schoolName": "Queen Mary Community Elementary School",
+    "district": "North Vancouver (SD44)",
+    "programs": [
+      {
+        "name": "IB Primary Years Programme",
+        "description": "Authorized IB World School offering PYP for K-Grade 7.",
+        "source": "https://www.sd44.ca/school/queenmary/ProgramsServices/IB_PYP/Pages/default.aspx"
+      }
+    ]
+  },
+  {
+    "schoolName": "Norgate Xwmelch'stn Community Elementary School",
+    "district": "North Vancouver (SD44)",
+    "programs": [
+      {
+        "name": "IB Primary Years Programme",
+        "description": "Authorized IB World School offering PYP for K-Grade 7. Began implementation September 2020.",
+        "source": "https://www.sd44.ca/ProgramsServices/IB/Pages/Norgate.aspx"
+      }
+    ]
+  },
+  {
+    "schoolName": "Handsworth Secondary School",
+    "district": "North Vancouver (SD44)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses in Computer Science, Studio Art, Calculus, Microeconomics, and Chemistry.",
+        "source": "https://www.sd44.ca/ProgramsServices/AdvancedPlacement/Pages/default.aspx"
+      }
+    ]
+  },
+  {
+    "schoolName": "Argyle Secondary School",
+    "district": "North Vancouver (SD44)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses in Calculus, Physics, Chemistry, and Biology.",
+        "source": "https://www.sd44.ca/ProgramsServices/AdvancedPlacement/Pages/default.aspx"
+      }
+    ]
+  },
+  {
+    "schoolName": "West Vancouver Secondary School",
+    "district": "West Vancouver (SD45)",
+    "programs": [
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB DP for grades 11-12. Longest-running IB Programme on the North Shore (since 1988). Includes Pre-Diploma Programme (PDP) for Grade 10.",
+        "source": "https://westvancouverschools.ca/ib/"
+      }
+    ]
+  },
+  {
+    "schoolName": "Rockridge Secondary School",
+    "district": "West Vancouver (SD45)",
+    "programs": [
+      {
+        "name": "IB Middle Years Programme",
+        "description": "IB MYP for all grades 8-10 students. Authorized June 2014. All students participate in MYP.",
+        "source": "https://westvancouverschools.ca/rockridge-secondary/myp-home/"
+      },
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses for Grade 11 and 12 students. Named to AP School Honor Roll three consecutive years.",
+        "source": "https://westvancouverschools.ca/rockridge-secondary/students/advanced-placement/"
+      }
+    ]
+  },
+  {
+    "schoolName": "West Bay Elementary School",
+    "district": "West Vancouver (SD45)",
+    "programs": [
+      {
+        "name": "IB Primary Years Programme",
+        "description": "IB PYP for K-Grade 7. Authorized since August 2007. All students participate.",
+        "source": "https://westvancouverschools.ca/schools/west-bay-ib-pyp"
+      }
+    ]
+  },
+  {
+    "schoolName": "Cypress Park Primary School",
+    "district": "West Vancouver (SD45)",
+    "programs": [
+      {
+        "name": "IB Primary Years Programme",
+        "description": "IB PYP World School. Located on Marine Drive in West Vancouver.",
+        "source": "https://westvancouverschools.ca/schools/cypress-park-ib-pyp/"
+      }
+    ]
+  },
+  {
+    "schoolName": "Ecole Cedardale Elementary School",
+    "district": "West Vancouver (SD45)",
+    "programs": [
+      {
+        "name": "IB Primary Years Programme",
+        "description": "IB PYP combined with French Immersion. First and only French Immersion elementary school in BC to combine IB PYP with French Immersion.",
+        "source": "https://westvancouverschools.ca/programs/ecole-cedardale-ib-pyp/"
+      }
+    ]
+  },
+  {
+    "schoolName": "Ecole Sentinel Secondary School",
+    "district": "West Vancouver (SD45)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP program introduced in 1988. AP courses in French, Psychology, Calculus, Physics, Biology, Chemistry, Language, Literature, Fine Arts, and more. 248 students wrote 688 AP exams with average score of 4.17/5.",
+        "source": "https://westvancouverschools.ca/ecole-sentinel-secondary/programs/advanced-placement/"
+      }
+    ]
+  },
+  {
+    "schoolName": "New Westminster Secondary School",
+    "district": "New Westminster (SD40)",
+    "programs": [
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB DP and Certificate Program for grades 11-12. Offered since 2000.",
+        "source": "https://newwestschools.ca/programs-services/programs-of-choice/international-baccalaureate/"
+      },
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses offered out of class time, usually after school. Available in Grade 12 or Grade 11 with instructor permission.",
+        "source": "https://nwss.ca/wp-content/uploads/2021/01/NWSS-Course-Description-Booklet-2021-2022-FINAL.pdf"
+      }
+    ]
+  },
+  {
+    "schoolName": "Burnaby North Secondary School",
+    "district": "Burnaby (SD41)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses and AP Capstone Diploma Program offered.",
+        "source": "https://burnabyschools.ca/ap-coursesap-capstone-diploma-program/"
+      }
+    ]
+  },
+  {
+    "schoolName": "Burnaby South Secondary School",
+    "district": "Burnaby (SD41)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "21 AP courses and AP Capstone Diploma Program. AP Capstone since 2014/15.",
+        "source": "https://south.burnabyschools.ca/advanced-placement-ap/"
+      }
+    ]
+  },
+  {
+    "schoolName": "Burnaby Mountain Secondary School",
+    "district": "Burnaby (SD41)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses offered with strong student performance.",
+        "source": "https://mountain.burnabyschools.ca/departments/advanced-placement-ap-2/"
+      }
+    ]
+  },
+  {
+    "schoolName": "Alpha Secondary School",
+    "district": "Burnaby (SD41)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses offered.",
+        "source": "https://alpha.burnabyschools.ca/programs/ap-information/"
+      }
+    ]
+  },
+  {
+    "schoolName": "Burnaby Central Secondary School",
+    "district": "Burnaby (SD41)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses offered. All Burnaby secondary schools offer a variety of AP courses.",
+        "source": "https://burnabyschools.ca/ap-coursesap-capstone-diploma-program/"
+      }
+    ]
+  },
+  {
+    "schoolName": "Byrne Creek Secondary School",
+    "district": "Burnaby (SD41)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses offered. All Burnaby secondary schools offer a variety of AP courses.",
+        "source": "https://burnabyschools.ca/ap-coursesap-capstone-diploma-program/"
+      }
+    ]
+  },
+  {
+    "schoolName": "Cariboo Hill Secondary School",
+    "district": "Burnaby (SD41)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses offered. All Burnaby secondary schools offer a variety of AP courses.",
+        "source": "https://burnabyschools.ca/ap-coursesap-capstone-diploma-program/"
+      }
+    ]
+  },
+  {
+    "schoolName": "Moscrop Secondary School",
+    "district": "Burnaby (SD41)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses offered. All Burnaby secondary schools offer a variety of AP courses.",
+        "source": "https://burnabyschools.ca/ap-coursesap-capstone-diploma-program/"
+      }
+    ]
+  },
+  {
+    "schoolName": "Seaquam Secondary School",
+    "district": "Delta (SD37)",
+    "programs": [
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB DP as an alternative to Advanced Placement courses in grades 11-12. IB Coordinator: Dhana Matthews.",
+        "source": "https://www.deltasd.bc.ca/programs/international-baccalaureate/"
+      }
+    ]
+  },
+  {
+    "schoolName": "English Bluff Elementary School",
+    "district": "Delta (SD37)",
+    "programs": [
+      {
+        "name": "IB Primary Years Programme",
+        "description": "Fully accredited IB World School for PYP, K-Grade 7. IB Coordinator: Stephanie Filice.",
+        "source": "https://www.deltasd.bc.ca/programs/international-baccalaureate/"
+      }
+    ]
+  },
+  {
+    "schoolName": "South Delta Secondary School",
+    "district": "Delta (SD37)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses offered including French Immersion, academics, applied skills, and fine arts.",
+        "source": "https://www.godelta.ca/about-delta/schools/south-delta-secondary-school/"
+      }
+    ]
+  },
+  {
+    "schoolName": "R.E. Mountain Secondary School",
+    "district": "Langley (SD35)",
+    "programs": [
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB DP for Grade 11-12 students. Only school in Langley to offer IB. Pre-IB Honours program for grades 9-10. District Choice Program open to all Langley residents.",
+        "source": "https://remss.sd35.bc.ca/programs-courses/i-b/"
+      }
+    ]
+  },
+  {
+    "schoolName": "Aldergrove Community Secondary School",
+    "district": "Langley (SD35)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses offered including Languages, Social Studies, Visual and Performing Arts, Mathematics, and Science.",
+        "source": "https://www.sd35.bc.ca/studyinlangley/advanced-placement"
+      }
+    ]
+  },
+  {
+    "schoolName": "Brookswood Secondary School",
+    "district": "Langley (SD35)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses offered including Languages, Social Studies, Visual and Performing Arts, Mathematics, and Science.",
+        "source": "https://www.sd35.bc.ca/studyinlangley/advanced-placement"
+      }
+    ]
+  },
+  {
+    "schoolName": "D.W. Poppy Secondary School",
+    "district": "Langley (SD35)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses offered including Languages, Social Studies, Visual and Performing Arts, Mathematics, and Science.",
+        "source": "https://www.sd35.bc.ca/studyinlangley/advanced-placement"
+      }
+    ]
+  },
+  {
+    "schoolName": "Langley Fundamental Middle and Secondary School",
+    "district": "Langley (SD35)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses offered.",
+        "source": "https://www.sd35.bc.ca/studyinlangley/advanced-placement"
+      }
+    ]
+  },
+  {
+    "schoolName": "Walnut Grove Secondary School",
+    "district": "Langley (SD35)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses offered including Languages, Social Studies, Visual and Performing Arts, Mathematics, and Science.",
+        "source": "https://wgsscourseguide.ca/programs/advanced-placement-program/"
+      }
+    ]
+  },
+  {
+    "schoolName": "Garibaldi Secondary School",
+    "district": "Maple Ridge-Pitt Meadows (SD42)",
+    "programs": [
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB DP for grades 11-12. Also offers IB MYP. Open to SD42 students and students from neighbouring districts. One of only 16 high schools in BC offering IB.",
+        "source": "https://www.sd42.ca/program/ib/"
+      },
+      {
+        "name": "IB Middle Years Programme",
+        "description": "IB MYP offered at Garibaldi Secondary.",
+        "source": "https://www.sd42.ca/program/ib/"
+      }
+    ]
+  },
+  {
+    "schoolName": "Maple Ridge Secondary School",
+    "district": "Maple Ridge-Pitt Meadows (SD42)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses offered.",
+        "source": "https://www.sd42.ca/program/advanced-placement/"
+      }
+    ]
+  },
+  {
+    "schoolName": "Stratford Hall",
+    "district": "Vancouver (Independent)",
+    "programs": [
+      {
+        "name": "IB Primary Years Programme",
+        "description": "IB PYP for K-Grade 5. One of only 605 schools globally offering the complete IB programme continuum.",
+        "source": "https://www.stratfordhall.ca/our-programs/the-ib-programme-continuum/primary-years-programme-pyp"
+      },
+      {
+        "name": "IB Middle Years Programme",
+        "description": "IB MYP for Grades 6-10. Eight courses: Language and Literature, Language Acquisition, Individuals and Societies, Science, Mathematics, Fine Arts, PHE, and Design.",
+        "source": "https://www.stratfordhall.ca/our-programs/the-ib-programme-continuum/middle-years-programme-myp"
+      },
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB DP for Grades 11-12.",
+        "source": "https://www.stratfordhall.ca/our-programs/the-ib-programme-continuum/diploma-programme-dp"
+      }
+    ]
+  },
+  {
+    "schoolName": "St. John's School",
+    "district": "Vancouver (Independent)",
+    "programs": [
+      {
+        "name": "IB Primary Years Programme",
+        "description": "IB PYP for JK-Grade 5. IB Continuum School in Kitsilano, Vancouver.",
+        "source": "https://sjs.ca/"
+      },
+      {
+        "name": "IB Middle Years Programme",
+        "description": "IB MYP for Grades 6-10.",
+        "source": "https://sjs.ca/"
+      },
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB DP for Grades 11-12.",
+        "source": "https://www.ibo.org/en/school/004622"
+      }
+    ]
+  },
+  {
+    "schoolName": "Mulgrave School",
+    "district": "West Vancouver (Independent)",
+    "programs": [
+      {
+        "name": "IB Primary Years Programme",
+        "description": "IB PYP authorized 2007. Preschool to Grade 5.",
+        "source": "https://www.mulgrave.com/our-school/international-baccalaureate"
+      },
+      {
+        "name": "IB Middle Years Programme",
+        "description": "IB MYP authorized 2009. Grades 6-10.",
+        "source": "https://www.mulgrave.com/our-school/international-baccalaureate"
+      },
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB DP authorized 2006. Grades 11-12.",
+        "source": "https://www.mulgrave.com/our-school/international-baccalaureate"
+      }
+    ]
+  },
+  {
+    "schoolName": "Collingwood School",
+    "district": "West Vancouver (Independent)",
+    "programs": [
+      {
+        "name": "IB Primary Years Programme",
+        "description": "IB PYP. Full IB continuum school on two campuses in West Vancouver.",
+        "source": "https://bespokelearning.ca/schools/collingwood-school"
+      },
+      {
+        "name": "IB Middle Years Programme",
+        "description": "IB MYP. Students score well above global averages.",
+        "source": "https://bespokelearning.ca/schools/collingwood-school"
+      },
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB DP. Outstanding results across all three programmes.",
+        "source": "https://bespokelearning.ca/schools/collingwood-school"
+      }
+    ]
+  },
+  {
+    "schoolName": "Brockton School",
+    "district": "North Vancouver (Independent)",
+    "programs": [
+      {
+        "name": "IB Primary Years Programme",
+        "description": "IB PYP for Grades 1-5. Only independent school in BC to offer all 4 IB programmes.",
+        "source": "https://brocktonschool.com/"
+      },
+      {
+        "name": "IB Middle Years Programme",
+        "description": "IB MYP for Grades 6-10.",
+        "source": "https://brocktonschool.com/"
+      },
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB DP for Grades 11-12.",
+        "source": "https://brocktonschool.com/"
+      }
+    ]
+  },
+  {
+    "schoolName": "Southpointe Academy",
+    "district": "Delta/Tsawwassen (Independent)",
+    "programs": [
+      {
+        "name": "IB Primary Years Programme",
+        "description": "IB PYP for K-Grade 5. Only school in Delta and one of few in Canada to offer all three IB programmes.",
+        "source": "https://www.southpointe.ca/"
+      },
+      {
+        "name": "IB Middle Years Programme",
+        "description": "IB MYP for Grades 6-10.",
+        "source": "https://www.southpointe.ca/"
+      },
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB DP for Grades 11-12.",
+        "source": "https://www.ibo.org/en/school/006474/"
+      }
+    ]
+  },
+  {
+    "schoolName": "Meadowridge School",
+    "district": "Maple Ridge (Independent)",
+    "programs": [
+      {
+        "name": "IB Primary Years Programme",
+        "description": "IB PYP for JK-Grade 5. IB Continuum World School on 35-acre campus.",
+        "source": "https://www.meadowridge.bc.ca/academics/international-baccalaureate"
+      },
+      {
+        "name": "IB Middle Years Programme",
+        "description": "IB MYP for Grades 6-10.",
+        "source": "https://www.meadowridge.bc.ca/academics/international-baccalaureate"
+      },
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB DP for Grades 11-12.",
+        "source": "https://www.meadowridge.bc.ca/academics/international-baccalaureate"
+      }
+    ]
+  },
+  {
+    "schoolName": "Southridge School",
+    "district": "Surrey (Independent)",
+    "programs": [
+      {
+        "name": "Advanced Placement",
+        "description": "K-12 independent school offering Advanced Placement courses in the Senior School.",
+        "source": "https://www.southridge.ca/our-programs/senior-school/advanced-placement"
+      }
+    ]
+  }
+]
