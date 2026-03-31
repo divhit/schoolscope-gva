@@ -211,7 +211,7 @@ export default function Home() {
   );
 
   // Browse mode: load all nearby schools without AI
-  const handleBrowse = useCallback(async (address?: string) => {
+  const handleBrowse = useCallback(async (address?: string, placeLatLng?: { lat: number; lng: number }) => {
     setAppState("searching");
     setSchools([]);
     setAnalyses({});
@@ -221,31 +221,39 @@ export default function Home() {
 
     let lat: number, lng: number;
 
-    if (address) {
-      // Geocode the address using Google Maps
+    if (placeLatLng) {
+      // Already have coordinates from autocomplete
+      lat = placeLatLng.lat;
+      lng = placeLatLng.lng;
+      setUserLocation({ lat, lng });
+    } else if (address) {
+      // Use Places API text search to geocode (Geocoding API not enabled)
       try {
-        const res = await fetch(
-          `https://maps.googleapis.com/maps/api/geocode/json?address=${encodeURIComponent(address + ", Greater Vancouver, BC")}&key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}`
-        );
+        const res = await fetch(`https://places.googleapis.com/v1/places:searchText`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "X-Goog-Api-Key": process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!,
+            "X-Goog-FieldMask": "places.location",
+          },
+          body: JSON.stringify({ textQuery: address + ", Vancouver BC", pageSize: 1 }),
+        });
         const data = await res.json();
-        if (data.results?.[0]) {
-          lat = data.results[0].geometry.location.lat;
-          lng = data.results[0].geometry.location.lng;
+        if (data.places?.[0]?.location) {
+          lat = data.places[0].location.latitude;
+          lng = data.places[0].location.longitude;
           setUserLocation({ lat, lng });
         } else {
           const loc = await getUserLocation();
-          lat = loc.lat;
-          lng = loc.lng;
+          lat = loc.lat; lng = loc.lng;
         }
       } catch {
         const loc = await getUserLocation();
-        lat = loc.lat;
-        lng = loc.lng;
+        lat = loc.lat; lng = loc.lng;
       }
     } else {
       const loc = await getUserLocation();
-      lat = loc.lat;
-      lng = loc.lng;
+      lat = loc.lat; lng = loc.lng;
     }
 
     // Load schools within 2km of the address (tight radius for relevance)

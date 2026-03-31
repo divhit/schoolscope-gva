@@ -6,7 +6,7 @@ import { useMapsLibrary } from "@vis.gl/react-google-maps";
 
 interface SearchBarProps {
   onSearch: (query: string) => void;
-  onBrowse?: (address?: string) => void;
+  onBrowse?: (address?: string, latLng?: { lat: number; lng: number }) => void;
   isSearching: boolean;
   accentColor?: string;
 }
@@ -26,13 +26,21 @@ export function SearchBar({ onSearch, onBrowse, isSearching }: SearchBarProps) {
   const [predictions, setPredictions] = useState<google.maps.places.AutocompletePrediction[]>([]);
   const inputRef = useRef<HTMLInputElement>(null);
   const autocompleteService = useRef<google.maps.places.AutocompleteService | null>(null);
+  const geocoderRef = useRef<google.maps.Geocoder | null>(null);
   const places = useMapsLibrary("places");
+  const geocodingLib = useMapsLibrary("geocoding");
 
   useEffect(() => {
     if (places && !autocompleteService.current) {
       autocompleteService.current = new places.AutocompleteService();
     }
   }, [places]);
+
+  useEffect(() => {
+    if (geocodingLib && !geocoderRef.current) {
+      geocoderRef.current = new geocodingLib.Geocoder();
+    }
+  }, [geocodingLib]);
 
   // Detect if input looks like an address (starts with number or contains street words)
   const looksLikeAddress = useCallback((input: string) => {
@@ -112,7 +120,20 @@ export function SearchBar({ onSearch, onBrowse, isSearching }: SearchBarProps) {
                   <p className="text-[10px] uppercase tracking-wider text-[var(--text-muted)] px-3 py-1.5 font-medium">Addresses</p>
                   {predictions.map((p) => (
                     <button key={p.place_id}
-                      onClick={() => { setQuery(p.description); setPredictions([]); setShowDropdown(false); if (onBrowse) onBrowse(p.description); }}
+                      onClick={() => {
+                        setQuery(p.description); setPredictions([]); setShowDropdown(false);
+                        // Geocode to get lat/lng from place_id
+                        if (geocoderRef.current && onBrowse) {
+                          geocoderRef.current.geocode({ placeId: p.place_id }, (results, status) => {
+                            if (status === "OK" && results?.[0]) {
+                              const loc = results[0].geometry.location;
+                              onBrowse(p.description, { lat: loc.lat(), lng: loc.lng() });
+                            } else {
+                              onBrowse(p.description);
+                            }
+                          });
+                        } else if (onBrowse) { onBrowse(p.description); }
+                      }}
                       className="w-full text-left px-3 py-2 text-[13px] text-[var(--text-secondary)] hover:text-[var(--text)] hover:bg-[var(--surface-2)] rounded-lg transition-colors flex items-center gap-2">
                       <svg className="w-3.5 h-3.5 shrink-0 text-[var(--text-muted)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
