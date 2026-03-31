@@ -106,19 +106,23 @@ export function SchoolCard({
           )}
         </div>
 
-        {/* Programs */}
-        {school.programs && school.programs.length > 0 && (
-          <div className="flex flex-wrap gap-1 mt-2.5">
-            {school.programs.slice(0, 2).map((p, i) => (
-              <span key={i} className="accent-pill">
-                {p.name}
-              </span>
-            ))}
-            {school.programs.length > 2 && (
-              <span className="text-[10px] text-[var(--text-muted)] self-center">+{school.programs.length - 2}</span>
-            )}
-          </div>
-        )}
+        {/* Programs — skip "Core French" since nearly every school has it */}
+        {school.programs && school.programs.length > 0 && (() => {
+          const notable = school.programs.filter((p) => p.name !== "Core French");
+          const display = notable.length > 0 ? notable : school.programs;
+          return (
+            <div className="flex flex-wrap gap-1 mt-2.5">
+              {display.slice(0, 3).map((p, i) => (
+                <span key={i} className="accent-pill">
+                  {p.name}
+                </span>
+              ))}
+              {display.length > 3 && (
+                <span className="text-[10px] text-[var(--text-muted)] self-center">+{display.length - 3}</span>
+              )}
+            </div>
+          );
+        })()}
 
         {/* AI summary */}
         {analysis && (
