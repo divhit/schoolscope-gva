@@ -10,6 +10,7 @@ import { SchoolCard } from "@/components/SchoolCard";
 import { SchoolDetail } from "@/components/SchoolDetail";
 import { SearchStatus } from "@/components/SearchStatus";
 import { StatsOverview } from "@/components/StatsOverview";
+import { FilterPanel } from "@/components/FilterPanel";
 import type { School, SchoolAnalysis, AppState, SearchInterpretation } from "@/lib/types";
 
 interface SchoolAnalysisData {
@@ -27,6 +28,7 @@ export default function Home() {
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
   const [analyzedCount, setAnalyzedCount] = useState(0);
   const [showMap, setShowMap] = useState(true);
+  const [filteredSchools, setFilteredSchools] = useState<School[] | null>(null);
   const abortRef = useRef<AbortController | null>(null);
 
   const getUserLocation = useCallback((): Promise<{ lat: number; lng: number }> => {
@@ -69,6 +71,7 @@ export default function Home() {
       setSelectedSchool(null);
       setAnalyzedCount(0);
       setInterpretation(null);
+      setFilteredSchools(null);
 
       const location = await getUserLocation();
 
@@ -168,7 +171,8 @@ export default function Home() {
   const accentColor = interpretation?.accentColor;
 
   // Sort schools by analysis score if available
-  const sortedSchools = [...schools].sort((a, b) => {
+  const displaySchools = filteredSchools ?? schools;
+  const sortedSchools = [...displaySchools].sort((a, b) => {
     const scoreA = analyses[a.id]?.analysis.overallScore ?? 0;
     const scoreB = analyses[b.id]?.analysis.overallScore ?? 0;
     return scoreB - scoreA;
@@ -205,6 +209,15 @@ export default function Home() {
                 accentColor={accentColor}
               />
             </div>
+
+            {/* Filter panel */}
+            {appState !== "idle" && schools.length > 0 && (
+              <FilterPanel
+                schools={schools}
+                onFilter={(filtered) => setFilteredSchools(filtered.length === schools.length ? null : filtered)}
+                accentColor={accentColor}
+              />
+            )}
 
             {/* View toggle */}
             <div className="shrink-0 flex items-center gap-1 glass rounded-xl p-1">
@@ -366,7 +379,7 @@ export default function Home() {
                   {/* Results count */}
                   {schools.length > 0 && (
                     <p className="text-xs text-text-muted">
-                      {sortedSchools.length} schools found
+                      {sortedSchools.length}{filteredSchools ? ` of ${schools.length}` : ""} schools found
                       {Object.keys(analyses).length > 0 && (
                         <span> · {Object.keys(analyses).length} analyzed</span>
                       )}
