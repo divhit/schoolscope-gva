@@ -189,7 +189,7 @@ export default function Home() {
     <APIProvider apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!}>
       <div className="flex flex-col h-screen overflow-hidden">
         {/* Top bar */}
-        <header className="relative z-40 shrink-0 bg-white/80 backdrop-blur-md border-b border-[var(--border-light)]">
+        <header className="relative z-40 shrink-0 bg-[var(--surface)]/80 backdrop-blur-md border-b border-[var(--border)]">
           <div className="px-4 md:px-6 py-3 flex items-center gap-4">
             {/* Logo */}
             <div className="flex items-center gap-2.5 shrink-0">
@@ -199,7 +199,7 @@ export default function Home() {
                 </svg>
               </div>
               <div>
-                <h1 className="text-base font-[family-name:var(--font-display)] text-[var(--text)]">
+                <h1 className="text-base font-[family-name:var(--font-display)] text-[var(--text)] italic">
                   SchoolScope
                 </h1>
                 <p className="text-[9px] uppercase tracking-[0.15em] text-[var(--text-muted)] -mt-0.5 font-medium">
@@ -231,7 +231,7 @@ export default function Home() {
               <button
                 onClick={() => setShowMap(true)}
                 className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
-                  showMap ? "bg-white text-[var(--text)] shadow-sm" : "text-[var(--text-muted)] hover:text-[var(--text)]"
+                  showMap ? "bg-[var(--surface-3)] text-[var(--text)]" : "text-[var(--text-muted)] hover:text-[var(--text)]"
                 }`}
               >
                 Map
@@ -239,7 +239,7 @@ export default function Home() {
               <button
                 onClick={() => setShowMap(false)}
                 className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
-                  !showMap ? "bg-white text-[var(--text)] shadow-sm" : "text-[var(--text-muted)] hover:text-[var(--text)]"
+                  !showMap ? "bg-[var(--surface-3)] text-[var(--text)]" : "text-[var(--text-muted)] hover:text-[var(--text)]"
                 }`}
               >
                 List
@@ -275,7 +275,7 @@ export default function Home() {
                     Greater Vancouver &middot; 619 Schools &middot; 11 Districts
                   </motion.p>
 
-                  <h2 className="text-4xl md:text-[52px] leading-[1.1] font-[family-name:var(--font-display)] text-[var(--text)] mb-5">
+                  <h2 className="text-4xl md:text-[52px] leading-[1.1] font-[family-name:var(--font-display)] text-[var(--text)] mb-5 italic">
                     Find the right school<br />for your family
                   </h2>
                   <p className="text-base text-[var(--text-secondary)] mb-10 leading-relaxed max-w-lg mx-auto">
@@ -287,13 +287,13 @@ export default function Home() {
                     {[
                       "Real BC Gov Data",
                       "AI Analysis",
-                      "22-Year Enrollment History",
+                      "22-Year History",
                       "IB & AP Programs",
-                      "FCI & Seismic Data",
+                      "FCI & Seismic",
                     ].map((tag) => (
                       <span
                         key={tag}
-                        className="text-[11px] px-3 py-1.5 rounded-full bg-[var(--surface-2)] text-[var(--text-secondary)] border border-[var(--border-light)]"
+                        className="text-[11px] px-3 py-1.5 rounded-full bg-[var(--surface-2)] text-[var(--text-secondary)] border border-[var(--border)]"
                       >
                         {tag}
                       </span>
@@ -334,7 +334,7 @@ export default function Home() {
                 animate={{ width: showMap ? "40%" : "100%", opacity: 1 }}
                 exit={{ width: 0, opacity: 0 }}
                 transition={{ duration: 0.4 }}
-                className="h-full overflow-y-auto border-l border-[var(--border-light)] bg-[var(--background)] hidden md:block"
+                className="h-full overflow-y-auto border-l border-[var(--border)] bg-[var(--background)] hidden md:block"
               >
                 <div className="p-4 space-y-4">
                   {/* Interpretation header */}
@@ -342,7 +342,7 @@ export default function Home() {
                     <motion.div
                       initial={{ opacity: 0, y: -8 }}
                       animate={{ opacity: 1, y: 0 }}
-                      className="bg-white rounded-xl p-4 border border-[var(--border-light)] shadow-sm"
+                      className="bg-[var(--surface)] rounded-xl p-4 border border-[var(--border)]"
                     >
                       <p className="text-sm text-[var(--text)] font-medium">{interpretation.summary}</p>
                       <div className="flex flex-wrap gap-1.5 mt-2">
@@ -401,7 +401,7 @@ export default function Home() {
 
           {/* Mobile results */}
           {appState !== "idle" && (
-            <div className="md:hidden fixed bottom-0 left-0 right-0 z-30 max-h-[50vh] overflow-y-auto bg-white border-t border-[var(--border)] rounded-t-2xl shadow-2xl">
+            <div className="md:hidden fixed bottom-0 left-0 right-0 z-30 max-h-[50vh] overflow-y-auto bg-[var(--surface)] border-t border-[var(--border)] rounded-t-2xl">
               <div className="p-4 space-y-3">
                 <div className="w-10 h-1 rounded-full bg-[var(--border)] mx-auto mb-2" />
 

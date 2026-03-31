@@ -184,7 +184,7 @@ export async function POST(request: NextRequest) {
 
         // Phase 3: Deep analysis with Gemini + Places API
         const BATCH = 3;
-        for (let i = 0; i < Math.min(topSchools.length, 9); i += BATCH) {
+        for (let i = 0; i < Math.min(topSchools.length, 6); i += BATCH) {
           const batch = topSchools.slice(i, i + BATCH);
           await Promise.all(
             batch.map(async (school) => {

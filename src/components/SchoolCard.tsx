@@ -21,15 +21,15 @@ export function SchoolCard({
   onClick,
 }: SchoolCardProps) {
   const categoryColors: Record<string, string> = {
-    Elementary: "#2D6A4F",
-    Secondary: "#1B4332",
-    "K-12": "#40916C",
-    "French Immersion": "#2563EB",
-    Independent: "#92400E",
-    Private: "#92400E",
-    Alternative: "#7C3AED",
-    Montessori: "#0D9488",
-    Middle: "#6D28D9",
+    Elementary: "#4ADE80",
+    Secondary: "#60A5FA",
+    "K-12": "#A78BFA",
+    "French Immersion": "#38BDF8",
+    Independent: "#FBBF24",
+    Private: "#FBBF24",
+    Alternative: "#F472B6",
+    Montessori: "#2DD4BF",
+    Middle: "#A78BFA",
   };
 
   const catColor = categoryColors[school.category] ?? "#2D6A4F";
@@ -41,10 +41,10 @@ export function SchoolCard({
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: index * 0.04, duration: 0.35 }}
       onClick={onClick}
-      className={`group relative cursor-pointer rounded-2xl overflow-hidden bg-white border transition-all duration-300 ${
+      className={`group relative cursor-pointer rounded-2xl overflow-hidden bg-[var(--surface)] border transition-all duration-300 ${
         isSelected
           ? "border-[var(--accent)] shadow-lg ring-1 ring-[var(--accent)]/20"
-          : "border-[var(--border-light)] hover:border-[var(--border)] hover:shadow-md card-hover"
+          : "border-[var(--border)] hover:border-[var(--border-light)] card-hover"
       }`}
     >
       {/* Photo */}
@@ -65,7 +65,7 @@ export function SchoolCard({
 
         {/* Score badge */}
         {score > 0 && (
-          <div className="absolute top-3 right-3 w-9 h-9 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center shadow-sm">
+          <div className="absolute top-3 right-3 w-9 h-9 rounded-full bg-black/60 backdrop-blur-sm flex items-center justify-center">
             <span className="text-sm font-bold" style={{ color: score >= 70 ? "var(--accent)" : score >= 40 ? "var(--warning)" : "var(--text-muted)" }}>
               {score}
             </span>
@@ -74,7 +74,7 @@ export function SchoolCard({
 
         {/* Category */}
         <div className="absolute bottom-3 left-3">
-          <span className="text-[10px] font-semibold uppercase tracking-wider px-2.5 py-1 rounded-md bg-white/90 backdrop-blur-sm shadow-sm" style={{ color: catColor }}>
+          <span className="text-[10px] font-semibold uppercase tracking-wider px-2.5 py-1 rounded-md bg-black/60 backdrop-blur-sm" style={{ color: catColor === "#1C1C1C" ? "#4ADE80" : catColor }}>
             {school.category}
           </span>
         </div>

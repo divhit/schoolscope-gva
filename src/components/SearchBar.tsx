@@ -42,7 +42,7 @@ export function SearchBar({ onSearch, isSearching }: SearchBarProps) {
   return (
     <div className="relative w-full max-w-2xl">
       <form onSubmit={handleSubmit}>
-        <div className="relative bg-white rounded-2xl border border-[var(--border)] shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden">
+        <div className="relative bg-[var(--surface)] rounded-2xl border border-[var(--border)] hover:border-[var(--border-light)] transition-all duration-300 overflow-hidden">
           <div className="flex items-center gap-3 px-5 py-3.5">
             <svg className="w-[18px] h-[18px] shrink-0 text-[var(--accent)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -95,7 +95,7 @@ export function SearchBar({ onSearch, isSearching }: SearchBarProps) {
             initial={{ opacity: 0, y: -4 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -4 }}
-            className="absolute top-full left-0 right-0 mt-2 bg-white rounded-xl border border-[var(--border)] shadow-lg overflow-hidden z-50"
+            className="absolute top-full left-0 right-0 mt-2 bg-[var(--surface)] rounded-xl border border-[var(--border)] shadow-lg overflow-hidden z-50"
           >
             <div className="p-2">
               <p className="text-[10px] uppercase tracking-wider text-[var(--text-muted)] px-3 py-2 font-semibold">

@@ -28,7 +28,7 @@ export function SearchStatus({ state, accentColor, analyzedCount, totalCount }: 
       initial={{ opacity: 0, y: -10 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -10 }}
-      className="flex items-center gap-3 px-4 py-3 bg-white rounded-xl border border-[var(--border-light)] shadow-sm"
+      className="flex items-center gap-3 px-4 py-3 bg-[var(--surface)] rounded-xl border border-[var(--border)]"
     >
       {/* Animated orb */}
       <div className="relative w-8 h-8 shrink-0">

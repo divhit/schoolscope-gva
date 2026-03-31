@@ -29,7 +29,7 @@ export function StatsOverview() {
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 + i * 0.05 }}
-            className="bg-white rounded-xl p-4 text-center border border-[var(--border-light)] shadow-sm"
+            className="bg-[var(--surface)] rounded-xl p-4 text-center border border-[var(--border)]"
           >
             <p className="text-2xl font-bold font-[family-name:var(--font-display)]" style={{ color: stat.color }}>
               {stat.value}
@@ -51,7 +51,7 @@ export function StatsOverview() {
               initial={{ opacity: 0, x: -8 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.3 + i * 0.05 }}
-              className="flex items-center gap-3 bg-white rounded-xl px-4 py-3 border border-[var(--border-light)] shadow-sm"
+              className="flex items-center gap-3 bg-[var(--surface)] rounded-xl px-4 py-3 border border-[var(--border)]"
             >
               <span
                 className="w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold"
@@ -84,7 +84,7 @@ export function StatsOverview() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 + i * 0.03 }}
-              className="bg-white rounded-xl px-3 py-2.5 border border-[var(--border-light)] shadow-sm"
+              className="bg-[var(--surface)] rounded-xl px-3 py-2.5 border border-[var(--border)]"
             >
               <p className="text-xs font-medium text-[var(--text)]">{d.district}</p>
               <div className="flex items-center gap-2 mt-1">

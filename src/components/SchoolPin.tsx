@@ -16,7 +16,7 @@ export function SchoolPin({ school, isSelected }: SchoolPinProps) {
     <div className="relative group cursor-pointer">
       {/* Tooltip */}
       <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50">
-        <div className="bg-white rounded-lg px-3 py-2 shadow-lg border border-[var(--border-light)] whitespace-nowrap">
+        <div className="bg-[var(--surface)] rounded-lg px-3 py-2 shadow-lg border border-[var(--border)] whitespace-nowrap">
           <p className="text-xs font-semibold text-[var(--text)]">{school.name}</p>
           <p className="text-[10px] text-[var(--text-muted)]">{school.category} &middot; {school.district}</p>
         </div>
@@ -28,7 +28,7 @@ export function SchoolPin({ school, isSelected }: SchoolPinProps) {
         style={{ transform: isSelected ? "scale(1.4)" : "scale(1)" }}
       >
         <div
-          className="relative flex items-center justify-center rounded-full border-2 bg-white shadow-md"
+          className="relative flex items-center justify-center rounded-full border-2 bg-[var(--surface)] shadow-md"
           style={{
             width: isSelected ? 36 : 28,
             height: isSelected ? 36 : 28,
