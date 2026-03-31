@@ -410,18 +410,20 @@ async function main() {
     } catch { console.log("Could not parse neighborhood data"); }
   }
 
-  // 9. Load supplementary program data (IB, AP, Mini Schools, etc.)
+  // 9. Load verified IB/AP program data (from ibo.org + district websites)
   interface ProgSupplement { match: string; programs: { name: string; description: string }[] }
   const supplementaryPrograms: ProgSupplement[] = [];
-  const progPath = "scripts/programs-supplement.json";
-  if (existsSync(progPath)) {
-    const progData = JSON.parse(readFileSync(progPath, "utf-8"));
-    for (const category of Object.values(progData) as { schools?: ProgSupplement[] }[]) {
-      if (category.schools) {
-        supplementaryPrograms.push(...category.schools);
-      }
+  const verifiedPath = "scripts/ib-ap-verified.json";
+  if (existsSync(verifiedPath)) {
+    const verifiedData: { schoolName: string; programs: { name: string; description: string }[] }[] =
+      JSON.parse(readFileSync(verifiedPath, "utf-8"));
+    for (const entry of verifiedData) {
+      supplementaryPrograms.push({
+        match: entry.schoolName,
+        programs: entry.programs,
+      });
     }
-    console.log(`Supplementary programs: ${supplementaryPrograms.length} entries`);
+    console.log(`Verified IB/AP programs: ${verifiedData.length} schools`);
   }
 
   // 10. Load scraped VSB programs data (comprehensive)
@@ -534,8 +536,19 @@ async function main() {
     if (raw.hasFrancophone) programs.push({ name: "Programme Francophone", description: "French-first language program (CSF)" });
 
     // Merge supplementary programs (IB, AP, Mini Schools, etc.)
+    // Use fuzzy matching: strip common suffixes and match on key words
+    const schoolNameLower = raw.name.toLowerCase();
+    const schoolNameWords = schoolNameLower.replace(/elementary|secondary|community|school|annex|ecole|sir|dr\.|lord|general/gi, "").trim().split(/\s+/).filter(w => w.length > 2);
+
     for (const supp of supplementaryPrograms) {
-      if (raw.name.toLowerCase().includes(supp.match.toLowerCase())) {
+      const suppLower = supp.match.toLowerCase();
+      const suppWords = suppLower.replace(/elementary|secondary|community|school|annex|ecole|sir|dr\.|lord|general/gi, "").trim().split(/\s+/).filter(w => w.length > 2);
+
+      // Match if school name contains the supplement match, OR if key words overlap significantly
+      const directMatch = schoolNameLower.includes(suppLower) || suppLower.includes(schoolNameLower);
+      const wordMatch = suppWords.length > 0 && suppWords.every(w => schoolNameLower.includes(w));
+
+      if (directMatch || wordMatch) {
         for (const prog of supp.programs) {
           if (!programs.some((p) => p.name === prog.name)) {
             programs.push(prog);
