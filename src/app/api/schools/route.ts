@@ -92,6 +92,7 @@ export async function POST(request: NextRequest) {
           ubc: { lat: 49.2606, lng: -123.2460, radiusKm: 2 },
           "west vancouver": { lat: 49.3400, lng: -123.1700, radiusKm: 5 },
           "north vancouver": { lat: 49.3200, lng: -123.0700, radiusKm: 5 },
+          vancouver: { lat: 49.2500, lng: -123.1200, radiusKm: 8 },
           "north shore": { lat: 49.3300, lng: -123.1200, radiusKm: 8 },
           burnaby: { lat: 49.2488, lng: -123.0016, radiusKm: 6 },
           richmond: { lat: 49.1666, lng: -123.1336, radiusKm: 6 },
@@ -137,9 +138,11 @@ export async function POST(request: NextRequest) {
               // Schools far from requested neighborhood get NO neighborhood bonus
             } else {
               // Fallback: text matching for unknown neighborhoods
-              if (school.district.toLowerCase().includes(hood)) { score += 30; neighborhoodMatch = true; }
-              if (school.address.toLowerCase().includes(hood)) { score += 25; neighborhoodMatch = true; }
-              if (school.tags?.some((t) => t.toLowerCase().includes(hood))) { score += 20; neighborhoodMatch = true; }
+              // Use exact district match to avoid "Vancouver" matching "West Vancouver"
+              if (school.district.toLowerCase() === hood) { score += 30; neighborhoodMatch = true; }
+              else if (school.district.toLowerCase().includes(hood) && !school.district.toLowerCase().startsWith("west") && !school.district.toLowerCase().startsWith("north")) { score += 25; neighborhoodMatch = true; }
+              if (school.address.toLowerCase().includes(hood)) { score += 20; neighborhoodMatch = true; }
+              if (school.tags?.some((t) => t.toLowerCase() === hood)) { score += 15; neighborhoodMatch = true; }
             }
           }
 
