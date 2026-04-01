@@ -33,29 +33,35 @@ export default function Home() {
   const abortRef = useRef<AbortController | null>(null);
 
   const getUserLocation = useCallback((): Promise<{ lat: number; lng: number }> => {
+    // Default to Vancouver center — don't block on geolocation
+    const defaultLoc = { lat: 49.2827, lng: -123.1207 };
     return new Promise((resolve) => {
       if (userLocation) {
         resolve(userLocation);
         return;
       }
       if ("geolocation" in navigator) {
+        const timer = setTimeout(() => {
+          setUserLocation(defaultLoc);
+          resolve(defaultLoc);
+        }, 3000); // 3s max wait for geolocation
         navigator.geolocation.getCurrentPosition(
           (pos) => {
+            clearTimeout(timer);
             const loc = { lat: pos.coords.latitude, lng: pos.coords.longitude };
             setUserLocation(loc);
             resolve(loc);
           },
           () => {
-            // Default to Vancouver center
-            const loc = { lat: 49.2827, lng: -123.1207 };
-            setUserLocation(loc);
-            resolve(loc);
-          }
+            clearTimeout(timer);
+            setUserLocation(defaultLoc);
+            resolve(defaultLoc);
+          },
+          { timeout: 3000 }
         );
       } else {
-        const loc = { lat: 49.2827, lng: -123.1207 };
-        setUserLocation(loc);
-        resolve(loc);
+        setUserLocation(defaultLoc);
+        resolve(defaultLoc);
       }
     });
   }, [userLocation]);
