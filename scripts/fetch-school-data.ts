@@ -410,34 +410,16 @@ async function main() {
     } catch { console.log("Could not parse neighborhood data"); }
   }
 
-  // 9. Load verified IB/AP program data (from ibo.org + district websites)
-  interface ProgSupplement { match: string; programs: { name: string; description: string }[] }
-  const supplementaryPrograms: ProgSupplement[] = [];
-  const verifiedPath = "scripts/ib-ap-verified.json";
-  if (existsSync(verifiedPath)) {
-    const verifiedData: { schoolName: string; programs: { name: string; description: string }[] }[] =
-      JSON.parse(readFileSync(verifiedPath, "utf-8"));
-    for (const entry of verifiedData) {
-      supplementaryPrograms.push({
-        match: entry.schoolName,
-        programs: entry.programs,
-      });
+  // 9. Load pre-matched program data (IB/AP/Mini Schools/Trades etc.)
+  // This mapping was built by build-program-mapping.ts using exact name matching
+  const programMapping = new Map<string, { name: string; description: string }[]>();
+  const matchedPath = "scripts/programs-matched.json";
+  if (existsSync(matchedPath)) {
+    const matched: Record<string, { name: string; description: string }[]> = JSON.parse(readFileSync(matchedPath, "utf-8"));
+    for (const [schoolId, progs] of Object.entries(matched)) {
+      programMapping.set(schoolId, progs);
     }
-    console.log(`Verified IB/AP programs: ${verifiedData.length} schools`);
-  }
-
-  // 10. Load scraped VSB programs data (comprehensive)
-  const scrapedProgPath = "scripts/vsb-programs-scraped.json";
-  if (existsSync(scrapedProgPath)) {
-    const scrapedData: { schoolName: string; programs: { name: string; description: string; url?: string }[] }[] =
-      JSON.parse(readFileSync(scrapedProgPath, "utf-8"));
-    for (const entry of scrapedData) {
-      supplementaryPrograms.push({
-        match: entry.schoolName,
-        programs: entry.programs.map((p) => ({ name: p.name, description: p.description })),
-      });
-    }
-    console.log(`Scraped VSB programs: ${scrapedData.length} schools added`);
+    console.log(`Program mapping loaded: ${programMapping.size} schools, ${Object.values(matched).reduce((s,p)=>s+p.length,0)} programs`);
   }
 
   // === BUILD SCHOOL RECORDS ===
@@ -535,27 +517,6 @@ async function main() {
     if (raw.hasLateFrenchImmersion) programs.push({ name: "Late French Immersion", description: "French immersion starting in Grade 6" });
     if (raw.hasFrancophone) programs.push({ name: "Programme Francophone", description: "French-first language program (CSF)" });
 
-    // Merge supplementary programs (IB, AP, Mini Schools, etc.)
-    // Use fuzzy matching: strip common suffixes and match on key words
-    const schoolNameLower = raw.name.toLowerCase();
-    const schoolNameWords = schoolNameLower.replace(/elementary|secondary|community|school|annex|ecole|sir|dr\.|lord|general/gi, "").trim().split(/\s+/).filter(w => w.length > 2);
-
-    for (const supp of supplementaryPrograms) {
-      const suppLower = supp.match.toLowerCase();
-      const suppWords = suppLower.replace(/elementary|secondary|community|school|annex|ecole|sir|dr\.|lord|general/gi, "").trim().split(/\s+/).filter(w => w.length > 2);
-
-      // Match if school name contains the supplement match, OR if key words overlap significantly
-      const directMatch = schoolNameLower.includes(suppLower) || suppLower.includes(schoolNameLower);
-      const wordMatch = suppWords.length > 0 && suppWords.every(w => schoolNameLower.includes(w));
-
-      if (directMatch || wordMatch) {
-        for (const prog of supp.programs) {
-          if (!programs.some((p) => p.name === prog.name)) {
-            programs.push(prog);
-          }
-        }
-      }
-    }
 
     // Tags
     const tags: string[] = [];
@@ -595,6 +556,17 @@ async function main() {
     if (totalEnroll === 0) continue; // Skip schools with no enrollment data
 
     const id = `s${raw.districtNumber}-${sn}`;
+
+    // Merge pre-matched programs (IB, AP, Mini Schools, etc.)
+    const matchedProgs = programMapping.get(id);
+    if (matchedProgs) {
+      for (const prog of matchedProgs) {
+        if (!programs.some((p) => p.name === prog.name)) {
+          programs.push(prog);
+        }
+      }
+    }
+
     const fullAddress = contact
       ? `${contact.address}, ${contact.city}, BC ${contact.postalCode}`.trim()
       : `${raw.address}, ${raw.city}, BC`;

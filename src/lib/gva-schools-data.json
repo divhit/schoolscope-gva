@@ -1148,7 +1148,6 @@
       }
     ],
     "tags": [
-      "AP",
       "aldergrove"
     ],
     "historicalEnrollment": [
@@ -2088,15 +2087,9 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
-      },
-      {
-        "name": "Advanced Placement",
-        "description": "AP Biology 12 and AP Chemistry in Grade 12. Also offers university Calculus courses taught by Douglas College at the school.",
-        "source": "https://www.sd43.bc.ca/school/centennial/ProgramsServices/ProgramsChoice/APP/Pages/default.aspx"
       }
     ],
     "tags": [
-      "AP",
       "aldergrove"
     ],
     "historicalEnrollment": [
@@ -2408,6 +2401,11 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses offered including Languages, Social Studies, Visual and Performing Arts, Mathematics, and Science.",
+        "source": "https://www.sd35.bc.ca/studyinlangley/advanced-placement"
       }
     ],
     "tags": [
@@ -2574,7 +2572,6 @@
     ],
     "tags": [
       "french-immersion",
-      "AP",
       "langley"
     ],
     "historicalEnrollment": [
@@ -3374,6 +3371,11 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "IB Diploma Programme",
+        "description": "IB DP for Grade 11-12 students. Only school in Langley to offer IB. Pre-IB Honours program for grades 9-10. District Choice Program open to all Langley residents.",
+        "source": "https://remss.sd35.bc.ca/programs-courses/i-b/"
       }
     ],
     "tags": [
@@ -4677,7 +4679,6 @@
     ],
     "tags": [
       "french-immersion",
-      "AP",
       "langley"
     ],
     "historicalEnrollment": [
@@ -5621,6 +5622,10 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "Advanced Placement",
+        "description": "AP courses available"
       }
     ],
     "tags": [
@@ -11107,7 +11112,6 @@
       }
     ],
     "tags": [
-      "IB",
       "surrey"
     ],
     "historicalEnrollment": [
@@ -11424,7 +11428,6 @@
       }
     ],
     "tags": [
-      "IB",
       "surrey"
     ],
     "historicalEnrollment": [
@@ -16391,7 +16394,6 @@
     ],
     "tags": [
       "french-immersion",
-      "AP",
       "surrey"
     ],
     "historicalEnrollment": [
@@ -19984,7 +19986,6 @@
       }
     ],
     "tags": [
-      "AP",
       "surrey"
     ],
     "historicalEnrollment": [
@@ -23054,15 +23055,9 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
-      },
-      {
-        "name": "IB Diploma Programme",
-        "description": "IB DP for grades 11-12. Internationally recognized two-year academic program.",
-        "source": "https://ibsemiahmoo.ca/apply/"
       }
     ],
     "tags": [
-      "IB",
       "surrey"
     ],
     "historicalEnrollment": [
@@ -23721,7 +23716,6 @@
     ],
     "tags": [
       "french-immersion",
-      "AP",
       "surrey"
     ],
     "historicalEnrollment": [
@@ -25100,14 +25094,6 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
-      },
-      {
-        "name": "Early French Immersion",
-        "description": "K-7 program. Students attend an annex for K-3. BC curriculum instructed in French."
-      },
-      {
-        "name": "Late French Immersion",
-        "description": "Grades 6-7 program for students aged 10-11 who completed Grade 5. In Grade 6, 100% of BC curriculum taught in French; English Language Arts reintroduced in Grade 7."
       }
     ],
     "tags": [
@@ -25467,26 +25453,9 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
-      },
-      {
-        "name": "French Immersion (Secondary)",
-        "description": "Grades 8-12 continuation of elementary French Immersion. Early Immersion students continue at least half the school day in French. Requires completion of elementary French Immersion program."
-      },
-      {
-        "name": "International Baccalaureate - Diploma Programme",
-        "description": "Grades 10-12 IB Diploma Programme. Two-year program (Grades 11-12) focusing on enrichment and learning skills for post-secondary. Students study six subjects plus programme core. Offered since 1983."
-      },
-      {
-        "name": "Ideal Mini School Program",
-        "description": "Mini school program for highly motivated students providing additional academic opportunities."
-      },
-      {
-        "name": "Synergy Program",
-        "description": "Additional enrichment program at Churchill Secondary."
       }
     ],
     "tags": [
-      "mini-school",
       "surrey"
     ],
     "historicalEnrollment": [
@@ -26812,7 +26781,6 @@
     ],
     "tags": [
       "french-immersion",
-      "AP",
       "surrey"
     ],
     "historicalEnrollment": [
@@ -28313,15 +28281,9 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
-      },
-      {
-        "name": "Advanced Placement",
-        "description": "AP courses offered including French Immersion, academics, applied skills, and fine arts.",
-        "source": "https://www.godelta.ca/about-delta/schools/south-delta-secondary-school/"
       }
     ],
     "tags": [
-      "AP",
       "delta"
     ],
     "historicalEnrollment": [
@@ -29299,7 +29261,6 @@
       }
     ],
     "tags": [
-      "IB",
       "delta"
     ],
     "historicalEnrollment": [
@@ -32282,7 +32243,6 @@
     ],
     "tags": [
       "french-immersion",
-      "AP",
       "delta"
     ],
     "historicalEnrollment": [
@@ -32751,7 +32711,6 @@
       }
     ],
     "tags": [
-      "IB",
       "delta"
     ],
     "historicalEnrollment": [
@@ -33804,24 +33763,9 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
-      },
-      {
-        "name": "Advanced Placement",
-        "description": "AP courses offered include Calculus, English Literature, French, Studio Art, Statistics, and Computer Science.",
-        "source": "https://www.vsb.bc.ca/lord-byng/advanced-placement-ap"
-      },
-      {
-        "name": "Byng Arts Mini School Program",
-        "description": "Arts-focused mini school program for highly motivated students."
-      },
-      {
-        "name": "Advanced Placement (AP)",
-        "description": "College-level AP courses including Calculus, English Literature, French, Studio Art, Statistics, and Computer Science."
       }
     ],
     "tags": [
-      "AP",
-      "mini-school",
       "richmond"
     ],
     "historicalEnrollment": [
@@ -37068,7 +37012,6 @@
       }
     ],
     "tags": [
-      "AP",
       "richmond"
     ],
     "historicalEnrollment": [
@@ -37223,20 +37166,10 @@
       {
         "name": "Early French Immersion",
         "description": "Full French immersion starting in Kindergarten"
-      },
-      {
-        "name": "IB Middle Years Programme",
-        "description": "IB MYP for grades 6-7. Note: VSB voted to discontinue MYP effective June 27, 2025.",
-        "source": "https://www.vsb.bc.ca/middle-years-programme-myp-1"
-      },
-      {
-        "name": "International Baccalaureate - Middle Years Programme (MYP)",
-        "description": "Grades 6-7 IB MYP program. Note: VSB voted to discontinue MYP effective June 27, 2025."
       }
     ],
     "tags": [
       "french-immersion",
-      "IB",
       "richmond"
     ],
     "historicalEnrollment": [
@@ -38841,10 +38774,6 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
-      },
-      {
-        "name": "Early French Immersion",
-        "description": "K-7 program where BC curriculum is instructed in French from kindergarten to end of Grade 3, and Grades 4-7 50-80% of curriculum taught in French."
       }
     ],
     "tags": [
@@ -41304,7 +41233,6 @@
       }
     ],
     "tags": [
-      "IB",
       "richmond"
     ],
     "historicalEnrollment": [
@@ -41539,15 +41467,9 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
-      },
-      {
-        "name": "IB Diploma Programme",
-        "description": "The only school in Richmond certified to offer the IB Diploma Programme. Open to all grades 11-12 students in Richmond. Authorized since July 1, 1984.",
-        "source": "https://sd38.bc.ca/programs/secondary-programs/international-baccalaureate"
       }
     ],
     "tags": [
-      "IB",
       "richmond"
     ],
     "historicalEnrollment": [
@@ -41814,16 +41736,16 @@
       },
       {
         "name": "Catalyst Mini School Program",
-        "description": "Mini school program for highly motivated students at King George Secondary."
+        "description": "Mini school program for highly motivated students at King George Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
       },
       {
         "name": "International Baccalaureate - Middle Years Programme (MYP)",
-        "description": "Grades 8-10 IB MYP program. Note: VSB voted to discontinue MYP effective June 27, 2025."
+        "description": "Grades 8-10 IB MYP program. Note: VSB voted to discontinue MYP effective June 27, 2025.",
+        "url": "https://www.vsb.bc.ca/middle-years-programme-myp-1"
       }
     ],
     "tags": [
-      "IB",
-      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -41982,15 +41904,16 @@
       },
       {
         "name": "SPARTS",
-        "description": "Sports-focused mini school program for highly motivated students at Magee Secondary."
+        "description": "Sports-focused mini school program for highly motivated students at Magee Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
       },
       {
         "name": "Advanced Placement (AP)",
-        "description": "College-level AP courses including AP Art."
+        "description": "College-level AP courses including AP Art.",
+        "url": "https://www.vsb.bc.ca/magee/page/3164/ap-art"
       }
     ],
     "tags": [
-      "AP",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -42141,27 +42064,9 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
-      },
-      {
-        "name": "IB Diploma Programme",
-        "description": "IB DP offered at grades 10-12. One of three IB schools in the Vancouver School Board.",
-        "source": "https://www.vsb.bc.ca/middle-years-programme-myp-1"
-      },
-      {
-        "name": "Venture Program",
-        "description": "Mini school program for highly motivated students at Britannia Secondary."
-      },
-      {
-        "name": "Hockey Academy",
-        "description": "Combines regular secondary school coursework with hockey training."
-      },
-      {
-        "name": "International Baccalaureate - Diploma Programme",
-        "description": "Grades 10-12 IB Diploma Programme. Two-year program (Grades 11-12) with six subjects plus programme core, focused on enrichment and post-secondary readiness."
       }
     ],
     "tags": [
-      "IB",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -42324,12 +42229,12 @@
       },
       {
         "name": "French Immersion (Secondary)",
-        "description": "Grades 8-12 continuation of elementary French Immersion. Early Immersion students continue at least half the school day in French. Requires completion of elementary French Immersion program."
+        "description": "Grades 8-12 continuation of elementary French Immersion. Early Immersion students continue at least half the school day in French. Requires completion of elementary French Immersion program.",
+        "url": "https://www.vsb.bc.ca/french-immersion"
       }
     ],
     "tags": [
       "french-immersion",
-      "AP",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -42483,11 +42388,11 @@
       },
       {
         "name": "Digital Immersion Mini School Program",
-        "description": "Technology-focused mini school program for highly motivated students."
+        "description": "Technology-focused mini school program for highly motivated students.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
       }
     ],
     "tags": [
-      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -42646,16 +42551,16 @@
       },
       {
         "name": "Byng Arts Mini School Program",
-        "description": "Arts-focused mini school program for highly motivated students."
+        "description": "Arts-focused mini school program for highly motivated students.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
       },
       {
         "name": "Advanced Placement (AP)",
-        "description": "College-level AP courses including Calculus, English Literature, French, Studio Art, Statistics, and Computer Science."
+        "description": "College-level AP courses including Calculus, English Literature, French, Studio Art, Statistics, and Computer Science.",
+        "url": "https://www.vsb.bc.ca/lord-byng/advanced-placement-ap"
       }
     ],
     "tags": [
-      "AP",
-      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -42814,16 +42719,16 @@
       },
       {
         "name": "Templeton Mini School Program",
-        "description": "Mini school program for highly motivated students at Templeton Secondary."
+        "description": "Mini school program for highly motivated students at Templeton Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
       },
       {
         "name": "Advanced Placement (AP)",
-        "description": "College-level AP courses for students with strong academic achievement."
+        "description": "College-level AP courses for students with strong academic achievement.",
+        "url": "https://www.vsb.bc.ca/templeton/page/4183/advanced-placement-courses-at-templeton"
       }
     ],
     "tags": [
-      "AP",
-      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -42981,24 +42886,27 @@
       },
       {
         "name": "French Immersion (Secondary)",
-        "description": "Grades 8-12 continuation of elementary French Immersion. Early Immersion students continue at least half the school day in French. Requires completion of elementary French Immersion program."
+        "description": "Grades 8-12 continuation of elementary French Immersion. Early Immersion students continue at least half the school day in French. Requires completion of elementary French Immersion program.",
+        "url": "https://www.vsb.bc.ca/french-immersion"
       },
       {
         "name": "Flex Humanities Program",
-        "description": "Mini school program focused on humanities for highly motivated students."
+        "description": "Mini school program focused on humanities for highly motivated students.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
       },
       {
         "name": "Summit Program",
-        "description": "Mini school program for highly motivated students at Vancouver Technical Secondary."
+        "description": "Mini school program for highly motivated students at Vancouver Technical Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
       },
       {
         "name": "Advanced Placement (AP)",
-        "description": "College-level AP courses including AP Studio Art 12: Drawing. District AP exam site for May 2026."
+        "description": "College-level AP courses including AP Studio Art 12: Drawing. District AP exam site for May 2026.",
+        "url": "https://www.vsb.bc.ca/advanced-placement-exams"
       }
     ],
     "tags": [
       "french-immersion",
-      "AP",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -43157,12 +43065,11 @@
       },
       {
         "name": "Point Grey Mini School Program",
-        "description": "Mini school program for highly motivated students at Point Grey Secondary."
+        "description": "Mini school program for highly motivated students at Point Grey Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
       }
     ],
     "tags": [
-      "AP",
-      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -43316,11 +43223,11 @@
       },
       {
         "name": "Gladstone Mini School Program",
-        "description": "Mini school program for highly motivated students at Gladstone Secondary."
+        "description": "Mini school program for highly motivated students at Gladstone Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
       }
     ],
     "tags": [
-      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -43483,25 +43390,27 @@
       },
       {
         "name": "French Immersion (Secondary)",
-        "description": "Grades 8-12 continuation of elementary French Immersion. Early Immersion students continue at least half the school day in French. Requires completion of elementary French Immersion program."
+        "description": "Grades 8-12 continuation of elementary French Immersion. Early Immersion students continue at least half the school day in French. Requires completion of elementary French Immersion program.",
+        "url": "https://www.vsb.bc.ca/french-immersion"
       },
       {
         "name": "International Baccalaureate - Diploma Programme",
-        "description": "Grades 10-12 IB Diploma Programme. Two-year program (Grades 11-12) focusing on enrichment and learning skills for post-secondary. Students study six subjects plus programme core. Offered since 1983."
+        "description": "Grades 10-12 IB Diploma Programme. Two-year program (Grades 11-12) focusing on enrichment and learning skills for post-secondary. Students study six subjects plus programme core. Offered since 1983.",
+        "url": "https://www.vsb.bc.ca/sir-winston-churchill/international-baccalaureate"
       },
       {
         "name": "Ideal Mini School Program",
-        "description": "Mini school program for highly motivated students providing additional academic opportunities."
+        "description": "Mini school program for highly motivated students providing additional academic opportunities.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
       },
       {
         "name": "Synergy Program",
-        "description": "Additional enrichment program at Churchill Secondary."
+        "description": "Additional enrichment program at Churchill Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
       }
     ],
     "tags": [
       "french-immersion",
-      "IB",
-      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -43655,11 +43564,11 @@
       },
       {
         "name": "Computer Science Mini School Program",
-        "description": "Computer science focused mini school program for highly motivated students."
+        "description": "Computer science focused mini school program for highly motivated students.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
       }
     ],
     "tags": [
-      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -43813,11 +43722,11 @@
       },
       {
         "name": "Tupper Mini School Program",
-        "description": "Mini school program for highly motivated students at Tupper Secondary."
+        "description": "Mini school program for highly motivated students at Tupper Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
       }
     ],
     "tags": [
-      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -43971,7 +43880,8 @@
       },
       {
         "name": "Odyssey Program",
-        "description": "Mini school program for highly motivated students at David Thompson Secondary."
+        "description": "Mini school program for highly motivated students at David Thompson Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
       }
     ],
     "tags": [
@@ -44128,15 +44038,16 @@
       },
       {
         "name": "Prince of Wales Mini School Program",
-        "description": "Mini school program for highly motivated students at Prince of Wales Secondary."
+        "description": "Mini school program for highly motivated students at Prince of Wales Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
       },
       {
         "name": "TREK Outdoor Education Program",
-        "description": "Grade 10 focused outdoor education program."
+        "description": "Grade 10 focused outdoor education program.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
       }
     ],
     "tags": [
-      "mini-school",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -44295,15 +44206,16 @@
       },
       {
         "name": "Windermere Leadership",
-        "description": "Leadership-focused mini school program for highly motivated students."
+        "description": "Leadership-focused mini school program for highly motivated students.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
       },
       {
         "name": "Early Mandarin Bilingual (Secondary)",
-        "description": "Grades 8-12. Two Mandarin courses in Grade 8, one in Grade 9 as cohort, then mainstream Grades 10-12. Priority for John Norquay Elementary graduates."
+        "description": "Grades 8-12. Two Mandarin courses in Grade 8, one in Grade 9 as cohort, then mainstream Grades 10-12. Priority for John Norquay Elementary graduates.",
+        "url": "https://www.vsb.bc.ca/mandarin-bilingual-1"
       }
     ],
     "tags": [
-      "AP",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -44457,11 +44369,13 @@
       },
       {
         "name": "Challenge Studio Program",
-        "description": "Mini school program for highly motivated students at Eric Hamber Secondary."
+        "description": "Mini school program for highly motivated students at Eric Hamber Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
       },
       {
         "name": "Mandarin Bilingual (Secondary)",
-        "description": "Grades 8-12. Two Mandarin courses in Grade 8, one in Grade 9 as cohort, then mainstream Grades 10-12. Priority for Trudeau Elementary graduates."
+        "description": "Grades 8-12. Two Mandarin courses in Grade 8, one in Grade 9 as cohort, then mainstream Grades 10-12. Priority for Trudeau Elementary graduates.",
+        "url": "https://www.vsb.bc.ca/mandarin-bilingual-1"
       }
     ],
     "tags": [
@@ -44623,11 +44537,11 @@
       },
       {
         "name": "Advanced Placement (AP)",
-        "description": "College-level AP courses including AP Microeconomics, AP English Literature and Composition, AP Calculus AB, AP European History, AP Human Geography, and AP Studio Art."
+        "description": "College-level AP courses including AP Microeconomics, AP English Literature and Composition, AP Calculus AB, AP European History, AP Human Geography, and AP Studio Art.",
+        "url": "https://www.vsb.bc.ca/university-hill/page/4503/ap-courses"
       }
     ],
     "tags": [
-      "AP",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -44956,11 +44870,11 @@
       },
       {
         "name": "International Baccalaureate - Middle Years Programme (MYP)",
-        "description": "Grades 6-7 IB MYP program. Note: VSB voted to discontinue MYP effective June 27, 2025."
+        "description": "Grades 6-7 IB MYP program. Note: VSB voted to discontinue MYP effective June 27, 2025.",
+        "url": "https://www.vsb.bc.ca/middle-years-programme-myp-1"
       }
     ],
     "tags": [
-      "IB",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -45291,11 +45205,11 @@
       },
       {
         "name": "Indigenous Focus School",
-        "description": "K-7 district choice program for Indigenous and non-Indigenous Vancouver students. Curriculum emphasizes respect for local First Nations, Indigenous peoples' values, histories, and shared worldviews. Named 'Xpey'' (cedar in Musqueam) gifted by Musqueam in 2018."
+        "description": "K-7 district choice program for Indigenous and non-Indigenous Vancouver students. Curriculum emphasizes respect for local First Nations, Indigenous peoples' values, histories, and shared worldviews. Named 'Xpey'' (cedar in Musqueam) gifted by Musqueam in 2018.",
+        "url": "https://www.vsb.bc.ca/indigenous-focus"
       }
     ],
     "tags": [
-      "indigenous-focus",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -45618,7 +45532,8 @@
       },
       {
         "name": "Intensive French",
-        "description": "Grades 6-7 district program. Students receive ~80% instruction in French September-January, then ~20% February-June. Math taught in English year-round. Develops oral skills equivalent to Grade 11 core French."
+        "description": "Grades 6-7 district program. Students receive ~80% instruction in French September-January, then ~20% February-June. Math taught in English year-round. Develops oral skills equivalent to Grade 11 core French.",
+        "url": "https://www.vsb.bc.ca/page/5308/intensive-french-gr-6-7"
       }
     ],
     "tags": [
@@ -46289,15 +46204,9 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
-      },
-      {
-        "name": "IB Primary Years Programme",
-        "description": "Authorized IB World School offering PYP for K-Grade 7.",
-        "source": "https://www.sd44.ca/school/queenmary/ProgramsServices/IB_PYP/Pages/default.aspx"
       }
     ],
     "tags": [
-      "IB",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -48794,7 +48703,8 @@
       },
       {
         "name": "Mandarin Bilingual",
-        "description": "Grades 4-7 full-day program. Core curriculum taught in English with Mandarin taught through Mandarin Language Arts."
+        "description": "Grades 4-7 full-day program. Core curriculum taught in English with Mandarin taught through Mandarin Language Arts.",
+        "url": "https://www.vsb.bc.ca/mandarin-bilingual"
       }
     ],
     "tags": [
@@ -49628,7 +49538,8 @@
       },
       {
         "name": "Early Mandarin Bilingual",
-        "description": "K-7 language instruction program where children learn and study in Mandarin for 50% of the day and English for 50%."
+        "description": "K-7 language instruction program where children learn and study in Mandarin for 50% of the day and English for 50%.",
+        "url": "https://www.vsb.bc.ca/mandarin-bilingual"
       }
     ],
     "tags": [
@@ -51456,11 +51367,11 @@
       },
       {
         "name": "Montessori",
-        "description": "K-7 Montessori alternative program emphasizing child-centered, developmentally appropriate, hands-on learning with independence and self-motivation."
+        "description": "K-7 Montessori alternative program emphasizing child-centered, developmentally appropriate, hands-on learning with independence and self-motivation.",
+        "url": "https://www.vsb.bc.ca/montessori-elementary"
       }
     ],
     "tags": [
-      "montessori",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -51961,11 +51872,11 @@
       },
       {
         "name": "Montessori",
-        "description": "K-7 Montessori alternative program emphasizing child-centered, developmentally appropriate, hands-on learning with independence and self-motivation. 22 Kindergarten spots and 24 Grade 1 spots available."
+        "description": "K-7 Montessori alternative program emphasizing child-centered, developmentally appropriate, hands-on learning with independence and self-motivation. 22 Kindergarten spots and 24 Grade 1 spots available.",
+        "url": "https://www.vsb.bc.ca/montessori-elementary"
       }
     ],
     "tags": [
-      "montessori",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -53135,11 +53046,11 @@
       },
       {
         "name": "International Baccalaureate - Primary Years Programme (PYP)",
-        "description": "K-7 inquiry-based, transdisciplinary IB programme fostering development of the whole child. Emphasizes international-mindedness, personal values, and independent learning. No external IB examinations."
+        "description": "K-7 inquiry-based, transdisciplinary IB programme fostering development of the whole child. Emphasizes international-mindedness, personal values, and independent learning. No external IB examinations.",
+        "url": "https://www.vsb.bc.ca/international-baccalaureate"
       }
     ],
     "tags": [
-      "IB",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -54790,7 +54701,8 @@
       },
       {
         "name": "Fine Arts Program",
-        "description": "K-7 district program emphasizing visual arts, dance, music, and process drama. Approximately one-third of weekly curriculum is arts instruction taught by specialists."
+        "description": "K-7 district program emphasizing visual arts, dance, music, and process drama. Approximately one-third of weekly curriculum is arts instruction taught by specialists.",
+        "url": "https://www.vsb.bc.ca/fine-arts-program"
       }
     ],
     "tags": [
@@ -56325,7 +56237,8 @@
     "programs": [
       {
         "name": "Early French Immersion",
-        "description": "K-7 program where BC curriculum is instructed in French from kindergarten to end of Grade 3, and Grades 4-7 50-80% of curriculum taught in French."
+        "description": "K-7 program where BC curriculum is instructed in French from kindergarten to end of Grade 3, and Grades 4-7 50-80% of curriculum taught in French.",
+        "url": "https://www.vsb.bc.ca/early-french-immersion-k-7"
       }
     ],
     "tags": [
@@ -56470,7 +56383,8 @@
     "programs": [
       {
         "name": "Early French Immersion",
-        "description": "K-7 program where BC curriculum is instructed in French from kindergarten to end of Grade 3, and Grades 4-7 50-80% of curriculum taught in French."
+        "description": "K-7 program where BC curriculum is instructed in French from kindergarten to end of Grade 3, and Grades 4-7 50-80% of curriculum taught in French.",
+        "url": "https://www.vsb.bc.ca/early-french-immersion-k-7"
       }
     ],
     "tags": [
@@ -56792,11 +56706,11 @@
       },
       {
         "name": "Montessori",
-        "description": "K-7 Montessori alternative program emphasizing child-centered, developmentally appropriate, hands-on learning with independence and self-motivation."
+        "description": "K-7 Montessori alternative program emphasizing child-centered, developmentally appropriate, hands-on learning with independence and self-motivation.",
+        "url": "https://www.vsb.bc.ca/montessori-elementary"
       }
     ],
     "tags": [
-      "montessori",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -56962,7 +56876,8 @@
       },
       {
         "name": "Late French Immersion",
-        "description": "Grades 6-7 program for students aged 10-11 who completed Grade 5. In Grade 6, 100% of BC curriculum taught in French; English Language Arts reintroduced in Grade 7."
+        "description": "Grades 6-7 program for students aged 10-11 who completed Grade 5. In Grade 6, 100% of BC curriculum taught in French; English Language Arts reintroduced in Grade 7.",
+        "url": "https://www.vsb.bc.ca/late-french-immersion-gr-6-7"
       }
     ],
     "tags": [
@@ -57109,20 +57024,8 @@
     "principal": "",
     "email": "mbolianaz@vsb.bc.ca",
     "phone": "6047134740",
-    "programs": [
-      {
-        "name": "IB Diploma Programme",
-        "description": "IB DP for grades 11-12. Also offers IB MYP. Open to SD42 students and students from neighbouring districts. One of only 16 high schools in BC offering IB.",
-        "source": "https://www.sd42.ca/program/ib/"
-      },
-      {
-        "name": "IB Middle Years Programme",
-        "description": "IB MYP offered at Garibaldi Secondary.",
-        "source": "https://www.sd42.ca/program/ib/"
-      }
-    ],
+    "programs": [],
     "tags": [
-      "IB",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -57220,19 +57123,9 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
-      },
-      {
-        "name": "Advanced Placement",
-        "description": "AP courses offered including AP English Literature and Composition, AP Human Geography, and AP Studio Art.",
-        "source": "https://www.vsb.bc.ca/advanced-placement-exams"
-      },
-      {
-        "name": "Advanced Placement (AP)",
-        "description": "College-level AP courses including AP Microeconomics, AP English Literature and Composition, AP Calculus AB, AP European History, AP Human Geography, and AP Studio Art."
       }
     ],
     "tags": [
-      "AP",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -57871,25 +57764,17 @@
         "description": "French as a second language instruction"
       },
       {
-        "name": "IB Diploma Programme",
-        "description": "IB DP offered at grades 10-12. One of three IB schools in the Vancouver School Board.",
-        "source": "https://www.vsb.bc.ca/middle-years-programme-myp-1"
-      },
-      {
         "name": "Venture Program",
-        "description": "Mini school program for highly motivated students at Britannia Secondary."
+        "description": "Mini school program for highly motivated students at Britannia Secondary.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
       },
       {
         "name": "Hockey Academy",
-        "description": "Combines regular secondary school coursework with hockey training."
-      },
-      {
-        "name": "International Baccalaureate - Diploma Programme",
-        "description": "Grades 10-12 IB Diploma Programme. Two-year program (Grades 11-12) with six subjects plus programme core, focused on enrichment and post-secondary readiness."
+        "description": "Combines regular secondary school coursework with hockey training.",
+        "url": "https://www.vsb.bc.ca/mini-school-programs"
       }
     ],
     "tags": [
-      "IB",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -58541,7 +58426,6 @@
       }
     ],
     "tags": [
-      "IB",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -58696,11 +58580,11 @@
       },
       {
         "name": "International Baccalaureate - Middle Years Programme (MYP)",
-        "description": "Grades 6-7 IB MYP program. Note: VSB voted to discontinue MYP effective June 27, 2025."
+        "description": "Grades 6-7 IB MYP program. Note: VSB voted to discontinue MYP effective June 27, 2025.",
+        "url": "https://www.vsb.bc.ca/middle-years-programme-myp-1"
       }
     ],
     "tags": [
-      "IB",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -59191,19 +59075,18 @@
     "programs": [
       {
         "name": "Distributed Learning - Secondary",
-        "description": "Online/distributed learning program for students who wish to learn at home or need flexible scheduling. Full-time and part-time options available."
+        "description": "Online/distributed learning"
       },
       {
         "name": "Advanced Placement (AP) - Online",
-        "description": "AP courses available through online distributed learning for students across the district."
+        "description": "AP courses via online learning"
       },
       {
         "name": "Distributed Learning - Elementary (K-7)",
-        "description": "Online/distributed learning for K-7 students learning at home or needing flexible scheduling."
+        "description": "Online/distributed learning for K-7"
       }
     ],
     "tags": [
-      "AP",
       "vancouver"
     ],
     "historicalEnrollment": [
@@ -59535,21 +59418,8 @@
     "principal": "Stephen Inniss",
     "email": "sinniss@sd40.bc.ca",
     "phone": "6045176122",
-    "programs": [
-      {
-        "name": "IB Diploma Programme",
-        "description": "IB DP and Certificate Program for grades 11-12. Offered since 2000.",
-        "source": "https://newwestschools.ca/programs-services/programs-of-choice/international-baccalaureate/"
-      },
-      {
-        "name": "Advanced Placement",
-        "description": "AP courses offered out of class time, usually after school. Available in Grade 12 or Grade 11 with instructor permission.",
-        "source": "https://nwss.ca/wp-content/uploads/2021/01/NWSS-Course-Description-Booklet-2021-2022-FINAL.pdf"
-      }
-    ],
+    "programs": [],
     "tags": [
-      "IB",
-      "AP",
       "new-westminster"
     ],
     "historicalEnrollment": [
@@ -60340,8 +60210,6 @@
     ],
     "tags": [
       "french-immersion",
-      "IB",
-      "AP",
       "new-westminster"
     ],
     "historicalEnrollment": [
@@ -61996,21 +61864,8 @@
     "principal": "",
     "email": "pcraven@sd40.bc.ca",
     "phone": "6045176191",
-    "programs": [
-      {
-        "name": "IB Diploma Programme",
-        "description": "IB DP and Certificate Program for grades 11-12. Offered since 2000.",
-        "source": "https://newwestschools.ca/programs-services/programs-of-choice/international-baccalaureate/"
-      },
-      {
-        "name": "Advanced Placement",
-        "description": "AP courses offered out of class time, usually after school. Available in Grade 12 or Grade 11 with instructor permission.",
-        "source": "https://nwss.ca/wp-content/uploads/2021/01/NWSS-Course-Description-Booklet-2021-2022-FINAL.pdf"
-      }
-    ],
+    "programs": [],
     "tags": [
-      "IB",
-      "AP",
       "new-westminster"
     ],
     "historicalEnrollment": [
@@ -62273,7 +62128,6 @@
       }
     ],
     "tags": [
-      "AP",
       "burnaby"
     ],
     "historicalEnrollment": [
@@ -62432,7 +62286,6 @@
       }
     ],
     "tags": [
-      "AP",
       "burnaby"
     ],
     "historicalEnrollment": [
@@ -62596,7 +62449,6 @@
     ],
     "tags": [
       "french-immersion",
-      "AP",
       "burnaby"
     ],
     "historicalEnrollment": [
@@ -62760,7 +62612,6 @@
     ],
     "tags": [
       "french-immersion",
-      "AP",
       "burnaby"
     ],
     "historicalEnrollment": [
@@ -63089,7 +62940,6 @@
     ],
     "tags": [
       "french-immersion",
-      "AP",
       "burnaby"
     ],
     "historicalEnrollment": [
@@ -69557,7 +69407,6 @@
     ],
     "tags": [
       "french-immersion",
-      "AP",
       "burnaby"
     ],
     "historicalEnrollment": [
@@ -69716,7 +69565,6 @@
       }
     ],
     "tags": [
-      "AP",
       "burnaby"
     ],
     "historicalEnrollment": [
@@ -70172,7 +70020,6 @@
       }
     ],
     "tags": [
-      "AP",
       "burnaby"
     ],
     "historicalEnrollment": [
@@ -71302,16 +71149,10 @@
       {
         "name": "Early French Immersion",
         "description": "Full French immersion starting in Kindergarten"
-      },
-      {
-        "name": "Advanced Placement",
-        "description": "AP courses offered.",
-        "source": "https://www.sd42.ca/program/advanced-placement/"
       }
     ],
     "tags": [
       "french-immersion",
-      "AP",
       "maple-ridge"
     ],
     "historicalEnrollment": [
@@ -71475,7 +71316,6 @@
       }
     ],
     "tags": [
-      "IB",
       "maple-ridge"
     ],
     "historicalEnrollment": [
@@ -72776,16 +72616,10 @@
       {
         "name": "Early French Immersion",
         "description": "Full French immersion starting in Kindergarten"
-      },
-      {
-        "name": "Advanced Placement",
-        "description": "AP courses offered.",
-        "source": "https://www.sd42.ca/program/advanced-placement/"
       }
     ],
     "tags": [
       "french-immersion",
-      "AP",
       "maple-ridge"
     ],
     "historicalEnrollment": [
@@ -75400,19 +75234,9 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
-      },
-      {
-        "name": "IB Middle Years Programme",
-        "description": "IB MYP for grades 6-7. Note: VSB voted to discontinue MYP effective June 27, 2025.",
-        "source": "https://www.vsb.bc.ca/middle-years-programme-myp-1"
-      },
-      {
-        "name": "International Baccalaureate - Middle Years Programme (MYP)",
-        "description": "Grades 6-7 IB MYP program. Note: VSB voted to discontinue MYP effective June 27, 2025."
       }
     ],
     "tags": [
-      "IB",
       "maple-ridge"
     ],
     "historicalEnrollment": [
@@ -81675,15 +81499,9 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
-      },
-      {
-        "name": "Advanced Placement",
-        "description": "Honours & AP Program offering AP Biology 12, AP Chemistry 12, and AP Physics 12.",
-        "source": "https://www.sd43.bc.ca/school/pinetree/ProgramsServices/HonoursAP/Pages/default.aspx"
       }
     ],
     "tags": [
-      "AP",
       "coquitlam"
     ],
     "historicalEnrollment": [
@@ -84131,7 +83949,6 @@
       }
     ],
     "tags": [
-      "AP",
       "coquitlam"
     ],
     "historicalEnrollment": [
@@ -85193,7 +85010,6 @@
       }
     ],
     "tags": [
-      "IB",
       "port-moody"
     ],
     "historicalEnrollment": [
@@ -86637,7 +86453,6 @@
       }
     ],
     "tags": [
-      "AP",
       "port-moody"
     ],
     "historicalEnrollment": [
@@ -86792,7 +86607,6 @@
       }
     ],
     "tags": [
-      "AP",
       "coquitlam"
     ],
     "historicalEnrollment": [
@@ -86952,7 +86766,6 @@
     ],
     "tags": [
       "french-immersion",
-      "AP",
       "port-coquitlam"
     ],
     "historicalEnrollment": [
@@ -87107,7 +86920,6 @@
       }
     ],
     "tags": [
-      "AP",
       "port-coquitlam"
     ],
     "historicalEnrollment": [
@@ -88205,7 +88017,6 @@
       }
     ],
     "tags": [
-      "IB",
       "north-vancouver"
     ],
     "historicalEnrollment": [
@@ -88376,7 +88187,6 @@
       }
     ],
     "tags": [
-      "IB",
       "north-vancouver"
     ],
     "historicalEnrollment": [
@@ -89022,6 +88832,10 @@
       {
         "name": "Core French",
         "description": "French as a second language instruction"
+      },
+      {
+        "name": "IB Primary Years Programme",
+        "description": "IB PYP World School"
       }
     ],
     "tags": [
@@ -90025,7 +89839,6 @@
     ],
     "tags": [
       "french-immersion",
-      "AP",
       "north-vancouver"
     ],
     "historicalEnrollment": [
@@ -90528,7 +90341,6 @@
     ],
     "tags": [
       "french-immersion",
-      "AP",
       "north-vancouver"
     ],
     "historicalEnrollment": [
@@ -91687,7 +91499,6 @@
       }
     ],
     "tags": [
-      "IB",
       "north-vancouver"
     ],
     "historicalEnrollment": [
@@ -93217,7 +93028,6 @@
     ],
     "tags": [
       "french-immersion",
-      "AP",
       "west-vancouver"
     ],
     "historicalEnrollment": [
@@ -93376,7 +93186,6 @@
       }
     ],
     "tags": [
-      "IB",
       "west-vancouver"
     ],
     "historicalEnrollment": [
@@ -93862,7 +93671,6 @@
     ],
     "tags": [
       "french-immersion",
-      "IB",
       "west-vancouver"
     ],
     "historicalEnrollment": [
@@ -94194,7 +94002,6 @@
       }
     ],
     "tags": [
-      "IB",
       "west-vancouver"
     ],
     "historicalEnrollment": [
@@ -95431,7 +95238,6 @@
       }
     ],
     "tags": [
-      "IB",
       "west-vancouver"
     ],
     "historicalEnrollment": [
@@ -95772,8 +95578,6 @@
       }
     ],
     "tags": [
-      "IB",
-      "AP",
       "west-vancouver"
     ],
     "historicalEnrollment": [
@@ -95912,15 +95716,8 @@
     "principal": "Corrine Kinnon",
     "email": "ckinnon@wvschools.ca",
     "phone": "6049811100",
-    "programs": [
-      {
-        "name": "IB Diploma Programme",
-        "description": "IB DP for grades 11-12. Longest-running IB Programme on the North Shore (since 1988). Includes Pre-Diploma Programme (PDP) for Grade 10.",
-        "source": "https://westvancouverschools.ca/ib/"
-      }
-    ],
+    "programs": [],
     "tags": [
-      "IB",
       "west-vancouver"
     ],
     "historicalEnrollment": [
