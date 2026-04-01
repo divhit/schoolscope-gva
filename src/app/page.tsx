@@ -272,6 +272,38 @@ export default function Home() {
     setAppState("results");
   }, [getUserLocation]);
 
+  // On-demand analysis: when a school is clicked and has no analysis yet
+  const analyzeOnDemand = useCallback(async (school: School) => {
+    if (analyses[school.id]) return; // Already analyzed
+
+    try {
+      const res = await fetch("/api/analyze", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          schoolId: school.id,
+          query: interpretation?.summary || `Tell me about ${school.name}`,
+        }),
+      });
+      if (!res.ok) return;
+      const data = await res.json();
+      setAnalyses((prev) => ({
+        ...prev,
+        [data.schoolId]: {
+          analysis: data.analysis,
+          photoUri: data.photoUri ?? undefined,
+        },
+      }));
+    } catch {
+      // Silently fail — detail panel still shows data without AI
+    }
+  }, [analyses, interpretation]);
+
+  const handleSelectSchool = useCallback((school: School) => {
+    setSelectedSchool(school);
+    analyzeOnDemand(school);
+  }, [analyzeOnDemand]);
+
   const isSearching = appState !== "idle" && appState !== "results";
   const accentColor = interpretation?.accentColor;
 
@@ -432,7 +464,7 @@ export default function Home() {
                   <SchoolMap
                     schools={schools}
                     selectedSchool={selectedSchool}
-                    onSelectSchool={setSelectedSchool}
+                    onSelectSchool={handleSelectSchool}
                     userLocation={userLocation}
                     accentColor={accentColor}
                     onMapMove={handleMapMove}
@@ -507,7 +539,7 @@ export default function Home() {
                         index={i}
                         isSelected={selectedSchool?.id === school.id}
                         isAnalyzing={appState === "analyzing"}
-                        onClick={() => setSelectedSchool(school)}
+                        onClick={() => handleSelectSchool(school)}
                       />
                     ))}
                   </div>
@@ -538,7 +570,7 @@ export default function Home() {
                     index={i}
                     isSelected={selectedSchool?.id === school.id}
                     isAnalyzing={appState === "analyzing"}
-                    onClick={() => setSelectedSchool(school)}
+                    onClick={() => handleSelectSchool(school)}
                   />
                 ))}
               </div>

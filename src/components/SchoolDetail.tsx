@@ -149,7 +149,17 @@ export function SchoolDetail({ school, analysis, photoUri, onClose }: SchoolDeta
             {/* ===== OVERVIEW ===== */}
             {activeTab === "overview" && (
               <>
-                {/* AI Score */}
+                {/* AI Score — loading or loaded */}
+                {!analysis && (
+                  <div className="flex items-center gap-4 p-4 rounded-xl bg-[var(--surface-2)] border border-[var(--border)]">
+                    <div className="w-14 h-14 rounded-full bg-[var(--surface-3)] animate-pulse shrink-0" />
+                    <div className="flex-1 space-y-2">
+                      <div className="h-3 w-24 bg-[var(--surface-3)] rounded animate-pulse" />
+                      <div className="h-2 w-full bg-[var(--surface-3)] rounded animate-pulse" />
+                      <div className="h-2 w-3/4 bg-[var(--surface-3)] rounded animate-pulse" />
+                    </div>
+                  </div>
+                )}
                 {analysis && (
                   <div className="flex items-center gap-4">
                     <div className="relative w-14 h-14 rounded-full flex items-center justify-center" style={{ background: `conic-gradient(${accentColor} ${analysis.overallScore * 3.6}deg, var(--surface-3) 0deg)` }}>
